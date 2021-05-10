@@ -1,0 +1,8 @@
+.block-place_size_small {
+  min-height: 223px;
+}
+
+@media (max-width: 1024px) {
+  .block-place_size_small{
+    min-height: 176px;
+}

@@ -1,0 +1,18 @@
+.list__contact{
+    margin: 0;
+    padding: 10px 0;
+    font-family: PT Root UI;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #1A1A1A;
+    font-style: normal;
+}
+@media (max-width: 1024px) {
+    .list__contact{
+        font-size: 12px;
+        line-height: 17px;
+        padding: 5px 0;
+    }
+  }

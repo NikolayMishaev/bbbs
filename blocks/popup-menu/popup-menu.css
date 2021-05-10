@@ -1,0 +1,15 @@
+.popup-menu {
+width: 100%;
+min-height: 500px;
+background: #FFFFFF;
+border-radius: 0px 0px 30px 30px;
+position: fixed;
+left: 0;
+top: 0;
+z-index: 10;
+display: flex;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 1s, opacity 1s;
+}

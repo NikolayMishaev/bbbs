@@ -1,0 +1,18 @@
+.block-video-header__category {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #224CFF;
+  margin: auto auto 0;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .block-video-header__category   {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

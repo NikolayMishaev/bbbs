@@ -1,0 +1,28 @@
+.block-video__category_type_overflow-video {
+  background: #F3F2F2;
+  border-radius: 15px;
+  font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #464646;
+text-decoration: none;
+min-height: 17px;
+margin: 0 50px 30px;
+padding: 2px 7px;
+box-sizing: border-box;
+height: 17px;
+margin: 0;
+background: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 1024px) {
+.block-video__category_type_overflow-video  {
+    font-size: 10px;
+    line-height: 13px;
+  }
+}

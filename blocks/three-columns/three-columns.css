@@ -1,0 +1,7 @@
+.three-columns {
+  display: grid;
+  box-sizing: border-box;
+  grid-gap: 30px;
+  flex-grow: 1;
+  align-content:flex-start;
+}

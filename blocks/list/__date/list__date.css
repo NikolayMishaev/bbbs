@@ -1,0 +1,19 @@
+.list__date{
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 0;
+}
+@media (max-width: 1024px) {
+    .list__date{
+        font-size: 12px;
+        line-height: 17px;
+    }
+  }

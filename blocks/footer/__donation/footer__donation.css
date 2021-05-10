@@ -1,0 +1,43 @@
+.footer__donation {
+  padding: 0;
+  transform: translate(0, -4px);
+  align-self: center;
+  box-sizing: content-box;
+  background-color: transparent;
+  width: 167px;
+  min-height: 48px;
+  border-radius: 100px;
+  border: 1px solid #F3F2F2;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s ease-out;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+.footer__donation:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 1440px) {
+  .footer__donation {
+margin-top: 2px;
+  }
+}
+
+@media (max-width: 1275px) {
+  .footer__donation {
+    transform: translate(0, 0);
+    margin: 0 auto 30px auto;
+    width: 132px;
+    min-height: 38px;
+    order: 4;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

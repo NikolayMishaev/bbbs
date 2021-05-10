@@ -1,0 +1,22 @@
+.block-questions__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  margin: 50px 50px 15px;
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .block-questions__title  {
+    margin: 30px 15px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 400px) {
+  .block-questions__title  {
+margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,31 @@
+.header__search {
+  background: url(../../../images/header-search.svg) no-repeat 100%/cover;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  transition: opacity 0.2s ease-out;
+  cursor: pointer;
+  order:1;
+  margin-left: 103px;
+}
+
+.header__search:hover {
+  opacity: 0.7;
+}
+
+.header__search:focus{
+  outline: none;
+}
+
+@media (max-width: 1600px) {
+  .header__search{
+margin-left: 0;
+  }
+}
+
+@media (max-width: 1375px) {
+  .header__search{
+    order: 1;
+  }
+}

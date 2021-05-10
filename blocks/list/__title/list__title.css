@@ -1,0 +1,18 @@
+.list__title{
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    max-width: 320px;
+    font-family: 'Proto Grotesk Web Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000000;
+}
+@media (max-width: 1024px) {
+    .list__title{
+        font-size: 19px;
+        line-height: 23px;
+    }
+  }

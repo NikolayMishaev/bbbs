@@ -1,0 +1,19 @@
+.block-place__tag {
+  font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #464646;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    width: 130px;
+    min-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}

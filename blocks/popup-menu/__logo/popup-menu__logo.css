@@ -1,0 +1,18 @@
+.popup-menu__logo {
+  padding-top: 8px;
+  display: block;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.12;
+  color: #224CFF;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+}
+
+@media screen and (max-width: 400px) {
+  .popup-menu__logo {
+    padding-top: 3px;
+  }
+}

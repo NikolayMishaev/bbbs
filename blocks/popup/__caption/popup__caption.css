@@ -1,0 +1,12 @@
+.popup__caption {
+  margin: 0;
+  margin-left: 20px;
+  padding-top: 15px;
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #A7A6A6;
+}

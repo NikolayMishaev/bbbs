@@ -1,0 +1,15 @@
+.block-message__button {
+  color: #224CFF;
+  border: none;
+  background: transparent;
+}
+
+.block-message__button:focus {
+  outline:none;
+  cursor: pointer;
+}
+
+.block-message__button:hover {
+cursor: pointer;
+opacity: 0.8;
+}

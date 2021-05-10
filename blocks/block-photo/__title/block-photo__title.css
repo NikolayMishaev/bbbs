@@ -1,0 +1,17 @@
+.block-photo__title {
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 23px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+margin: auto;
+z-index: 1;
+}
+
+@media (max-width: 1440px) {
+  .block-photo__title {
+    display: none;
+  }
+}

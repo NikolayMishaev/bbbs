@@ -1,0 +1,12 @@
+.two-columns_style_video-header {
+  display: flex;
+  grid-template-columns: unset;
+  grid-gap: unset;
+  justify-content: unset;
+}
+
+@media (max-width: 1280px) {
+  .two-columns_style_video-header  {
+    display: grid;
+  }
+}

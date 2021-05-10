@@ -1,0 +1,18 @@
+.block-calendar__phone {
+width: 100%;
+font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #000000;
+margin: 0 0 30px;
+}
+
+@media (max-width: 1024px) {
+  .block-calendar__phone {
+    font-size: 12px;
+    line-height: 17px;
+    }
+  }

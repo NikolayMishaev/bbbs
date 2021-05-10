@@ -1,0 +1,21 @@
+.block-article {
+min-height: 490px;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+padding: 30px;
+box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .block-article  {
+padding: 30px 40px 15px;
+min-height: 312px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .block-article  {
+  padding: 30px 15px 15px;
+      }
+    }

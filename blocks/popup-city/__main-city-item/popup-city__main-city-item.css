@@ -1,0 +1,11 @@
+.popup-city__main-city-item {
+list-style-type: none;
+margin-bottom: 10px;
+}
+
+.popup-city__main-city-item:last-child {
+  margin-bottom: 0;
+  }
+
+
+

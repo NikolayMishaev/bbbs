@@ -1,0 +1,8 @@
+.four-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(271px,1fr));
+  box-sizing: border-box;
+  grid-gap: 30px;
+  justify-content: center;
+  width: 100%;
+}

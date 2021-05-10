@@ -1,0 +1,43 @@
+.popup-calendar__content{
+    position: fixed;
+    max-width: 770px;
+    min-height: 670px;
+    border-radius: 30px;
+    margin: 0;
+    padding: 50px 100px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 2;
+    justify-content: center;
+}
+
+@media (max-width: 1275px) {
+  .popup-calendar__content{
+      padding: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+    .popup-calendar__content{
+        max-width: 500px;
+        min-height: 629px;
+        padding: 60px 15px 30px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .popup-calendar__content{
+        min-width: 400px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .popup-calendar__content{
+        min-width: 290px;
+    }
+  }

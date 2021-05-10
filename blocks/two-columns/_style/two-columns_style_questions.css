@@ -1,0 +1,12 @@
+.two-columns_style_questions {
+  display: flex;
+  grid-template-columns: unset;
+  grid-gap: unset;
+  justify-content: unset;
+}
+
+@media (max-width: 640px) {
+  .two-columns_style_questions {
+display: grid;
+  }
+}

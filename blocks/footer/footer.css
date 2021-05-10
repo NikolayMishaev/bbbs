@@ -1,0 +1,10 @@
+.footer {
+  background-color: #2E2468;
+  font-family: inherit;
+  color: #F3F2F2;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+  }
+}

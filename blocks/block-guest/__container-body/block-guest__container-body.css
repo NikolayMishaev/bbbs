@@ -1,0 +1,31 @@
+.block-guest__container-body {
+  background: #FF8585;
+  border-radius: 400px;
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+
+/* @media (max-width: 1440px) {
+  .block-guest__container-body {
+    min-height: 290px;
+  }
+} */
+
+@media (max-width: 1280px) {
+  .block-guest__container-body {
+    border-radius: 70px 70px 30px 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-guest__container-body {
+    height: 76.4%;
+  }
+}
+
+@media (max-width: 400px) {
+  .block-guest__container-body {
+    height: 76%;
+  }
+}

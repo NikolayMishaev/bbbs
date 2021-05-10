@@ -1,0 +1,19 @@
+.block-video__caption {
+  font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #464646;
+margin: 0 30px 0;
+}
+
+@media (max-width: 1024px) {
+  .block-video__caption {
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0 15px 0;
+  }
+}

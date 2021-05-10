@@ -1,0 +1,31 @@
+.footer__about {
+  margin: 0 30px 0 0;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.44;
+}
+
+.footer__about:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 1275px) {
+  .footer__about  {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .footer__about {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .footer__about:last-of-type {
+    margin-bottom: 0;
+  }
+}
+

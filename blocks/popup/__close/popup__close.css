@@ -1,0 +1,29 @@
+.popup__close {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url(../../../images/popup-log-in-button-close.png) transparent no-repeat center center/100%;
+  right: 30px;
+  top: 30px;
+  transition: opacity .5s, transform .5s;
+}
+
+.popup__close:focus {
+  outline: none;
+}
+
+.popup__close:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__close  {
+    right: 25px;
+    top: 25px;
+  }
+}

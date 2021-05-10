@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Старшие Братья Старшие Сёстры</title>
+</head>
+
+<body class="body">
+  <div class="page">
+    <header class="header page__header">
+      <a href="./index.html" class="header__logo">наставники.про</a>
+      <nav class="navigation navigation_place_header">
+        <ul class="navigation__links navigation__links_place_header">
+          <li class="navigation__list">
+            <a href="./calendar.html" class="navigation__link navigation__link_place_header">календарь</a>
+          </li>
+          <li class="navigation__list">
+            <a href="./places.html" class="navigation__link navigation__link_place_header">куда пойти</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#" class="navigation__link navigation__link_place_header">вопросы</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#" class="navigation__link navigation__link_place_header">читать и смотреть</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#" class="navigation__link navigation__link_place_header">права детей</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#" class="navigation__link navigation__link_place_header">истории</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="#" name="searcg" class="header__form-search display-none" method="POST">
+        <label class="header__field">
+          <input id="search-input" required name="search" minlength="2" maxlength="40" placeholder=""
+            class="header__input" type="text">
+          <span class="header__input-error"></span>
+        </label>
+        <div class="header__answer">
+          <p class="header__title">Причины подростковой агрессии</p>
+          <p class="header__category">статьи</p>
+        </div>
+        <div class="header__answer">
+          <p class="header__title">Агрессивное поведение детей-сирот</p>
+          <p class="header__category">видео</p>
+        </div>
+        <div class="header__answer">
+          <p class="header__title">Что делать если ваш младший агрессивно себя ведет, решил закрыть пару?</p>
+          <p class="header__category">книги</p>
+        </div>
+      </form>
+      <button type="button" class="header__search"></button>
+      <div class="header__divisor"></div>
+      <button type="button" class="header__account"></button>
+      <button type="button" class="header__menu"></button>
+    </header>
+
+
+    <main class="content page__content">
+      <section class="content__header">
+        <h1 class="title">Календарь</h1>
+        <section class="menu">
+          <ul class="menu__list menu__list_center">
+            <li class="menu__item">
+              <button type="button" class="menu__button">Декабря</button>
+            </li>
+            <li class="menu__item">
+              <button type="button" class="menu__button menu__button_active">Январь</button>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="calendar">
+        <ul class="list">
+          <li class="list__element">
+            <div class="list__header">
+              <p class="list__caption">Волонтёры + дети</p>
+              <p class="list__date">декабрь / суббота</p>
+            </div>
+            <div class="list__theme">
+              <h2 class="list__title">Субботний meet up: учимся проходить интевью</h2>
+              <p class="list__number">05</p>
+            </div>
+            <div class="list__contacts">
+              <p class="list__contact">12:00–14:00</p>
+              <p class="list__contact list__contact_center">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)
+              </p>
+              <p class="list__contact">Александра, +7 926 356-78-90</p>
+            </div>
+            <div class="list__footer">
+              <button type="submit" class="list__submit list__submit_is-registered">Отменить запись</button>
+              <button type="button" class="list__button-view list__button-view_is-registered"
+                id="list__button-view"></button>
+            </div>
+          </li>
+          <li class="list__element">
+            <div class="list__header">
+              <p class="list__caption">Волонтёры + дети</p>
+              <p class="list__date">декабрь / суббота</p>
+            </div>
+            <div class="list__theme">
+              <h2 class="list__title">Ресурсная группа «Вовлечение в волонтёрство»</h2>
+              <p class="list__number">16</p>
+            </div>
+            <div class="list__contacts">
+              <p class="list__contact">12:00–14:00</p>
+              <p class="list__contact list__contact_center">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)
+              </p>
+              <p class="list__contact">Александра, +7 926 356-78-90</p>
+            </div>
+            <div class="list__footer">
+              <button type="submit" class="list__submit list__submit_inactive">Записаться</button>
+              <p class="list__place-number">Запись закрыта</p>
+              <button type="button" class="list__button-view"></button>
+            </div>
+          </li>
+          <li class="list__element">
+            <div class="list__header">
+              <p class="list__caption">Волонтёры</p>
+              <p class="list__date">декабрь / суббота</p>
+            </div>
+            <div class="list__theme">
+              <h2 class="list__title">Занятие с выпускниками: как составить резюме</h2>
+              <p class="list__number">20</p>
+            </div>
+            <div class="list__contacts">
+              <p class="list__contact">12:00–14:00</p>
+              <p class="list__contact list__contact_center">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)
+              </p>
+              <p class="list__contact">Александра, +7 926 356-78-90</p>
+            </div>
+            <div class="list__footer">
+              <button type="submit" class="list__submit list__submit_type_register">Записаться</button>
+              <p class="list__place-number">Осталось 5 мест</p>
+              <button type="button" class="list__button-view"></button>
+            </div>
+          </li>
+          <li class="list__element">
+            <div class="list__header">
+              <p class="list__caption">Волонтёры + дети</p>
+              <p class="list__date">декабрь / суббота</p>
+            </div>
+            <div class="list__theme">
+              <h2 class="list__title">Субботний meet up: учимся проходить интевью</h2>
+              <p class="list__number">23</p>
+            </div>
+            <div class="list__contacts">
+              <p class="list__contact">12:00–14:00</p>
+              <p class="list__contact list__contact_center">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)
+              </p>
+              <p class="list__contact">Александра, +7 926 356-78-90</p>
+            </div>
+            <div class="list__footer">
+              <button type="submit" class="list__submit list__submit_type_register">Записаться</button>
+              <p class="list__place-number">Осталось 5 мест</p>
+              <button type="button" class="list__button-view"></button>
+            </div>
+          </li>
+          <li class="list__element">
+            <div class="list__header">
+              <p class="list__caption">Волонтёры + дети</p>
+              <p class="list__date">декабрь / суббота</p>
+            </div>
+            <div class="list__theme">
+              <h2 class="list__title">Субботний meet up: учимся проходить интевью</h2>
+              <p class="list__number">28</p>
+            </div>
+            <div class="list__contacts">
+              <p class="list__contact">12:00–14:00</p>
+              <p class="list__contact list__contact_center">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)
+              </p>
+              <p class="list__contact">Александра, +7 926 356-78-90</p>
+            </div>
+            <div class="list__footer">
+              <button type="submit" class="list__submit list__submit_type_register">Записаться</button>
+              <p class="list__place-number">Осталось 5 мест</p>
+              <button type="button" class="list__button-view"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="footer page__footer">
+
+      <div class="footer__three-columns">
+        <a href="#" class="footer__logo"></a>
+        <button type="button" class="footer__donation">Помочь деньгами</button>
+        <div class="footer__info">
+          <p class="footer__copyright">&copy; Старшие Братья Старшие Сестры</p>
+          <p class="footer__about">Разработка – студенты <a href="#" class="footer__link">Яндекс.Практикум</a></p>
+          <p class="footer__about">Концепция и дизайн – <a href="#" class="footer__link">krkr.design</a></p>
+        </div>
+
+        <nav class="navigation navigation_place_footer">
+          <ul class="navigation__links navigation__links_place_footer">
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./about.html" class="navigation__link navigation__link_place_footer">о проекте</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./calendar.html" class="navigation__link navigation__link_place_footer">календарь</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./places.html" class="navigation__link navigation__link_place_footer">куда пойти</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="#" class="navigation__link navigation__link_place_footer">вопросы</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="#" class="navigation__link navigation__link_place_footer">читать и
+                смотреть</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="#" class="navigation__link navigation__link_place_footer">права детей</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="#" class="navigation__link navigation__link_place_footer">истории</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="navigation navigation_place_footer">
+          <ul class="navigation__links navigation__links_place_footer">
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="http://facebook.com" target="_blank"
+                class="navigation__link navigation__link_place_footer">facebook</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="http://vk.com" target="_blank"
+                class="navigation__link navigation__link_place_footer">vkontakte</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="http://instagram.com" target="_blank"
+                class="navigation__link navigation__link_place_footer">instagram</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="http://youtube.com" target="_blank"
+                class="navigation__link navigation__link_place_footer">youtube</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </footer>
+
+
+    <div class="popups">
+
+
+      <div class="popup popup-city">
+        <div class="popup__container popup__container_type_popup-city">
+          <h2 class="popup-city__title">Выберите ваш город</h2>
+          <ul class="popup-city__main-city-list">
+            <li class="popup-city__main-city-item">
+              <button type="button" aria-label="change city" class="popup-city__button">Москва</button>
+            </li>
+            <li class="popup-city__main-city-item">
+              <button type="button" aria-label="change city" class="popup-city__button">
+                Санкт-Петербург</button>
+            </li>
+          </ul>
+          <ul class="popup-city__other-city-list">
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Алексин</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Екатеринбург</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Барнаул</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Зубцов</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Калининград</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Киреевск</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Коломна</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Новомосковск</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Орехово-Зуево</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Тверь</button></li>
+            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
+                class="popup-city__button">Тула</button></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="popup popup-sign-in">
+        <div class="popup__container">
+          <button type="button" aria-label="close popup" class="popup__close"></button>
+          <h2 class="popup__title">Вход</h2>
+          <p class="popup__message">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие
+            Сёстры».</p>
+          <p class="popup__message">Пожалуйста, введите логин и пароль из письма. Если вам не приходило письмо,
+            свяжитесь с вашим куратором.</p>
+          <form action="#" name="sign-in" class="popup__form" method="POST">
+            <label class="popup__field">
+              <input id="login-input" required name="login" minlength="2" maxlength="40" placeholder="Логин"
+                class="popup__input" type="text">
+              <span class="popup__input-error"></span>
+            </label>
+            <label class="popup__field">
+              <input id="password-input" required name="password" minlength="2" maxlength="200" placeholder="Пароль"
+                class="popup__input" type="password">
+              <span class="popup__input-error"></span>
+            </label>
+            <p class="popup__help">Забыли пароль?</p>
+            <button aria-label="submit form" class="popup__button-submit" type="submit">Войти</button>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="popup-menu">
+        <div class="popup-menu__header">
+          <button type="button" class="popup-menu__search"></button>
+          <button type="button" class="popup-menu__account"></button>
+          <a href="./index.html" class="popup-menu__logo">наставники.про</a>
+          <button type="button" aria-label="close popup" class="popup-menu__close"></button>
+        </div>
+        <nav class="popup-menu__navigation">
+          <ul class="popup-menu__links">
+            <li class="popup-menu__list">
+              <a href="./about.html" class="popup-menu__link">о проекте</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="./calendar.html" class="popup-menu__link">календарь</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="./places.html" class="popup-menu__link">куда пойти</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="#" class="popup-menu__link">вопросы</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="#" class="popup-menu__link">читать и смотреть</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="#" class="popup-menu__link">права детей</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="#" class="popup-menu__link">истории</a>
+            </li>
+          </ul>
+          <ul class="popup-menu__links">
+            <li class="popup-menu__list">
+              <a href="http://facebook.com" class="popup-menu__link">facebook</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="http://vk.com" class="popup-menu__link">vkontakte</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="http://instagram.com" class="popup-menu__link">instagram</a>
+            </li>
+            <li class="popup-menu__list">
+              <a href="http://youtube.com" class="popup-menu__link">youtube</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="popup-menu__footer">
+          <p class="popup_menu__city">Москва.</p>
+          <button type="button" class="popup-menu__change-city">Изменить город</button>
+          <button type="button" class="popup-menu__exit">Выйти</button>
+        </div>
+      </div>
+
+
+      <div class="popup popup-calendar popup-calendar_type_event">
+        <div class="popup-calendar__content">
+          <button type="button" aria-label="close popup" class="popup__close popup__close_type_calendar"></button>
+          <div class="list__header">
+            <p class="list__caption">Волонтёры</p>
+            <p class="list__date">декабрь / суббота</p>
+          </div>
+          <div class="list__theme">
+            <h2 class="list__title">Субботний meet up: учимся проходить интервью</h2>
+            <p class="list__number">05</p>
+          </div>
+          <div class="list__contacts">
+            <p class="list__contact">12:00–14:00</p>
+            <p class="list__contact list__contact_center">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)
+            </p>
+            <p class="list__contact">Александра, +7 926 356-78-90</p>
+          </div>
+          <p class="list__event">Наконец-то наступила весна и мы пережили эту долгую зиму!
+            И возможно, что внутренних сил и ресурса сейчас не так много, а до окончания учебного года
+            ещё целых несколько месяцев. Поэтому приглашаем вас на встречу нашего ресурсного клуба
+            "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил,
+            смыслов и внутреннего ресурса для общения и взаимодействия с нашими подопечными. </p>
+          <div class="list__footer">
+            <button type="submit" class="list__submit list__submit_type_register-popup">Записаться</button>
+            <p class="list__place-number">Осталось 5 мест</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="popup popup-calendar popup-calendar_type_confirm">
+        <div class="popup-calendar__content">
+          <button type="button" aria-label="close popup" class="popup__close popup__close_type_calendar"></button>
+          <p class="list__confirm">
+            Подтвердить запись на мероприятие
+            «Субботний meet up: учимся проходить интервью»
+            5 декабря с 12:00–14:00
+          </p>
+          <div class="list__buttons">
+            <button type="submit" class="list__submit list__submit_confirm">Подтвердить запись</button>
+            <button type="submit" class="list__submit list__submit_cancel">Отменить</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="popup popup-calendar popup-calendar_type_done">
+        <div class="popup-calendar__content">
+          <button type="button" aria-label="close popup" class="popup__close popup__close_type_calendar"></button>
+          <div class="popup-calendar__logo">
+          </div>
+          <p class="list__done">
+            Вы записаны на мероприятие
+            «Субботний meet up: учимся проходить интервью»
+            5 декабря с 12:00–14:00.
+          </p>
+          <p class="list__done">
+            Если у вас не получится прийти — отмените, пожалуйста, запись.
+          </p>
+          <div class="list__buttons">
+            <button type="submit" class="list__submit list__submit_return">Вернуться к календарю </button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/calendar.js"></script>
+
+</body>
+
+</html>

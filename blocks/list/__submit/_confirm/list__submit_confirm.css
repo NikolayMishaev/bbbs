@@ -1,0 +1,9 @@
+.list__submit_confirm{
+    width: 191px;
+}
+
+@media (max-width: 400px) {
+  .list__submit_confirm{
+    width: 160px;
+  }
+}

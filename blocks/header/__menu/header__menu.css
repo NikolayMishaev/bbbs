@@ -1,0 +1,22 @@
+.header__menu {
+  display: none;
+  cursor: pointer;
+}
+
+.header__menu:hover {
+  opacity: 0.7;
+}
+.header__menu :focus{
+  outline: none;
+}
+
+@media (max-width: 1375px) {
+  .header__menu  {
+    display: block;
+    order: 3;
+    background: url(../../../images/header-menu.svg) no-repeat 100%/cover;
+    width: 30px;
+    height: 20px;
+    border: none;
+  }
+}

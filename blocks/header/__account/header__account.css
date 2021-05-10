@@ -1,0 +1,25 @@
+.header__account {
+  background: url(../../../images/header-account.svg) no-repeat 100%/cover;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  transition: opacity 0.2s ease-out;
+  cursor: pointer;
+  order: 4;
+  margin-top: 4px;
+}
+
+.header__account:hover {
+  opacity: 0.7;
+}
+
+.header__account:focus{
+  outline: none;
+}
+
+@media (max-width: 1375px) {
+  .header__account {
+    display: none;
+  }
+}

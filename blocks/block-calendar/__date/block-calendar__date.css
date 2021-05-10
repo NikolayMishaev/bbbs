@@ -1,0 +1,27 @@
+.block-calendar__date {
+  width: 50%;
+  margin: 0;
+  margin-left: auto;
+  text-align: end;
+  font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: right;
+letter-spacing: 0.2px;
+color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .block-calendar__date  {
+    font-size: 12px;
+    line-height: 17px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .block-calendar__date  {
+      width: 55%;
+      }
+    }

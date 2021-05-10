@@ -1,0 +1,32 @@
+.block-place__image {
+  background: url(../../../images/block-place.jpg) no-repeat center/cover;
+  width: 100%;
+  min-height: 394px;
+  margin: 70px 0 15px;
+  border-radius: 15px;
+}
+
+@media (max-width: 1024px) {
+  .block-place__image {
+    margin-top: 62px;
+    min-height: 346px;
+  }
+}
+
+@media (max-width: 600px) {
+  .block-place__image {
+    min-height: 246px;
+  }
+}
+
+@media (max-width: 400px) {
+  .block-place__image {
+    min-height: 142px;
+  }
+}
+
+@media (max-width: 330px) {
+  .block-place__image {
+    margin-top: 39px;
+  }
+}

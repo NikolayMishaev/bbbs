@@ -1,0 +1,11 @@
+.header__input-error {
+  color: red;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  opacity: 0;
+}

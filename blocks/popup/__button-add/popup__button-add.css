@@ -1,0 +1,7 @@
+.popup__button-add {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: none;
+  background: url(../../../images/button-form-place-add.svg) no-repeat 100%/cover;
+}

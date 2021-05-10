@@ -1,0 +1,19 @@
+.block-place_type_description {
+  width: 585px;
+  border-radius: 30px;
+  padding: 47px 15px 69px 30px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+  .block-place_type_description {
+width: 50%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .block-place_type_description {
+width: 100%;
+padding: 30px 15px;
+  }
+}

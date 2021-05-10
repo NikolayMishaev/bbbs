@@ -1,0 +1,31 @@
+.block-guest__logo {
+  background: url(../../../images/block-guest-logo.png) no-repeat 100%/cover;
+  width: 252px;
+  height: 46px;
+  margin: 40px 30px;
+}
+
+@media (max-width: 1440px) {
+  .block-guest__logo  {
+    margin: 35px 30px;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .block-guest__logo {
+      width: 164px;
+      height: 30px;
+      }
+    }
+
+  @media (max-width: 1024px) {
+    .block-guest__logo {
+      margin: 27px 15px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .block-guest__logo  {
+        margin: 22px 15px;
+        }
+      }

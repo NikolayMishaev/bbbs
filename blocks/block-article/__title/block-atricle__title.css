@@ -1,0 +1,21 @@
+.block-atricle__title {
+  margin: auto;
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 44px;
+line-height: 50px;
+text-align: center;
+color: #1A1A1A;
+max-width: 970px;
+transform: translate(0, 10px);
+}
+
+@media (max-width: 1024px) {
+  .block-atricle__title {
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 0;
+    transform: unset;
+    }
+  }

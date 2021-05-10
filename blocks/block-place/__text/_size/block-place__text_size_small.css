@@ -1,0 +1,11 @@
+.block-place__text_size_small {
+  max-height: 130px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .block-place__text_size_small {
+    margin-top: 2px;
+    max-height: 105px;
+  }
+}

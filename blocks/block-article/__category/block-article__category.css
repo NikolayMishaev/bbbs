@@ -1,0 +1,17 @@
+.block-article__category {
+margin: 0 auto;
+font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #224CFF;
+}
+
+@media (max-width: 1024px) {
+  .block-article__category {
+    font-size: 12px;
+    line-height: 17px;
+    }
+  }

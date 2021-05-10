@@ -1,0 +1,32 @@
+.block-guest__title {
+margin: auto 150px;
+font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 23px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+
+@media (max-width: 1440px) {
+  .block-guest__title {
+    margin: auto 30px;
+    }
+  }
+
+@media (max-width: 1024px) {
+  .block-guest__title {
+    font-size: 19px;
+    line-height: 23px;
+    margin: auto 15px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .block-guest__title {
+      font-size: 19px;
+      line-height: 23px;
+      margin: 35px 15px;
+      }
+    }

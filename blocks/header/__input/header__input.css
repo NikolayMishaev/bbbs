@@ -1,0 +1,28 @@
+.header__input {
+width: 100%;
+margin: 0;
+padding: 0;
+border: none;
+background: transparent;
+border-bottom: 1px solid #000000;
+margin-bottom: 44px;
+font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .header__input  {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__input  {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,18 @@
+.popup__help {
+margin: 0 100px 31px;
+font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #464646;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__help {
+    margin: 20px 15px 30px;
+    font-size: 12px;
+line-height: 17px;
+  }
+}

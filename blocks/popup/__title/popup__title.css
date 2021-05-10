@@ -1,0 +1,18 @@
+.popup__title {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  color: #000000;
+  margin: 50px auto 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__title {
+    font-size: 19px;
+    line-height: 23px;
+    margin: 60px auto 17px;
+  }
+}

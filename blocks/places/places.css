@@ -1,0 +1,19 @@
+.places {
+  display: grid;
+  gap: 30px;
+  box-sizing: border-box;
+  align-items: center;
+  padding-top: 53px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .places {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.block-video {
+  min-height: 408px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media (max-width: 1440px) {
+  .block-video {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .block-video {
+    min-height: 358px;
+  }
+}
+
+@media (max-width: 400px) {
+  .block-video {
+    min-height: 313px;
+  }
+}

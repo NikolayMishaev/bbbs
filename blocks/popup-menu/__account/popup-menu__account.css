@@ -1,0 +1,16 @@
+.popup-menu__account {
+  background: url(../../../images/header-account.svg) no-repeat 100%/cover;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  transition: opacity 0.2s ease-out;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 400px) {
+  .popup-menu__account {
+    margin-right: 14px;
+  }
+}

@@ -1,0 +1,38 @@
+.block-links {
+  min-height: 627px;
+  width: 420px;
+  min-width: 420px;
+  margin-right: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1440px) {
+  .block-links {
+    width: 370px;
+    min-width: 370px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-links {
+    min-height: 552px;
+  }
+}
+
+@media (max-width: 640px) {
+  .block-links {
+margin-right: 0;
+margin-bottom: 30px;
+width: 100%;
+min-width: unset;
+  }
+}
+
+@media (max-width: 400px) {
+  .block-links {
+    min-height: 433px;
+  }
+}

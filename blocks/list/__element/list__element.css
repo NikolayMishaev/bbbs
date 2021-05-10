@@ -1,0 +1,28 @@
+.list__element{
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    min-height: 414px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.list__element:hover {
+  background: #C8D1FF;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .list__element{
+        min-height: 382px;
+        padding: 30px 15px;
+    }
+  }
+  @media (max-width: 640px) {
+    .list__element{
+        min-height: 382px;
+    }
+  }

@@ -1,0 +1,23 @@
+.footer__link {
+  color: #F3F2F2;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.44;
+  transition: opacity 0.2s ease-out;
+}
+
+.footer__link:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 1275px) {
+  .footer__link  {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+  }
+}
+
+

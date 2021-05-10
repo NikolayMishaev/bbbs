@@ -1,0 +1,34 @@
+.list__submit{
+    margin: 0;
+    padding: 0;
+    width: 127px;
+    height: 48px;
+    border: 1px solid #224CFF;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-family: 'Proto Grotesk Web Light';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #224CFF;
+    font-style: normal;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.list__submit:hover {
+  background:#C8D1FF;
+}
+
+.list__submit:focus{
+outline: none;
+}
+@media (max-width: 1024px) {
+    .list__submit{
+        font-size: 12px;
+        line-height: 17px;
+        width: 100px;
+        height: 40px;
+    }
+  }

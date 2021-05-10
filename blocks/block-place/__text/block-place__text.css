@@ -1,0 +1,36 @@
+.block-place__text {
+  font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+margin: 105px 0 0;
+overflow: scroll;
+overflow-x: unset;
+}
+
+.block-place__text::-webkit-scrollbar {
+  width: 3px;
+}
+
+.block-place__text::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #E8E6E6;
+}
+
+@media (max-width: 1280px) {
+  .block-place__text {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 5px 0 0;
+    max-height: 106px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .block-place__text {
+    margin-left: 0;
+  }
+}

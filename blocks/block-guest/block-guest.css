@@ -1,0 +1,28 @@
+.block-guest {
+  border-radius: 30px;
+  width: 100%;
+  min-height: 520px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1440px) {
+  .block-guest  {
+      min-height: 414px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .block-guest {
+      min-height: 382px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .block-guest {
+      min-height: 290px;
+    }
+  }

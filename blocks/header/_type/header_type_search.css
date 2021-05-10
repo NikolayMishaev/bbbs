@@ -1,0 +1,12 @@
+.header_type_search {
+  align-items: unset;
+    flex-wrap: wrap;
+    position: fixed;
+    background: #F3F2F2;
+    z-index: 50;
+    margin-top: 0;
+    padding-top: 40px;
+    width: inherit;
+    box-sizing: border-box;
+    max-width: inherit;
+}

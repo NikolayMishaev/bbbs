@@ -1,0 +1,43 @@
+.block-place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  border-radius: 30px;
+  flex-grow: 1;
+  min-height: 629px;
+  padding: 15px 30px 30px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+  .block-place {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .block-place {
+width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-place {
+    min-height: 537px;
+    padding: 15px
+  }
+}
+
+@media (max-width: 600px) {
+  .block-place {
+    min-height: 437px;
+  }
+}
+
+@media (max-width: 400px) {
+  .block-place {
+    min-height: 333px;
+  }
+}

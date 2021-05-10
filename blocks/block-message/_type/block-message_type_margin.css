@@ -1,0 +1,9 @@
+.block-message_type_margin {
+  margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+  .block-message_type_margin {
+margin: 0;
+  }
+}

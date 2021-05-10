@@ -1,0 +1,18 @@
+.header__category {
+margin: 10px 0 15px 0;
+font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #224CFF;
+}
+
+@media (max-width: 1024px) {
+  .header__category  {
+    margin: 5px 0 10px 0;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

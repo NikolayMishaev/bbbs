@@ -1,0 +1,6 @@
+.content {
+  display: grid;
+  gap: 30px;
+  box-sizing: border-box;
+  align-items: center;
+}

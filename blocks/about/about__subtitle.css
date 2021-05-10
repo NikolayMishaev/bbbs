@@ -1,0 +1,25 @@
+.about__subtitle {
+  max-width: 1770px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  padding: 60px 0 58px;
+max-width: 1170px;
+margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .about__subtitle{
+    max-width: 964px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about__subtitle{
+    font-size: 23px;
+    line-height: 30px;
+    padding: 30px 0 28px;
+  }
+}

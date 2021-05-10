@@ -1,0 +1,27 @@
+.block-calendar__sign-up {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #224CFF;
+  border: 1px solid #224CFF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: transparent;
+  margin-right: 15px;
+  width: 127px;
+}
+
+.block-calendar__sign-up:focus{
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+  .block-calendar__sign-up  {
+    width: 100px;
+    font-size: 12px;
+line-height: 17px;
+    }
+  }

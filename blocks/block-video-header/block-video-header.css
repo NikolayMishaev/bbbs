@@ -1,0 +1,28 @@
+.block-video-header {
+min-height: 675px;
+flex-grow: 1;
+}
+
+@media (max-width: 1440px) {
+  .block-video-header  {
+    min-height: 451px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-video-header  {
+    min-height: 438px;
+  }
+}
+
+@media (max-width: 640px) {
+  .block-video-header  {
+    min-height: 290px;
+  }
+}
+
+@media (max-width: 400px) {
+  .block-video-header  {
+    min-height: 165px;
+  }
+}

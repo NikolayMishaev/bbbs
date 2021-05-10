@@ -1,0 +1,24 @@
+.list__number{
+    margin: 0;
+    padding: 0;
+    max-width: 133px;
+    font-family: 'Proto Grotesk Web Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -2px;
+    color: #000000;
+}
+@media (max-width: 1024px) {
+    .list__number{
+        font-size: 60px;
+        line-height: 60px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .list__number{
+      margin-left: 9px;
+    }
+  }

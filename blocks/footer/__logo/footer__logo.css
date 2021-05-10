@@ -1,0 +1,18 @@
+.footer__logo {
+  background: url(../../../images/footer-logo.png) no-repeat 100%/cover;
+  width: 415px;
+  height: 76px;
+  transform: translate(0, -20px);
+  text-decoration: none;
+}
+
+@media (max-width: 1275px) {
+  .footer__logo {
+    width: 252px;
+    height: 46px;
+    transform: translate(0, 0);
+    order: 1;
+    margin: auto;
+    margin-bottom: 39px;
+  }
+}

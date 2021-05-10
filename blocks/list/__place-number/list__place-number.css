@@ -1,0 +1,18 @@
+.list__place-number{
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    font-family: 'PT Root UI';
+}
+@media (max-width: 1024px) {
+    .list__place-number{
+        font-size: 12px;
+        line-height: 17px;
+    }
+  }

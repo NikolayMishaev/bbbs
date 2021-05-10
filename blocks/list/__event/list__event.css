@@ -1,0 +1,21 @@
+.list__event{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1A1A1A;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+@media (max-width: 1024px) {
+  .list__event {
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 18px;
+    margin-bottom: 29px;
+  }
+}
+

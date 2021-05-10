@@ -1,0 +1,9 @@
+.header__search_type_search {
+  margin-left: auto;
+}
+
+@media (max-width: 1375px) {
+  .header__search_type_search {
+    margin-left: 0;
+  }
+}

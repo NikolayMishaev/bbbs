@@ -1,0 +1,19 @@
+.popup-menu__close {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  width: 20px;
+  height: 20px;
+  background: url(../../../images/popup-log-in-button-close.png) transparent no-repeat center center/100%;
+  margin: 5px 19px 0 auto;
+}
+
+.popup-menu__close:focus {
+  outline: none;
+}
+
+.popup-menu__close:hover {
+  opacity: .6;
+  cursor: pointer;
+}

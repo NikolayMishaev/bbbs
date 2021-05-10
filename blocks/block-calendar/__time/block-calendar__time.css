@@ -1,0 +1,32 @@
+.block-calendar__time {
+  width: 100%;
+  margin: auto;
+  margin-top: 19%;
+  font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #1A1A1A;
+}
+
+@media (max-width: 1440px) {
+  .block-calendar__time  {
+    margin-top: 10%;
+    }
+  }
+
+@media (max-width: 1024px) {
+  .block-calendar__time  {
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 21%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .block-calendar__time  {
+      margin-top: 19%;
+      }
+    }

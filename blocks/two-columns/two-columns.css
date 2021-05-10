@@ -1,0 +1,14 @@
+.two-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-sizing: border-box;
+  grid-gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .two-columns {
+    grid-template-columns: unset;
+  }
+}

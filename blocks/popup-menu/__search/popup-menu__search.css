@@ -1,0 +1,15 @@
+.popup-menu__search {
+  background: url(../../../images/header-search.svg) no-repeat 100%/cover;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  transition: opacity 0.2s ease-out;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.popup-menu__search:focus {
+  outline: none;
+}

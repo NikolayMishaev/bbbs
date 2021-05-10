@@ -1,0 +1,11 @@
+.popup-menu__link {
+  text-decoration: none;
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+color: #000000;
+}

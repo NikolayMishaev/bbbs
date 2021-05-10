@@ -1,0 +1,12 @@
+.block-place_type_description-small {
+  width: 100%;
+  border-radius: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1280px) {
+  .block-place_type_description-small {
+padding: 30px 15px;
+  }
+}

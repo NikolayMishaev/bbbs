@@ -1,0 +1,27 @@
+.popup__message {
+  text-align: center;
+  margin: 0 110px 50px;
+  font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #000000;
+}
+
+.popup__message:first-of-type {
+margin-bottom: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__message {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0 15px 32px;
+  }
+  .popup__message:first-of-type {
+    margin-bottom: 20px;
+    }
+}
+

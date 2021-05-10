@@ -1,0 +1,12 @@
+.navigation__links_place_header {
+  grid-template-columns: repeat(6, minmax(auto, max-content) );
+  column-gap: 30px;
+  padding: 0;
+  row-gap: 10px;
+}
+
+@media (max-width: 1375px) {
+  .navigation__links_place_header {
+    display: none;
+  }
+}

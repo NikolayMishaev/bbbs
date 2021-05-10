@@ -1,0 +1,10 @@
+.popup-menu__footer {
+  margin: auto auto 30px;
+  display: flex;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #A7A6A6;
+}

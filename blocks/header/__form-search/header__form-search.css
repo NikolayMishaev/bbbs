@@ -1,0 +1,16 @@
+.header__form-search {
+  order:2;
+margin: 0 auto;
+min-height: 800px;
+width: 68%;
+margin-right: 18px;
+margin-left: 10px;
+margin-top: 4px;
+}
+
+@media (max-width: 1375px) {
+  .header__form-search  {
+    order: 4;
+    width: 100%;
+  }
+}

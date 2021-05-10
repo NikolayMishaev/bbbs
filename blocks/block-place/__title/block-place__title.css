@@ -1,0 +1,18 @@
+.block-place__title {
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 23px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+margin: 15px auto 5px;
+}
+
+@media (max-width: 1024px) {
+  .block-place__title {
+    font-size: 19px;
+    line-height: 23px;
+    margin: 5px auto;
+  }
+}

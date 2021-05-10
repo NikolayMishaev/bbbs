@@ -1,0 +1,6 @@
+.popup-calendar__logoImg{
+    margin-right: 5px;
+}
+.popup-calendar__logoImg:last-child{
+    margin-right: 0;
+}

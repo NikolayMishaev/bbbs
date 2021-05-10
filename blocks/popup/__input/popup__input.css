@@ -1,0 +1,27 @@
+.popup__input {
+  display: flex;
+  position: relative;
+  width: 570px;
+  height: 48px;
+  border: none;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin: 0 100px 20px;
+    background: #F3F2F2;
+}
+
+.popup__input::placeholder {
+  color: #C4C4C4;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__input  {
+    width: 90%;
+    height: 40px;
+    margin: 0 15px 20px;
+  }
+  .popup__input{
+    margin-bottom: 10px;
+  }
+}

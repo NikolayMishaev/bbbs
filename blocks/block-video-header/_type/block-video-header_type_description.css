@@ -1,0 +1,35 @@
+.block-video-header_type_description {
+  width: 571px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  flex-grow: unset;
+  min-height: 675px;
+  padding: 30px 50px;
+  display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1440px) {
+  .block-video-header_type_description  {
+    width: 370px;
+    min-height: 451px;
+    padding: 30px 30px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .block-video-header_type_description  {
+    width: 100%;
+    order: 2;
+    min-height: 147px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-video-header_type_description  {
+    width: 100%;
+    order: 2;
+    min-height: 147px;
+    padding: 15px 15px;
+  }
+}

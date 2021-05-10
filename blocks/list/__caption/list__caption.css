@@ -1,0 +1,15 @@
+.list__caption{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #464646;
+    margin: 0;
+
+}
+@media (max-width: 1024px) {
+    .list__caption{
+        font-size: 12px;
+        line-height: 17px;
+    }
+  }

@@ -1,0 +1,19 @@
+.popup-menu__change-city {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #A7A6A6;
+  border:none;
+  background: transparent;
+  margin-right: 62px;
+}
+
+.popup-menu__change-city:focus {
+  outline: none;
+}
+
+.popup-menu__change-city:hover {
+  cursor: pointer;
+}

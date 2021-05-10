@@ -1,0 +1,20 @@
+.title {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 74px;
+  line-height: 80px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  padding: 0 0 30px;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 37px;
+    line-height: 39px;
+    padding-bottom: 10px;
+  }
+}
