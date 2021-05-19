@@ -1,6 +1,6 @@
 # Проект «Старшие Братья Старшие Сёстры»
 ***
-https://nikolaymishaev.github.io/BBBS/index.html
+[ссылка на gh-pages](https://nikolaymishaev.github.io/BBBS/index.html)
 ## Описание
 - Сайт предназначен для наставников, которые работают в НКО и занимаются поддержкой детей
 ## Функциональность
