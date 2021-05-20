@@ -114,10 +114,10 @@
 @import url(../blocks/popup/__form/_type/popup__form_type_advice.css);
 @import url(../blocks/popup/__field/popup__field.css);
 @import url(../blocks/popup/__field/_type/popup__field_type_advice.css);
-@import url(../blocks/popup/__field/_type/popup__field_type_checkbox.css);
 @import url(../blocks/popup/__field/_type/popup__field_type_no-right-margin.css);
 @import url(../blocks/popup/__field/_size/popup__field_size_large.css);
 @import url(../blocks/popup/__field/_size/popup__field_size_small.css);
+@import url(../blocks/popup/__field/_type/popup__field_type_checkbox.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__container/_type/popup__container_type_popup-city.css);
 @import url(../blocks/popup/__container/_type/popup__container_type_advice.css);
