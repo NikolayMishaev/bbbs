@@ -5,3 +5,14 @@
   border: none;
   background: url(../../../images/button-form-place-add.svg) no-repeat 100%/cover;
 }
+
+.popup__button-add:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .popup__button-add  {
+    width: 40px;
+    height: 40px;
+  }
+}

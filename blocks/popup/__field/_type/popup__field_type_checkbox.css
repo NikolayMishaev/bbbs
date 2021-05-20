@@ -1,0 +1,28 @@
+.popup__field_type_checkbox {
+  display: inherit;
+  padding: 13px 20px;
+  height: 20px;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #A7A6A6;
+  box-sizing: border-box;
+    min-height: 46px;
+}
+
+.popup__field_type_checkbox:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .popup__field_type_checkbox {
+    width: 48%;
+    font-size: 12px;
+line-height: 17px;
+min-height: 40px;
+padding: 10px 20px;
+  }
+}

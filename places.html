@@ -405,7 +405,7 @@
           <article class="block-message background-white block-message_type_margin">
             <p class="block-message__text">Если вы были в интересном месте и хотите порекомендовать его другим
               наставникам –
-              <button type="button" class="block-message__button">заполните форму</button>, и мы добавим вашу
+              <span class="block-message__accent">заполните форму</span>, и мы добавим вашу
               рекомендацию.
             </p>
           </article>
@@ -415,32 +415,34 @@
                 class="popup__input popup__input_type_advice" type="text">
               <span class="popup__input-error"></span>
             </label>
-            <label class="popup__field popup__field_type_advice">
+            <label class="popup__field popup__field_type_advice popup__field_type_no-right-margin">
               <input id="place-website" required name="password" minlength="2" maxlength="200" placeholder="Сайт"
                 class="popup__input popup__input_type_advice" type="url">
               <span class="popup__input-error"></span>
             </label>
-            <label class="popup__field popup__field_type_advice popup__field_size_large">
+            <label class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin">
               <input id="place-adress" required name="login" minlength="2" maxlength="40" placeholder="Адрес*"
                 class="popup__input popup__input_type_advice" type="text">
               <span class="popup__input-error"></span>
             </label>
-            <label class="popup__field popup__field_type_advice popup__field_size_small">
+            <label class="popup__field popup__field_type_advice popup__field_size_small popup__field_type_checkbox">
               <input id="place-boy" required name="login"
-                class="popup__input popup__input_type_advice" type="radio">
+                class="popup__input popup__input_type_advice popup__input_type_checkbox" type="radio">
+              <span class="popup__visible-checkbox">Мальчик</span>
               <span class="popup__input-error"></span>
             </label>
-            <label class="popup__field popup__field_type_advice popup__field_size_small">
+            <label class="popup__field popup__field_type_advice popup__field_size_small popup__field_type_checkbox">
               <input id="place-girl" required name="login"
-                class="popup__input popup__input_type_advice" type="radio">
+                class="popup__input popup__input_type_advice popup__input_type_checkbox" type="radio">
+              <span class="popup__visible-checkbox">Девочка</span>
               <span class="popup__input-error"></span>
             </label>
-            <label class="popup__field popup__field_type_advice popup__field_size_small">
-              <input id="place-age" required name="login"  placeholder="Возраст"
+            <label class="popup__field popup__field_type_advice popup__field_size_small popup__field_type_no-right-margin">
+              <input id="place-age" required name="login"  placeholder="Возраст*"
                 class="popup__input popup__input_type_advice" type="number">
               <span class="popup__input-error"></span>
             </label>
-            <label class="popup__field popup__field_type_advice popup__field_size_large">
+            <label class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin">
             <select class="popup__select" id="place-type-vacation" name="type-vacation">
               <option value="ibm">Тип отдыха*</option>
               <option value="ubuntu">Активный</option>
@@ -448,7 +450,7 @@
               <option value="istok">Познавательный</option>
             </select>
             </label>
-            <label class="popup__field popup__field_type_advice popup__field_size_large">
+            <label class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin">
             <textarea class="popup__textarea" id="place-comment" name="main-text"
               placeholder="Комментарий* Поделитесь впечатлениями о проведенном времени" required></textarea>
               </label>

@@ -4,6 +4,7 @@
 
 @media (max-width: 800px) {
   .popup__field_size_large {
-    width: unset;
+    max-width: 100%;
+    width: 100%;
   }
 }

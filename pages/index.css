@@ -106,6 +106,7 @@
 @import url(../blocks/popup/__message/popup__message.css);
 @import url(../blocks/popup/__input/popup__input.css);
 @import url(../blocks/popup/__input/_type/popup__input_type_advice.css);
+@import url(../blocks/popup/__input/_type/popup__input_type_checkbox.css);
 @import url(../blocks/popup/__input-error/popup__input-error.css);
 @import url(../blocks/popup/__input-error/_active/popup__input-error_active.css);
 @import url(../blocks/popup/__help/popup__help.css);
@@ -113,6 +114,8 @@
 @import url(../blocks/popup/__form/_type/popup__form_type_advice.css);
 @import url(../blocks/popup/__field/popup__field.css);
 @import url(../blocks/popup/__field/_type/popup__field_type_advice.css);
+@import url(../blocks/popup/__field/_type/popup__field_type_checkbox.css);
+@import url(../blocks/popup/__field/_type/popup__field_type_no-right-margin.css);
 @import url(../blocks/popup/__field/_size/popup__field_size_large.css);
 @import url(../blocks/popup/__field/_size/popup__field_size_small.css);
 @import url(../blocks/popup/__container/popup__container.css);
@@ -123,8 +126,10 @@
 @import url(../blocks/popup/__button-submit/_type/popup__button-submit_type_advice.css);
 @import url(../blocks/popup/__textarea/popup__textarea.css);
 @import url(../blocks/popup/__select/popup__select.css);
+@import url(../blocks/popup/__select/_type/popup__select_type_active.css);
 @import url(../blocks/popup/__button-add/popup__button-add.css);
 @import url(../blocks/popup/__caption/popup__caption.css);
+@import url(../blocks/popup/__visible-checkbox/popup__visible-checkbox.css);
 @import url(../blocks/popup-menu/popup-menu.css);
 @import url(../blocks/popup-menu/__search/popup-menu__search.css);
 @import url(../blocks/popup-menu/__navigation/popup-menu__navigation.css);
@@ -158,6 +163,7 @@
 @import url(../blocks/popup-city/__button/popup-city__button.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/block-message/block-message.css);
+@import url(../blocks/block-message/__accent/__accent.css);
 @import url(../blocks/block-message/_type/block-message_type_margin.css);
 @import url(../blocks/block-message/__text/block-message__text.css);
 @import url(../blocks/block-message/__button/block-message__button.css);

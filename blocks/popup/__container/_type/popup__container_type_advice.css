@@ -1,3 +1,9 @@
 .popup__container_type_advice {
   min-height: 618px;
 }
+
+@media screen and (max-width: 800px) {
+  .popup__container_type_advice {
+    min-height: 570px;
+  }
+}

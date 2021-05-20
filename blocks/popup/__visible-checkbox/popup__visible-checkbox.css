@@ -1,0 +1,27 @@
+.popup__visible-checkbox {
+  height: 20px;
+  background: url(../../../images/popup-advice-checkbox-disable.svg) no-repeat;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__visible-checkbox   {
+    background: url(../../../images/popup-advice-checkbox-disable.svg) no-repeat 0 30%/20%;
+    padding-left: 24px;
+  }
+}
+
+.popup__input_type_checkbox:disabled + .popup__visible-checkbox{
+  background-image: url(../../../images/popup-advice-checkbox-disable.svg);
+}
+
+.popup__input_type_checkbox:checked + .popup__visible-checkbox{
+  background-image: url(../../../images/popup-advice-checkbox-active.svg);
+  color: #000;
+  }
+
+  .popup__input_type_checkbox:focus + .popup__visible-checkbox{
+    background-image: url(../../../images/popup-advice-checkbox-active.svg);
+    color: #000;
+    }
+

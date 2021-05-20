@@ -1,19 +1,17 @@
-.block-message__text {
+.block-message__accent {
   font-family: Proto Grotesk Web Light;
   font-style: normal;
   font-weight: 300;
   font-size: 23px;
   line-height: 30px;
   text-align: center;
-  color: #000000;
-  margin: 50px 30px 39px;
+  color: #2E2468;
 }
 
 @media (max-width: 800px) {
-  .block-message__text {
+  .block-message__accent {
     font-size: 19px;
     line-height: 23px;
     margin: 30px 15px;
-    margin-bottom: 27px;
   }
 }
