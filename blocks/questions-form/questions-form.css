@@ -1,0 +1,16 @@
+.questions-form {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1440px) {
+  .questions-form {
+    padding-top: 55px;
+  }
+}
+@media (max-width: 1024px) {
+  .questions-form {
+    padding-top: 20px;
+  }
+}

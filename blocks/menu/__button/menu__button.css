@@ -9,6 +9,7 @@ font-size: 15px;
 line-height: 19px;
 letter-spacing: 0.2px;
 padding: 14px 20px;
+max-height: 48px;
 }
 
 .menu__button:focus {

@@ -1,5 +1,4 @@
 .block-questions {
-  min-height: 189px;
   align-items: flex-start;
   text-align: start;
   width: 100%;
@@ -9,8 +8,3 @@
     border-radius: 30px;
 }
 
-@media (max-width: 1024px) {
-  .block-questions {
-    min-height: 161px;
-  }
-}

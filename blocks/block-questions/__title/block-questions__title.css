@@ -5,11 +5,12 @@
   line-height: 30px;
   margin: 50px 50px 15px;
   max-width: 100%;
+  position: relative;
 }
 
 @media (max-width: 1024px) {
   .block-questions__title  {
-    margin: 30px 15px;
+    margin: 30px 15px 15px;
     font-size: 19px;
     line-height: 23px;
   }

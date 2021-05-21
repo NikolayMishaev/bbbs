@@ -1,0 +1,18 @@
+.block-questions__answer {
+  font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #1A1A1A;
+margin: 0 50px 50px;
+display: none;
+}
+
+@media (max-width: 1024px) {
+  .block-questions__answer  {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0 15px 30px;
+  }
+}

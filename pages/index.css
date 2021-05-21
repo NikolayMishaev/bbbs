@@ -14,6 +14,7 @@
 @import url(../blocks/header/__account/header__account.css);
 @import url(../blocks/header/__account/_authorized/header__account_authorized.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/content/__header/content__header.css);
 @import url(../blocks/one-column/one-column.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/_style/two-columns_style_first.css);
@@ -153,7 +154,6 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__category/header__category.css);
 @import url(../blocks/MIX/display-none.css);
-@import url(../blocks/MIX/display-block.css);
 @import url(../blocks/popup-city/popup-city.css);
 @import url(../blocks/popup-city/__title/popup-city__title.css);
 @import url(../blocks/popup-city/__other-city-list/popup-city__other-city-list.css);
@@ -162,6 +162,7 @@
 @import url(../blocks/popup-city/__main-city-item/popup-city__main-city-item.css);
 @import url(../blocks/popup-city/__button/popup-city__button.css);
 @import url(../blocks/title/title.css);
+@import url(../blocks/title/_style/title_style_questions.css);
 @import url(../blocks/block-message/block-message.css);
 @import url(../blocks/block-message/__accent/__accent.css);
 @import url(../blocks/block-message/_type/block-message_type_margin.css);
@@ -169,8 +170,10 @@
 @import url(../blocks/block-message/__button/block-message__button.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__list/_style/menu__list_style_questions.css);
 @import url(../blocks/menu/__list/_center/menu__list_center.css);
 @import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__item/_style/menu__item_style_questions.css);
 @import url(../blocks/menu/__button/menu__button.css);
 @import url(../blocks/menu/__button/_active/menu__button_active.css);
 @import url(../blocks/message/message.css);
@@ -215,3 +218,20 @@
 @import url(../blocks/about/about__circle-square.css);
 @import url(../blocks/about/about__accent.css);
 @import url(../blocks/MIX/visible-block.css);
+
+
+@import url(../blocks/block-questions/_style/block-questions_style_questions.css);
+@import url(../blocks/three-columns/_style/three-columns_style_questions.css);
+@import url(../blocks/block-questions/__button/block-questions__button.css);
+@import url(../blocks/block-questions/__answer/block-questions__answer.css);
+@import url(../blocks/block-questions/__title/_style/block-questions__title_style_questions.css);
+@import url(../blocks/MIX/display-block.css);
+@import url(../blocks/questions-form/questions-form.css);
+@import url(../blocks/questions-form/__title/questions-form__title.css);
+@import url(../blocks/questions-form/__input/questions-form__input.css);
+@import url(../blocks/questions-form/__input-error/questions-form__input-error.css);
+@import url(../blocks/questions-form/__form/questions-form__form.css);
+@import url(../blocks/questions-form/__field/questions-form__field.css);
+@import url(../blocks/questions-form/__button-submit/questions-form__button-submit.css);
+@import url(../blocks/questions-form/__button-submit/_type/questions-form__button-submit_type_active.css);
+@import url(../blocks/questions-form/__wrapper/questions-form__wrapper.css);

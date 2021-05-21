@@ -1,0 +1,9 @@
+.questions-form__field {
+flex: 1;
+}
+
+@media (max-width: 640px) {
+  .questions-form__field {
+margin-bottom: 20px;
+  }
+}

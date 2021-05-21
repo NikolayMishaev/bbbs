@@ -12,14 +12,14 @@ text-transform: uppercase;
 color: #464646;
 text-decoration: none;
 min-height: 17px;
-margin: 0 50px 30px;
+margin: 0 50px 47px;
 padding: 2px 7px;
 box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
   .block-questions__category  {
-    margin: 0 15px 30px;
+    margin: 0 15px 43px;
     font-size: 10px;
     line-height: 13px;
   }

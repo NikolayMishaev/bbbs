@@ -1,0 +1,17 @@
+.three-columns_style_questions {
+  padding-top: 53px;
+  margin-right: 100px;
+}
+
+@media (max-width: 1024px) {
+  .three-columns_style_questions {
+    padding-top: 20px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .three-columns_style_questions {
+    padding-top: 0;
+  }
+}
