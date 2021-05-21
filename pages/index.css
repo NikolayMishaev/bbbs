@@ -15,6 +15,7 @@
 @import url(../blocks/header/__account/_authorized/header__account_authorized.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__header/content__header.css);
+@import url(../blocks/content/__header/style_questions/content__header_style_questions.css);
 @import url(../blocks/one-column/one-column.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/_style/two-columns_style_first.css);
