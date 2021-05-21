@@ -30,12 +30,16 @@
 @import url(../blocks/navigation/_place/navigation_place_footer.css);
 @import url(../blocks/navigation/__list/navigation__list.css);
 @import url(../blocks/navigation/__list/_place/navigation__list_place_footer.css);
+@import url(../blocks/navigation/__list/_type/navigation__list_type_submenu.css);
 @import url(../blocks/navigation/__links/navigation__links.css);
 @import url(../blocks/navigation/__links/_place/navigation__links_place_header.css);
 @import url(../blocks/navigation/__links/_place/navigation__links_place_footer.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
 @import url(../blocks/navigation/__link/_place/navigation__link_place_header.css);
 @import url(../blocks/navigation/__link/_place/navigation__link_place_footer.css);
+@import url(../blocks/navigation/__submenu-links/navigation__submenu-links.css);
+@import url(../blocks/navigation/__submenu-list/navigation__submenu-list.css);
+@import url(../blocks/navigation/__submenu-link/navigation__submenu-link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__three-columns/footer__three-columns.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -218,7 +222,6 @@
 @import url(../blocks/about/about__subtitle.css);
 @import url(../blocks/about/about__circle-square.css);
 @import url(../blocks/about/about__accent.css);
-@import url(../blocks/MIX/visible-block.css);
 
 
 @import url(../blocks/block-questions/_style/block-questions_style_questions.css);
@@ -236,3 +239,4 @@
 @import url(../blocks/questions-form/__button-submit/questions-form__button-submit.css);
 @import url(../blocks/questions-form/__button-submit/_type/questions-form__button-submit_type_active.css);
 @import url(../blocks/questions-form/__wrapper/questions-form__wrapper.css);
+@import url(../blocks/MIX/visible-block.css);

@@ -1,3 +1,8 @@
 .navigation__link_place_footer {
   color: #F3F2F2;
+  transition: opacity .5;
+}
+
+.navigation__link_place_footer:hover {
+opacity: .7;
 }

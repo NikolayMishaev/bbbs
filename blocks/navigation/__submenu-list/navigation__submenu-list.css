@@ -1,0 +1,8 @@
+.navigation__submenu-list {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.navigation__submenu-list:last-child {
+margin-bottom: 0;
+}

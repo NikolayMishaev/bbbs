@@ -1,3 +1,8 @@
 .navigation__link_place_header {
   color: #000000;
+  transition: color .5s;
+}
+
+.navigation__link_place_header:hover {
+  color: #224CFF;
 }

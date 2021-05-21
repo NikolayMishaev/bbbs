@@ -1,0 +1,15 @@
+.navigation__submenu-link {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+.navigation__submenu-link:hover {
+  color: #224CFF;
+}
