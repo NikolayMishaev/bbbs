@@ -1,3 +1,4 @@
 .block-questions_style_questions {
   max-width: 870px;
+  min-height: unset;
 }
