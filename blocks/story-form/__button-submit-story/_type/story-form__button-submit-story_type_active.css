@@ -1,0 +1,8 @@
+.story-form__button-submit-story_type_active {
+  border: 1px solid #224CFF;
+  color: #224CFF;
+}
+
+.story-form__button-submit-story_type_active:hover {
+  background: #C8D1FF;
+}

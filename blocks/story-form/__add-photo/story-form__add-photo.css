@@ -1,0 +1,18 @@
+.story-form__add-photo {
+flex: 1;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing:border-box;
+}
+
+@media (max-width: 1024px) {
+  .story-form__add-photo {
+    padding: 30px 15px;
+    width: 100%;
+    flex: unset;
+    height: 40vw;
+    min-height: 290px;
+  }
+}

@@ -1,0 +1,13 @@
+.header__submenu-account {
+  order: 5;
+  width: 100%;
+  margin-top: 30px;
+  text-align: end;
+  font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: right;
+color: #A7A6A6;
+}

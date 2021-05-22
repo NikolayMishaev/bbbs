@@ -1,0 +1,51 @@
+.story-form__button-delete-story {
+margin-left: auto;
+font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #A7A6A6;
+border: none;
+background: transparent;
+min-height: 48px;
+box-sizing:border-box;
+padding: 0;
+margin-right: 20px;
+}
+
+.story-form__button-delete-story:hover {
+cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .story-form__button-delete-story {
+width: 40%;
+flex: 1;
+flex-basis: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .story-form__button-delete-story {
+    min-height: 40px;
+    font-size: 12px;
+line-height: 17px;
+  }
+}
+
+@media (max-width: 640px) {
+  .story-form__button-delete-story {
+min-width: 88px;
+flex: unset;
+order: 2;
+margin: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .story-form__button-delete-story {
+width: unset;
+  }
+}

@@ -1,0 +1,10 @@
+.story-form {
+  display: flex;
+  max-width: 1400px;
+}
+
+@media (max-width: 1024px) {
+  .story-form {
+flex-wrap: wrap;
+  }
+}

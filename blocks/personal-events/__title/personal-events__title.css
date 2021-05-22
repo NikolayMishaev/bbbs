@@ -1,0 +1,18 @@
+.personal-events__title {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #1A1A1A;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+  .personal-events__title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

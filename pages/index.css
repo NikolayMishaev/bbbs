@@ -13,8 +13,13 @@
 @import url(../blocks/header/__divisor/_type/header__divisor_type_search.css);
 @import url(../blocks/header/__account/header__account.css);
 @import url(../blocks/header/__account/_authorized/header__account_authorized.css);
+@import url(../blocks/header/__submenu-account/header__submenu-account.css);
+@import url(../blocks/header/__current-city/header__current-city.css);
+@import url(../blocks/header/__change-city/header__change-city.css);
+@import url(../blocks/header/__exit-account/header__exit-account.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/_style/content_style_content-menu.css);
+@import url(../blocks/content/_style/content_style_personal-account.css);
 @import url(../blocks/content/__header/content__header.css);
 @import url(../blocks/content/__header/style_questions/content__header_style_questions.css);
 @import url(../blocks/one-column/one-column.css);
@@ -260,3 +265,46 @@
 @import url(../blocks/block-guide/__photo/block-guide__photo.css);
 @import url(../blocks/block-guide/__link/block-guide__link.css);
 @import url(../blocks/block-guide/__caption/block-guide__caption.css);
+
+
+@import url(../blocks/personal-events/personal-events.css);
+@import url(../blocks/personal-events/__title/personal-events__title.css);
+@import url(../blocks/personal-events/__subtitle/personal-events__subtitle.css);
+@import url(../blocks/personal-events/__number/personal-events__number.css);
+@import url(../blocks/personal-events/__month/personal-events__month.css);
+@import url(../blocks/personal-events/__events/personal-events__events.css);
+@import url(../blocks/personal-events/__container/personal-events__container.css);
+
+@import url(../blocks/personal-story/personal-story.css);
+@import url(../blocks/personal-story/__title/personal-story__title.css);
+@import url(../blocks/personal-story/__text/personal-story__text.css);
+@import url(../blocks/personal-story/__photo/personal-story__photo.css);
+@import url(../blocks/personal-story/__description/personal-story__description.css);
+@import url(../blocks/personal-story/__day/personal-story__day.css);
+@import url(../blocks/personal-story/__date/personal-story__date.css);
+@import url(../blocks/personal-story/__container/personal-story__container.css);
+@import url(../blocks/personal-story/__card/personal-story__card.css);
+@import url(../blocks/personal-story/__card-title/personal-story__card-title.css);
+@import url(../blocks/personal-story/__button-add-story/personal-story__button-add-story.css);
+
+@import url(../blocks/story-form/story-form.css);
+@import url(../blocks/story-form/_position/story-form_position_center.css);
+@import url(../blocks/story-form/__textarea/story-form__textarea.css);
+@import url(../blocks/story-form/__mark/story-form__mark.css);
+@import url(../blocks/story-form/__mark/_type/story-form__mark_type_bad.css);
+@import url(../blocks/story-form/__mark/_type/story-form__mark_type_bad-active.css);
+@import url(../blocks/story-form/__mark/_type/story-form__mark_type_great.css);
+@import url(../blocks/story-form/__mark/_type/story-form__mark_type_great-active.css);
+@import url(../blocks/story-form/__mark/_type/story-form__mark_type_normal.css);
+@import url(../blocks/story-form/__mark/_type/story-form__mark_type_normal-active.css);
+@import url(../blocks/story-form/__input/story-form__input.css);
+@import url(../blocks/story-form/__field/story-form__field.css);
+@import url(../blocks/story-form/__field/_size/story-form__field_size_large.css);
+@import url(../blocks/story-form/__field/_size/story-form__field_size_small.css);
+@import url(../blocks/story-form/__data/story-form__data.css);
+@import url(../blocks/story-form/__button-submit-story/story-form__button-submit-story.css);
+@import url(../blocks/story-form/__button-submit-story/_type/story-form__button-submit-story_type_active.css);
+@import url(../blocks/story-form/__button-delete-story/story-form__button-delete-story.css);
+@import url(../blocks/story-form/__button-add-photo/story-form__button-add-photo.css);
+@import url(../blocks/story-form/__add-photo/story-form__add-photo.css);
+@import url(../blocks/story-form/__text/story-form__text.css);

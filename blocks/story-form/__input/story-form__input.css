@@ -1,0 +1,43 @@
+.story-form__input {
+  background: #F3F2F2;
+  border-radius: 30px;
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #000000;
+border: none;
+min-height: 48px;
+padding-left: 20px;
+width: 100%;
+box-sizing: border-box;
+}
+
+.story-form__input::placeholder {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #A7A6A6;
+}
+
+.story-form__input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .story-form__input {
+    font-size: 12px;
+    line-height: 17px;
+    min-height: 40px;
+  }
+  .story-form__input::placeholder {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+

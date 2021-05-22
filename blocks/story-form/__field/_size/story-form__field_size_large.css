@@ -1,0 +1,12 @@
+.story-form__field_size_large {
+  flex: 2;
+  margin-right: 30px;
+}
+
+@media (max-width: 640px) {
+  .story-form__field_size_large {
+    width: 100%;
+    margin: 0 0 10px 0;
+    flex: unset;
+  }
+}

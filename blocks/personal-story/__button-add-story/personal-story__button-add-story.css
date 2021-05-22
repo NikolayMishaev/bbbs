@@ -1,0 +1,29 @@
+.personal-story__button-add-story {
+background-color: transparent;
+background: url(../../../images/personal-story-button-add-story.svg) no-repeat;
+min-height: 48px;
+font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #224CFF;
+border: none;
+padding-left: 63px;
+padding-right: 0;
+}
+
+.personal-story__button-add-story:hover {
+cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .personal-story__button-add-story {
+    font-size: 12px;
+    line-height: 17px;
+    min-height: 40px;
+    background-size: contain;
+    padding-left: 63px;
+  }
+}

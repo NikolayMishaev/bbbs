@@ -1,0 +1,27 @@
+.story-form__button-add-photo {
+background-color: transparent;
+background: url(../../../images/story-form-button-add-photo.svg) no-repeat center top;
+border: none;
+padding-top: 110px;
+font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #A7A6A6;
+}
+
+.story-form__button-add-photo:hover {
+cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .story-form__button-add-photo {
+    font-size: 12px;
+    line-height: 17px;
+    padding: 0;
+    padding-top: 95px;
+    background-size: 90%;
+  }
+}

@@ -1,0 +1,15 @@
+.header__change-city {
+border: none;
+background: transparent;
+font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: right;
+color: #A7A6A6;
+}
+
+.header__change-city:hover {
+  cursor: pointer;
+  }

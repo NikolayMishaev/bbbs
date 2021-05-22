@@ -1,0 +1,10 @@
+.personal-events  {
+
+}
+
+.personal-events::after  {
+content: '';
+border-bottom: 0.5px solid #464646;
+display: block;
+margin-top: 50px;
+}

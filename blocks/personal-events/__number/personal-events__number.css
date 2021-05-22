@@ -1,0 +1,19 @@
+.personal-events__number {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin: 0;
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  .personal-events__number {
+    font-size: 37px;
+    line-height: 39px;
+  }
+}

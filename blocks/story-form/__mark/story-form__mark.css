@@ -1,0 +1,21 @@
+.story-form__mark {
+  border: none;
+  width: 26px;
+  height: 26px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.story-form__mark:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .story-form__mark {
+    width: 23px;
+    height: 23px;
+  }
+}
