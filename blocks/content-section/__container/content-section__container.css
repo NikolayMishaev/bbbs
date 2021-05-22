@@ -1,0 +1,10 @@
+.content-section__container {
+  display: grid;
+  overflow-x: scroll;
+  grid-auto-flow: column;
+  grid-gap: 30px;
+}
+
+.content-section__container::-webkit-scrollbar {
+  width: 0;
+}

@@ -1,0 +1,17 @@
+.content-section__link {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  color: #224CFF;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .content-section__link  {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}

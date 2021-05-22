@@ -14,6 +14,7 @@
 @import url(../blocks/header/__account/header__account.css);
 @import url(../blocks/header/__account/_authorized/header__account_authorized.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/content/_style/content_style_content-menu.css);
 @import url(../blocks/content/__header/content__header.css);
 @import url(../blocks/content/__header/style_questions/content__header_style_questions.css);
 @import url(../blocks/one-column/one-column.css);
@@ -80,9 +81,11 @@
 @import url(../blocks/MIX/background-white.css);
 @import url(../blocks/MIX/background-yellow.css);
 @import url(../blocks/block-article/block-article.css);
+@import url(../blocks/block-article/_style/block-article_style_main.css);
 @import url(../blocks/block-article/__title/block-atricle__title.css);
 @import url(../blocks/block-article/__category/block-article__category.css);
 @import url(../blocks/block-video/block-video.css);
+@import url(../blocks/block-video/_style/block-video_style_content-menu.css);
 @import url(../blocks/block-video/__title/block-video__title.css);
 @import url(../blocks/block-video/__iframe/block-video__iframe.css);
 @import url(../blocks/block-video/__category/block-video__category.css);
@@ -240,3 +243,20 @@
 @import url(../blocks/questions-form/__button-submit/_type/questions-form__button-submit_type_active.css);
 @import url(../blocks/questions-form/__wrapper/questions-form__wrapper.css);
 @import url(../blocks/MIX/visible-block.css);
+
+
+@import url(../blocks/content-section/content-section.css);
+@import url(../blocks/content-section/__title/content-section__title.css);
+@import url(../blocks/content-section/__link/content-section__link.css);
+@import url(../blocks/content-section/__container/content-section__container.css);
+@import url(../blocks/content-section/__buttons/content-section__buttons.css);
+@import url(../blocks/content-section/__button-previous/content-section__button-previous.css);
+@import url(../blocks/content-section/__button-previous/_active/content-section__button-previous_active.css);
+@import url(../blocks/content-section/__button-next/content-section__button-next.css);
+@import url(../blocks/content-section/__button-next/_active/content-section__button-next_active.css);
+@import url(../blocks/block-guide/block-guide.css);
+@import url(../blocks/block-guide/__photo/_form/block-guide__photo_form_circle.css);
+@import url(../blocks/block-guide/__photo/_form/block-guide__photo_form_semicircle.css);
+@import url(../blocks/block-guide/__photo/block-guide__photo.css);
+@import url(../blocks/block-guide/__link/block-guide__link.css);
+@import url(../blocks/block-guide/__caption/block-guide__caption.css);

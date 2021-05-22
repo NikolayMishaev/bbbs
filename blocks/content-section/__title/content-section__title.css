@@ -1,0 +1,17 @@
+.content-section__title {
+text-align: center;
+margin: 0;
+}
+
+.content-section__title:after {
+  content: '';
+  border-bottom: 1px solid #224CFF;
+  display: block;
+  margin: 20px 0 50px;
+}
+
+@media (max-width: 1024px) {
+  .content-section__title {
+    text-align: unset;
+  }
+}

@@ -1,15 +1,15 @@
-.block-article {
+.block-video_style_content-menu {
   width: 420px;
 }
 
 @media (max-width: 1440px) {
-.block-article {
+  .block-video_style_content-menu {
     width: 370px;
   }
 }
 
 @media (max-width: 1024px) {
-.block-article {
+  .block-video_style_content-menu {
     width: 290px;
   }
 }

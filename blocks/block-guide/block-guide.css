@@ -1,15 +1,16 @@
-.block-article {
-  width: 420px;
+.block-guide {
+margin: 0;
+width: 420px;
 }
 
 @media (max-width: 1440px) {
-.block-article {
+  .block-guide {
     width: 370px;
   }
 }
 
 @media (max-width: 1024px) {
-.block-article {
+  .block-guide {
     width: 290px;
   }
 }
