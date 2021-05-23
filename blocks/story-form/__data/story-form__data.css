@@ -5,7 +5,7 @@ padding: 30px 30px 20px;
 display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    flex-basis: 153px;
+    flex-basis: 170px;
 }
 
 @media (max-width: 1024px) {

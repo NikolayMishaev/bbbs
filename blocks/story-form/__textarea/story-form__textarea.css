@@ -43,6 +43,6 @@ line-height: 17px;
 
 @media (max-width: 640px) {
   .story-form__textarea {
-    margin: 10px 0;
+    margin: 10px 0 21px;
   }
 }

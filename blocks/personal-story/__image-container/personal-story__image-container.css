@@ -1,0 +1,14 @@
+.personal-story__image-container {
+  flex: 1;
+  border-radius: 30px;
+  max-height: 472px;
+}
+
+@media (max-width: 1024px) {
+  .personal-story__image-container {
+    width: 100%;
+    flex: unset;
+    height: 60vw;
+    min-height: 290px;
+  }
+}

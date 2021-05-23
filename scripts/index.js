@@ -23,7 +23,8 @@ const popupCity = document.querySelector('.popup-city');
 
 const popups = document.querySelectorAll('.popup');
 
-
+const buttonSignInSubmit = document.querySelector('.popup__button-submit');
+const formSignIn = document.querySelector('.popup__form');
 
 const openPopup = popup => {
   popup.classList.add("visible-block");
@@ -91,6 +92,12 @@ buttonChangeCity.addEventListener('click', () => {
   closePopup(popupMobileMenu)
 });
 
+buttonSignInSubmit.addEventListener('click', () => {
+  window.location.href = "./personal_account.html";
+});
+formSignIn.addEventListener('submit', (e) => {
+  e.preventDefault();
+});
 
 // при обратном скролле показываем header с display: fixed. При возврщании к началу страницы скрываем класс с фиксом
 let current = 0;

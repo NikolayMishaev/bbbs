@@ -1,3 +1,12 @@
 .personal-story__container {
+  max-width: 1400px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
 
+@media (max-width: 1024px) {
+  .personal-story__container {
+flex-wrap: wrap;
+padding-top: 29px;
+  }
 }

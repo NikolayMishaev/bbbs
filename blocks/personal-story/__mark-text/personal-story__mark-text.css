@@ -1,0 +1,25 @@
+.personal-story__mark-text {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  flex: 2;
+  white-space: nowrap;
+  margin-right: 30px;
+}
+
+@media (max-width: 1024px) {
+  .personal-story__mark-text {
+font-size: 12px;
+line-height: 17px;
+margin-top: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .personal-story__mark-text {
+    margin-top: 3px;
+  }
+}

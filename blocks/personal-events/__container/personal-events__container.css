@@ -1,3 +1,8 @@
 .personal-events__container {
 display: flex;
+overflow-x: scroll;
+}
+
+.personal-events__container::-webkit-scrollbar {
+  width: 0;
 }

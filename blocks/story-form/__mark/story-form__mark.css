@@ -4,18 +4,19 @@
   height: 26px;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-right: 15px;
-  margin-top: 10px;
 }
 
 .story-form__mark:hover {
   cursor: pointer;
+  opacity: .8;
 }
 
 @media (max-width: 1024px) {
   .story-form__mark {
     width: 23px;
     height: 23px;
+    margin-right: 12px;
   }
 }

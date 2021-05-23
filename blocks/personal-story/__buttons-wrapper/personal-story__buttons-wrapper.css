@@ -1,0 +1,10 @@
+.personal-story__buttons-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+@media (max-width: 400px) {
+  .personal-story__buttons-wrapper {
+margin-top: 10px;
+  }
+}

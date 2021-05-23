@@ -1,0 +1,30 @@
+.personal-story__button-share {
+  color: #A7A6A6;
+  border: none;
+  background: transparent;
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+margin-right: 30px;
+}
+
+.personal-story__button-share:hover {
+cursor: pointer;
+opacity: .8;
+}
+
+@media (max-width: 1024px) {
+  .personal-story__button-share {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  .personal-story__button-share {
+    margin-top: 11px;
+  }
+}

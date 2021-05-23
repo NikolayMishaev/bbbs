@@ -14,5 +14,6 @@
   .personal-events__title {
     font-size: 19px;
     line-height: 23px;
+    margin-bottom: 20px;
   }
 }

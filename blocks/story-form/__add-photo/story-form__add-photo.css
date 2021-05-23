@@ -2,17 +2,16 @@
 flex: 1;
 border-radius: 30px;
 display: flex;
-align-items: center;
-justify-content: center;
 box-sizing:border-box;
+position: relative;
+max-height: 472px;
 }
 
 @media (max-width: 1024px) {
   .story-form__add-photo {
-    padding: 30px 15px;
     width: 100%;
     flex: unset;
-    height: 40vw;
+    height: 60vw;
     min-height: 290px;
   }
 }

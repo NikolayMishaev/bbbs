@@ -1,3 +1,42 @@
 .personal-story__text {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0;
+  overflow: scroll;
+  width: 82%;
+  height: calc(40vw - 262px);
+  max-height: 304px;
+  margin-top: 30px;
+  margin-bottom: 11px;
+}
 
+.personal-story__text::-webkit-scrollbar {
+  width: 3px;
+}
+
+.personal-story__text::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #E8E6E6;
+}
+
+@media (max-width: 1024px) {
+  .personal-story__text {
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 21px;
+    min-height: 230px;
+    height: 25vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .personal-story__text {
+width: 100%;
+order: 0;
+margin-bottom: 0;
+  }
 }

@@ -1,0 +1,14 @@
+.story-form__buttons-wrapper {
+margin-left: auto;
+display: flex;
+flex: 1;
+}
+
+@media (max-width: 640px) {
+  .story-form__buttons-wrapper {
+flex: unset;
+order: 1;
+width: 100%;
+margin-top: 30px;
+  }
+}

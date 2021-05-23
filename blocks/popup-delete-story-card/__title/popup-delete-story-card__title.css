@@ -1,0 +1,18 @@
+.popup-delete-story-card__title {
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 23px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+margin: 50px 30px 30px;
+}
+
+@media (max-width: 1024px) {
+  .popup-delete-story-card__title {
+    font-size: 19px;
+    line-height: 23px;
+    margin: 50px 15px 30px;
+  }
+}

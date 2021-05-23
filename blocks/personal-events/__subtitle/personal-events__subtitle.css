@@ -13,5 +13,6 @@
   .personal-events__subtitle {
     font-size: 12px;
     line-height: 17px;
+    margin-top: 5px;
   }
 }

@@ -20,8 +20,7 @@ color: #A7A6A6;
 
   @media (max-width: 1280px) {
     .story-form__button-submit-story {
-  width: 40%;
-  flex: 1;
+margin-left: auto;
     }
   }
 
@@ -40,6 +39,7 @@ flex: unset;
 order: 1;
 min-height: 40px;
 margin-right: auto;
+margin-left: 0;
     }
   }
 

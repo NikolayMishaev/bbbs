@@ -17,13 +17,12 @@ margin-right: 20px;
 
 .story-form__button-delete-story:hover {
 cursor: pointer;
+opacity: .8;
 }
 
 @media (max-width: 1280px) {
   .story-form__button-delete-story {
-width: 40%;
-flex: 1;
-flex-basis: 15px;
+margin-left: 0;
   }
 }
 
@@ -37,7 +36,7 @@ line-height: 17px;
 
 @media (max-width: 640px) {
   .story-form__button-delete-story {
-min-width: 88px;
+min-width: 48px;
 flex: unset;
 order: 2;
 margin: 0;

@@ -1,0 +1,9 @@
+.header_style_personal-account {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1024px) {
+  .header_style_personal-account {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.story-form__mark-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+
+@media (max-width: 1280px) {
+  .story-form__mark-wrapper {
+    flex: 2;
+    flex-basis: 320px;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .story-form__mark-wrapper {
+    flex: unset;
+    flex-basis: unset;
+  }
+}

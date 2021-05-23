@@ -1,10 +1,12 @@
 .personal-events__events {
-max-width: 270px;
+width: 270px;
+min-width: 270px;
 border-radius: 30px;
 padding: 30px;
 display: flex;
     flex-wrap: wrap;
     margin-right: 30px;
+    box-sizing: border-box;
 }
 
 .personal-events__events:last-child {
@@ -13,6 +15,8 @@ display: flex;
 
 @media (max-width: 1024px) {
   .personal-events__events {
-    max-width: 205px;
+    width: 205px;
+    min-width: 205px;
+    padding: 15px;
   }
 }

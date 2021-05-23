@@ -1,3 +1,15 @@
 .personal-story__card {
+  display: flex;
+  padding-top: 80px;
+}
 
+.personal-story__card:first-child {
+  padding-top: 0;
+}
+
+@media (max-width: 1024px) {
+  .personal-story__card {
+flex-wrap: wrap;
+padding-top: 20px;
+  }
 }
