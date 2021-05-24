@@ -67,6 +67,7 @@
 @import url(../blocks/block-place/_size/block-place_size_small.css);
 @import url(../blocks/block-place/_type/block-place_type_description.css);
 @import url(../blocks/block-place/_type/block-place_type_description-small.css);
+@import url(../blocks/block-place/_style/block-place_style_article.css);
 @import url(../blocks/block-place/__title/block-place__title.css);
 @import url(../blocks/block-place/__title/_size/block-place__title_size_small.css);
 @import url(../blocks/block-place/__tag/block-place__tag.css);
