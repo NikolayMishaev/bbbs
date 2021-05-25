@@ -5,12 +5,12 @@
   font-size: 44px;
   line-height: 50px;
   text-align: center;
-  color: #224CFF;
+  color: #224cff;
   text-decoration: none;
 }
 
 @media (max-width: 1024px) {
-  .content-section__link  {
+  .content-section__link {
     font-size: 23px;
     line-height: 30px;
   }

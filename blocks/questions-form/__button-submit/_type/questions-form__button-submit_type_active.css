@@ -1,8 +1,8 @@
 .questions-form__button-submit_type_active {
-  border-color: #224CFF;
-  color: #224CFF;
+  border-color: #224cff;
+  color: #224cff;
 }
 
 .questions-form__button-submit_type_active:hover {
-  background: #C8D1FF;
+  background: #c8d1ff;
 }

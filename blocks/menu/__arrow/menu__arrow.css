@@ -1,0 +1,16 @@
+.menu__arrow {
+  box-sizing: border-box;
+  background-image: url(../../../images/stories-menu-arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px 5px 20px;
+}
+
+@media (max-width: 1439px) {
+  .menu__arrow {
+    display: none;
+  }
+}

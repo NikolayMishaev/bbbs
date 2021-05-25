@@ -1,0 +1,15 @@
+.block-stories__crossline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+}
+
+@media (max-width: 1439px) {
+  .block-stories__crossline {
+    max-width: 770px;
+  }
+}

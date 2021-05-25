@@ -1,0 +1,7 @@
+.block-stories__photo-grid-item {
+  max-width: 770px;
+  width: 100%;
+  min-height: 505px;
+  background: url(../../../images/block_photo-main.jpg) no-repeat 100% / cover;
+  border-radius: 30px;
+}

@@ -1,24 +1,24 @@
 .block-questions__category {
-  background: #F3F2F2;
+  background: #f3f2f2;
   border-radius: 15px;
   font-family: PT Root UI;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 13px;
-text-align: center;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #464646;
-text-decoration: none;
-min-height: 17px;
-margin: 0 50px 47px;
-padding: 2px 7px;
-box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #464646;
+  text-decoration: none;
+  min-height: 17px;
+  margin: 0 50px 47px;
+  padding: 2px 7px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
-  .block-questions__category  {
+  .block-questions__category {
     margin: 0 15px 43px;
     font-size: 10px;
     line-height: 13px;

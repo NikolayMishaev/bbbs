@@ -24,10 +24,10 @@
 
 @media (max-width: 640px) {
   .block-links {
-margin-right: 0;
-margin-bottom: 30px;
-width: 100%;
-min-width: unset;
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    min-width: unset;
   }
 }
 

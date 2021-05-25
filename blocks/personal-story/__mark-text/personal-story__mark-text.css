@@ -12,9 +12,9 @@
 
 @media (max-width: 1024px) {
   .personal-story__mark-text {
-font-size: 12px;
-line-height: 17px;
-margin-top: 12px;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 12px;
   }
 }
 

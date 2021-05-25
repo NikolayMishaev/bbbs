@@ -1,5 +1,5 @@
 .footer__logo {
-  background: url(../../../images/footer-logo.png) no-repeat 100%/cover;
+  background: url(../../../images/footer-logo.png) no-repeat 100% / cover;
   width: 415px;
   height: 76px;
   transform: translate(0, -20px);

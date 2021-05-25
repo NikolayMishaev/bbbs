@@ -20,7 +20,7 @@
 
 .personal-story__text::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #E8E6E6;
+  background-color: #e8e6e6;
 }
 
 @media (max-width: 1024px) {
@@ -35,8 +35,8 @@
 
 @media (max-width: 500px) {
   .personal-story__text {
-width: 100%;
-order: 0;
-margin-bottom: 0;
+    width: 100%;
+    order: 0;
+    margin-bottom: 0;
   }
 }

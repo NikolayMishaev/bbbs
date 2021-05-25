@@ -1,6 +1,6 @@
 .block-guide {
-margin: 0;
-width: 420px;
+  margin: 0;
+  width: 420px;
 }
 
 @media (max-width: 1440px) {

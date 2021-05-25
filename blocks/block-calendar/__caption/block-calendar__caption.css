@@ -12,18 +12,18 @@
 }
 
 @media (max-width: 1024px) {
-  .block-calendar__caption  {
+  .block-calendar__caption {
     font-size: 12px;
     line-height: 17px;
     padding-bottom: 5px;
-    }
   }
+}
 
-  @media (max-width: 600px) {
-    .block-calendar__caption  {
-      font-size: 12px;
-      line-height: 17px;
-      padding-bottom: 5px;
-      width: 45%;
-      }
-    }
+@media (max-width: 600px) {
+  .block-calendar__caption {
+    font-size: 12px;
+    line-height: 17px;
+    padding-bottom: 5px;
+    width: 45%;
+  }
+}

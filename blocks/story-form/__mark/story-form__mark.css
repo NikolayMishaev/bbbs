@@ -10,7 +10,7 @@
 
 .story-form__mark:hover {
   cursor: pointer;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 @media (max-width: 1024px) {

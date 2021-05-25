@@ -8,9 +8,9 @@
   font-size: 15px;
   line-height: 19px;
   letter-spacing: 0.2px;
-  color: #A7A6A6;
+  color: #a7a6a6;
   box-sizing: border-box;
-    min-height: 46px;
+  min-height: 46px;
 }
 
 .popup__field_type_checkbox:hover {
@@ -21,8 +21,8 @@
   .popup__field_type_checkbox {
     width: 48%;
     font-size: 12px;
-line-height: 17px;
-min-height: 40px;
-padding: 10px 20px;
+    line-height: 17px;
+    min-height: 40px;
+    padding: 10px 20px;
   }
 }

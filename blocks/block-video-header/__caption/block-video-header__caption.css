@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 1024px) {
-  .block-video-header__caption  {
+  .block-video-header__caption {
     font-size: 12px;
     line-height: 17px;
   }

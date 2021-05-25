@@ -7,7 +7,7 @@
   width: 167px;
   min-height: 48px;
   border-radius: 100px;
-  border: 1px solid #F3F2F2;
+  border: 1px solid #f3f2f2;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -26,7 +26,7 @@
 
 @media (max-width: 1440px) {
   .footer__donation {
-margin-top: 2px;
+    margin-top: 2px;
   }
 }
 

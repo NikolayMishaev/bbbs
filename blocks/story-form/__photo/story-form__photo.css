@@ -5,6 +5,6 @@
   border-radius: 30px;
 }
 
-.story-form__photo[src='#'] {
+.story-form__photo[src="#"] {
   visibility: hidden;
 }

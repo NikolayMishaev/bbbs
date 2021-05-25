@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 1024px) {
-  .content-section__button-next  {
+  .content-section__button-next {
     width: 30px;
     height: 30px;
   }

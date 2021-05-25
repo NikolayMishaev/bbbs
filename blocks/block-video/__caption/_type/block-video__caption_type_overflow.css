@@ -1,11 +1,11 @@
 .block-video__caption_type_overflow {
-position: absolute;
-left: 0;
-top: 212px;
-display: flex;
-justify-content: center;
-    width: 100%;
-    margin: auto;
+  position: absolute;
+  left: 0;
+  top: 212px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
 @media (max-width: 1440px) {

@@ -1,0 +1,17 @@
+.block-stories__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* max-height: 48px; */
+}
+
+@media (max-width: 1440px) {
+  .block-stories__menu {
+    justify-content: unset;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    width: 80vw;
+    /* max-height: 40px; */
+  }
+}

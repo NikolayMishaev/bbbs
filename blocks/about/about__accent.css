@@ -3,21 +3,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .about__accent{
+  .about__accent {
     margin: 50px auto;
   }
 }
 
-
 .about__accent::before {
-  content: '';
+  content: "";
   border-bottom: 1px solid #000000;
   display: block;
   width: 100%;
 }
 
 .about__accent::after {
-  content: '';
+  content: "";
   border-bottom: 1px solid #000000;
   display: block;
   width: 100%;

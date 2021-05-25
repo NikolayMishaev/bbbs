@@ -1,0 +1,14 @@
+.block-stories__photo-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 110vw;
+}
+
+/* @media (max-width: 700px) {
+  .menu__list {
+    width: 90vw;
+  }
+} */

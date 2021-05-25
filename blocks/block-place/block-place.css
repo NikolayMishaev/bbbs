@@ -19,14 +19,14 @@
 
 @media (max-width: 1280px) {
   .block-place {
-width: 100%;
+    width: 100%;
   }
 }
 
 @media (max-width: 1024px) {
   .block-place {
     min-height: 537px;
-    padding: 15px
+    padding: 15px;
   }
 }
 
