@@ -3,3 +3,9 @@ position: absolute;
 right: 0;
 top: 12px;
 }
+
+@media (max-width: 1024px) {
+  .content-section__buttons {
+    top: 0;
+}
+}

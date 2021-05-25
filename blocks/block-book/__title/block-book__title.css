@@ -1,4 +1,4 @@
-.block-guide__caption {
+.block-book__title {
   font-family: Proto Grotesk Web Light;
   font-style: normal;
   font-weight: 300;
@@ -6,13 +6,14 @@
   line-height: 30px;
   text-align: center;
   color: #000000;
-  margin-top: 16px;
+  margin: 20px 20px auto;
 }
 
 @media (max-width: 1024px) {
-  .block-guide__caption {
+  .block-book__title {
     font-size: 19px;
     line-height: 23px;
-    margin-top: 7px;
+    margin: 15px 15px auto;
   }
 }
+
