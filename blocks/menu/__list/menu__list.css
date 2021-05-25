@@ -7,6 +7,10 @@ justify-content: center;
 margin-top: 10px;
 }
 
+.menu__list::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 700px) {
   .menu__list {
 justify-content: unset;

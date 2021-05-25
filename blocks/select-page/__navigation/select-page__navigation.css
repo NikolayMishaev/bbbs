@@ -1,0 +1,11 @@
+.select-page__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .select-page__navigation {
+    justify-content: flex-end;
+  }
+}
