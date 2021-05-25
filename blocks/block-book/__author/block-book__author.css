@@ -1,0 +1,31 @@
+.block-book__author {
+margin: 0 20px 0;
+font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #000000;
+}
+
+.block-book__author::before {
+  content: '';
+  border-bottom: 1px solid #000000;
+  display: flex;
+  margin: 0 auto 20px;
+  width: 67px;
+}
+
+@media (max-width: 1024px) {
+  .block-book__author {
+    margin: 0 15px 0;
+    font-size: 12px;
+line-height: 17px;
+  }
+  .block-book__author::before {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+}

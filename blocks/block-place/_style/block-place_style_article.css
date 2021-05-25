@@ -5,6 +5,7 @@
 }
 
 @media (max-width: 1024px) {
-  .block-place_size_small{
-    min-height: 188px;
+  .block-place_style_article {
+    min-height: 176px;
+}
 }

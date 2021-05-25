@@ -70,6 +70,7 @@
 @import url(../blocks/block-place/_style/block-place_style_article.css);
 @import url(../blocks/block-place/__title/block-place__title.css);
 @import url(../blocks/block-place/__title/_size/block-place__title_size_small.css);
+@import url(../blocks/block-place/__title/_style/block-place__title_style_content-menu.css);
 @import url(../blocks/block-place/__tag/block-place__tag.css);
 @import url(../blocks/block-place/__image/block-place__image.css);
 @import url(../blocks/block-place/__category/block-place__category.css);
@@ -86,7 +87,6 @@
 @import url(../blocks/block-article/__title/block-atricle__title.css);
 @import url(../blocks/block-article/__category/block-article__category.css);
 @import url(../blocks/block-video/block-video.css);
-@import url(../blocks/block-video/_style/block-video_style_content-menu.css);
 @import url(../blocks/block-video/__title/block-video__title.css);
 @import url(../blocks/block-video/__iframe/block-video__iframe.css);
 @import url(../blocks/block-video/__category/block-video__category.css);
@@ -250,6 +250,7 @@
 @import url(../blocks/content-section/__title/content-section__title.css);
 @import url(../blocks/content-section/__link/content-section__link.css);
 @import url(../blocks/content-section/__container/content-section__container.css);
+@import url(../blocks/content-section/__card/content-section__card.css);
 @import url(../blocks/content-section/__buttons/content-section__buttons.css);
 @import url(../blocks/content-section/__button-previous/content-section__button-previous.css);
 @import url(../blocks/content-section/__button-previous/_active/content-section__button-previous_active.css);
@@ -258,6 +259,16 @@
 @import url(../blocks/block-guide/block-guide.css);
 @import url(../blocks/block-guide/__photo/_form/block-guide__photo_form_circle.css);
 @import url(../blocks/block-guide/__photo/_form/block-guide__photo_form_semicircle.css);
+@import url(../blocks/block-guide/__photo/_style/block-guide__photo_style_content-menu.css);
 @import url(../blocks/block-guide/__photo/block-guide__photo.css);
 @import url(../blocks/block-guide/__link/block-guide__link.css);
 @import url(../blocks/block-guide/__caption/block-guide__caption.css);
+@import url(../blocks/block-description/block-description.css);
+@import url(../blocks/block-description/__text/block-description__text.css);
+@import url(../blocks/block-book/block-book.css);
+@import url(../blocks/block-book/__year/block-book__year.css);
+@import url(../blocks/block-book/__title/block-book__title.css);
+@import url(../blocks/block-book/__book/block-book__book.css);
+@import url(../blocks/block-book/__book/_type/block-book__book_type_art.css);
+@import url(../blocks/block-book/__book/_type/block-book__book_type_science.css);
+@import url(../blocks/block-book/__author/block-book__author.css);

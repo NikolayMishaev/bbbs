@@ -1,0 +1,16 @@
+.block-guide__photo_style_content-menu {
+  height: 420px;
+  object-fit: cover;
+}
+
+@media (max-width: 1440px) {
+  .block-guide__photo_style_content-menu {
+    height: 370px;
+  }
+}
+
+@media (max-width: 400px) {
+  .block-guide__photo_style_content-menu {
+    height: 290px;
+  }
+}

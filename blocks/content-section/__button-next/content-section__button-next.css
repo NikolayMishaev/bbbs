@@ -13,5 +13,6 @@
   .content-section__button-next  {
     width: 30px;
     height: 30px;
+    margin-left: 0;
   }
 }

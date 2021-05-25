@@ -1,15 +1,3 @@
 .block-article {
-  width: 420px;
-}
 
-@media (max-width: 1440px) {
-.block-article {
-    width: 370px;
-  }
-}
-
-@media (max-width: 1024px) {
-.block-article {
-    width: 290px;
-  }
 }

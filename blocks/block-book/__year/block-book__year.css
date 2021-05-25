@@ -1,0 +1,19 @@
+.block-book__year {
+  margin: 0 20px 20px;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+  }
+
+  @media (max-width: 1024px) {
+    .block-book__year {
+      margin: 0 15px 15px;
+      font-size: 12px;
+  line-height: 17px;
+    }
+  }
