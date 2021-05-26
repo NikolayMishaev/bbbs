@@ -186,6 +186,7 @@
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_style/title_style_questions.css);
 @import url(../blocks/title/_style/title_style_movie.css);
+@import url(../blocks/title/_style/title_style_book.css);
 @import url(../blocks/block-message/block-message.css);
 @import url(../blocks/block-message/__accent/__accent.css);
 @import url(../blocks/block-message/_type/block-message_type_margin.css);
@@ -366,3 +367,4 @@
 @import url(../blocks/select-page/__link/_active/select-page__link_active.css);
 
 @import url(../blocks/articles-container/articles-container.css);
+@import url(../blocks/book-container/book-container.css);
