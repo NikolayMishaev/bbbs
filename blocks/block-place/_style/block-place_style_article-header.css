@@ -1,0 +1,13 @@
+
+
+@media (max-width: 1024px) {
+  .block-place_style_article-header {
+    min-height: 511px;
+}
+}
+
+@media (max-width: 640px) {
+  .block-place_style_article-header {
+    min-height: unset;
+}
+}

@@ -1,0 +1,18 @@
+@media (max-width: 1440px) {
+  .block-place__image_style_article {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-place__image_style_article {
+    margin-top: 40px;
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 640px) {
+  .block-place__image_style_article {
+    min-height: 142px;
+  }
+}

@@ -31,6 +31,7 @@
 @import url(../blocks/two-columns/_style/two-columns_style_questions.css);
 @import url(../blocks/two-columns/_style/two-columns_style_place.css);
 @import url(../blocks/two-columns/_style/two-columns_style_video.css);
+@import url(../blocks/two-columns/_style/two-columns_style_articles.css);
 @import url(../blocks/four-columns/four-columns.css);
 @import url(../blocks/three-columns/three-columns.css);
 @import url(../blocks/three-columns/_style/three-columns_style_place.css);
@@ -76,15 +77,19 @@
 @import url(../blocks/block-place/_type/block-place_type_description.css);
 @import url(../blocks/block-place/_type/block-place_type_description-small.css);
 @import url(../blocks/block-place/_style/block-place_style_article.css);
+@import url(../blocks/block-place/_style/block-place_style_article-header.css);
 @import url(../blocks/block-place/__title/block-place__title.css);
 @import url(../blocks/block-place/__title/_size/block-place__title_size_small.css);
 @import url(../blocks/block-place/__title/_style/block-place__title_style_content-menu.css);
+@import url(../blocks/block-place/__title/_style/block-place__title_style_article.css);
 @import url(../blocks/block-place/__tag/block-place__tag.css);
 @import url(../blocks/block-place/__image/block-place__image.css);
+@import url(../blocks/block-place/__image/_style/block-place__image_style_article.css);
 @import url(../blocks/block-place/__category/block-place__category.css);
 @import url(../blocks/block-place/__caption/block-place__caption.css);
 @import url(../blocks/block-place/__text/block-place__text.css);
 @import url(../blocks/block-place/__text/_size/block-place__text_size_small.css);
+@import url(../blocks/block-place/__text/_style/block-place__text_style_atricles.css);
 @import url(../blocks/MIX/background-blue.css);
 @import url(../blocks/MIX/background-green.css);
 @import url(../blocks/MIX/background-orange.css);
@@ -356,3 +361,5 @@
 @import url(../blocks/select-page/__links/select-page__links.css);
 @import url(../blocks/select-page/__link/select-page__link.css);
 @import url(../blocks/select-page/__link/_active/select-page__link_active.css);
+
+@import url(../blocks/articles-container/articles-container.css);
