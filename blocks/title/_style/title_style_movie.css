@@ -1,0 +1,15 @@
+.title_style_movie {
+  padding-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+  .title_style_movie {
+    padding-bottom: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title_style_movie {
+    padding-bottom: 3px;
+  }
+}

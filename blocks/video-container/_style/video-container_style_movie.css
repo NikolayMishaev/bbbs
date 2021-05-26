@@ -1,0 +1,16 @@
+.video-container_style_movie {
+  padding-top: 80px;
+}
+
+@media (max-width: 1024px) {
+  .video-container_style_movie {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .video-container_style_movie {
+    padding-top: 30px;
+    row-gap: 27px;
+  }
+}
