@@ -8,6 +8,11 @@
   background-size: cover;
 }
 
+.button-next:hover {
+cursor: pointer;
+opacity: .8;
+}
+
 @media (max-width: 1024px) {
   .button-next  {
     width: 30px;

@@ -1,3 +1,4 @@
 .block-guide__photo {
   width: 100%;
+  object-fit: cover;
 }

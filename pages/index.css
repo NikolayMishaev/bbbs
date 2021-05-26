@@ -270,7 +270,6 @@
 @import url(../blocks/block-guide/block-guide.css);
 @import url(../blocks/block-guide/__photo/_form/block-guide__photo_form_circle.css);
 @import url(../blocks/block-guide/__photo/_form/block-guide__photo_form_semicircle.css);
-@import url(../blocks/block-guide/__photo/_style/block-guide__photo_style_content-menu.css);
 @import url(../blocks/block-guide/__photo/block-guide__photo.css);
 @import url(../blocks/block-guide/__link/block-guide__link.css);
 @import url(../blocks/block-guide/__caption/block-guide__caption.css);
@@ -368,3 +367,6 @@
 
 @import url(../blocks/articles-container/articles-container.css);
 @import url(../blocks/book-container/book-container.css);
+@import url(../blocks/guide-container/guide-container.css);
+@import url(../blocks/guide-container/__card/guide-container__card.css);
+@import url(../blocks/guide-container/__divisor/guide-container__divisor.css);

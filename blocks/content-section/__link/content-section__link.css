@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.content-section__link:hover {
+  color: #2E2468;
+}
+
 @media (max-width: 1024px) {
   .content-section__link  {
     font-size: 23px;

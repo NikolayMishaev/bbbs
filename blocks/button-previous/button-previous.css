@@ -8,6 +8,12 @@ background-repeat:  no-repeat;
 background-size: cover;
 }
 
+.button-previous:hover {
+  cursor: pointer;
+  opacity: .8;
+  }
+
+
 @media (max-width: 1024px) {
   .button-previous{
     width: 30px;
