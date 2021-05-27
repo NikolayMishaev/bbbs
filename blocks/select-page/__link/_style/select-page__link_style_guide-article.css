@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 1024px) {
-  .select-page__link {
+  .select-page__link_style_guide-article {
     max-width: 380px;
     font-size: 19px;
     line-height: 23px;
@@ -18,13 +18,13 @@
 }
 
 @media (max-width: 560px) {
-  .select-page__link {
+.select-page__link_style_guide-article {
     max-width: 200px;
   }
 }
 
 @media (max-width: 400px) {
-  .select-page__link {
+.select-page__link_style_guide-article {
 margin-left: 15px;
   }
 }
