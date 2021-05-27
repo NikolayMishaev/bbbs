@@ -5,6 +5,7 @@
   align-items: center;
   padding: 0 55px;
   width: 100%;
+  text-decoration: none;
 }
 
 @media (max-width: 1440px) {
