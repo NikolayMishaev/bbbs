@@ -1,0 +1,16 @@
+.block-article__text_type_accent {
+  border-radius: 30px;
+  padding: 50px;
+}
+
+@media (max-width: 1024px) {
+  .block-article__text_type_accent {
+    padding: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+  .block-article__text_type_accent {
+    padding: 30px 15px;
+    }
+}

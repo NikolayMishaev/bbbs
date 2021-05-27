@@ -1,0 +1,26 @@
+.select-page__link_style_guide-article {
+  color: #224CFF;
+  margin: 0 30px;
+  text-align: start;
+  flex-shrink: 100;
+}
+
+@media (max-width: 1024px) {
+  .select-page__link {
+    max-width: 380px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 560px) {
+  .select-page__link {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .select-page__link {
+margin-left: 15px;
+  }
+}

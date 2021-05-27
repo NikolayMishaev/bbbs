@@ -99,7 +99,12 @@
 @import url(../blocks/block-article/block-article.css);
 @import url(../blocks/block-article/_style/block-article_style_main.css);
 @import url(../blocks/block-article/__title/block-atricle__title.css);
+@import url(../blocks/block-article/__title/_style/block-atricle__title_style_guide-article.css);
+@import url(../blocks/block-article/__text/block-article__text.css);
+@import url(../blocks/block-article/__text/_type/block-article__text_type_accent.css);
 @import url(../blocks/block-article/__category/block-article__category.css);
+@import url(../blocks/block-article/__list/block-article__list.css);
+@import url(../blocks/block-article/__item/block-article__item.css);
 @import url(../blocks/block-video/block-video.css);
 @import url(../blocks/block-video/__title/block-video__title.css);
 @import url(../blocks/block-video/__iframe/block-video__iframe.css);
@@ -189,7 +194,9 @@
 @import url(../blocks/title/_style/title_style_movie.css);
 @import url(../blocks/title/_style/title_style_book.css);
 @import url(../blocks/title/_style/title_style_guide.css);
+@import url(../blocks/title/_style/title_style_guide-article.css);
 @import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/subtitle/_style/subtitle_style_guide-article.css);
 @import url(../blocks/block-message/block-message.css);
 @import url(../blocks/block-message/__accent/__accent.css);
 @import url(../blocks/block-message/_type/block-message_type_margin.css);
@@ -272,10 +279,13 @@
 @import url(../blocks/content-section/__buttons/content-section__buttons.css);
 @import url(../blocks/block-guide/block-guide.css);
 @import url(../blocks/block-guide/_style/block-guide_style_content-menu.css);
+@import url(../blocks/block-guide/_style/block-guide_style_guide-article.css);
 @import url(../blocks/block-guide/__photo/block-guide__photo.css);
+@import url(../blocks/block-guide/__photo/_style/block-guide__photo_style_guide-article.css);
 @import url(../blocks/block-guide/__link/block-guide__link.css);
 @import url(../blocks/block-guide/__caption/block-guide__caption.css);
 @import url(../blocks/block-guide/__caption/_style/block-guide__caption_style_content-menu.css);
+@import url(../blocks/block-guide/__caption/_style/block-guide__caption_style_guide-article.css);
 
 
 @import url(../blocks/personal-events/personal-events.css);
@@ -361,12 +371,15 @@
 @import url(../blocks/button-previous/button-previous.css);
 @import url(../blocks/button-previous/_active/button-previous_active.css);
 @import url(../blocks/select-page/select-page.css);
+@import url(../blocks/select-page/_style/select-page_style_guide-article.css);
 @import url(../blocks/select-page/_style/select-page_style_movie.css);
 @import url(../blocks/select-page/__navigation/select-page__navigation.css);
 @import url(../blocks/select-page/__list/select-page__list.css);
 @import url(../blocks/select-page/__links/select-page__links.css);
 @import url(../blocks/select-page/__link/select-page__link.css);
 @import url(../blocks/select-page/__link/_active/select-page__link_active.css);
+@import url(../blocks/select-page/__link/_style/select-page__link_style_guide-article.css);
+@import url(../blocks/select-page/__image/select-page__image.css);
 
 @import url(../blocks/articles-container/articles-container.css);
 @import url(../blocks/book-container/book-container.css);
@@ -382,3 +395,7 @@
 @import url(../blocks/block-rights/__title/block-rights__title.css);
 @import url(../blocks/block-rights/__category/block-rights__category.css);
 @import url(../blocks/block-rights/__wrapper/block-rights__wrapper.css);
+
+@import url(../blocks/main-illustration/main-illustration.css);
+@import url(../blocks/guide-article-description/guide-article-description.css);
+@import url(../blocks/guide-article-description/_position/guide-article-description_position_center.css);

@@ -1,0 +1,19 @@
+.block-article__list {
+  border-radius: 30px;
+  padding: 50px;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+.block-article__list {
+    padding: 30px;
+    margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+.block-article__list {
+    padding: 30px 15px;
+    }
+}
