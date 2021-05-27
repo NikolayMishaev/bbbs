@@ -5,6 +5,10 @@
   flex-shrink: 100;
 }
 
+.select-page__link_style_guide-article:hover {
+  color: #2E2468;
+}
+
 @media (max-width: 1024px) {
   .select-page__link {
     max-width: 380px;

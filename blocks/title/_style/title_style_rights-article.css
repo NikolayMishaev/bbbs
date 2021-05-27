@@ -1,0 +1,24 @@
+.title_style_rights-article {
+  padding-bottom: 30px;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+@media (max-width: 1024px) {
+  .title_style_rights-article {
+    font-size: 37px;
+    line-height: 39px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title_style_rights-article {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}

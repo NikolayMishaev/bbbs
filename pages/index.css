@@ -22,9 +22,13 @@
 @import url(../blocks/content/_style/content_style_content-menu.css);
 @import url(../blocks/content/_style/content_style_personal-account.css);
 @import url(../blocks/content/_style/content_style_display-block.css);
+@import url(../blocks/content/_style/content_style_rights-article.css);
 @import url(../blocks/content/__header/content__header.css);
 @import url(../blocks/content/__header/_style/content__header_style_questions.css);
 @import url(../blocks/content/__header/_style/content__header_style_guide.css);
+@import url(../blocks/content/__header/_style/content__header_style_rights-article.css);
+@import url(../blocks/content/__wrapper/content__wrapper.css);
+@import url(../blocks/content/__pseudo-block/content__pseudo-block.css);
 @import url(../blocks/one-column/one-column.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/_style/two-columns_style_first.css);
@@ -91,11 +95,6 @@
 @import url(../blocks/block-place/__text/block-place__text.css);
 @import url(../blocks/block-place/__text/_size/block-place__text_size_small.css);
 @import url(../blocks/block-place/__text/_style/block-place__text_style_atricles.css);
-@import url(../blocks/MIX/background-blue.css);
-@import url(../blocks/MIX/background-green.css);
-@import url(../blocks/MIX/background-orange.css);
-@import url(../blocks/MIX/background-white.css);
-@import url(../blocks/MIX/background-yellow.css);
 @import url(../blocks/block-article/block-article.css);
 @import url(../blocks/block-article/_style/block-article_style_main.css);
 @import url(../blocks/block-article/__title/block-atricle__title.css);
@@ -181,7 +180,6 @@
 @import url(../blocks/header/__answer/header__answer.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__category/header__category.css);
-@import url(../blocks/MIX/display-none.css);
 @import url(../blocks/popup-city/popup-city.css);
 @import url(../blocks/popup-city/__title/popup-city__title.css);
 @import url(../blocks/popup-city/__other-city-list/popup-city__other-city-list.css);
@@ -195,8 +193,10 @@
 @import url(../blocks/title/_style/title_style_book.css);
 @import url(../blocks/title/_style/title_style_guide.css);
 @import url(../blocks/title/_style/title_style_guide-article.css);
+@import url(../blocks/title/_style/title_style_rights-article.css);
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/_style/subtitle_style_guide-article.css);
+@import url(../blocks/subtitle/_style/subtitle_style_rights-article.css);
 @import url(../blocks/block-message/block-message.css);
 @import url(../blocks/block-message/__accent/__accent.css);
 @import url(../blocks/block-message/_type/block-message_type_margin.css);
@@ -258,7 +258,6 @@
 @import url(../blocks/block-questions/__button/block-questions__button.css);
 @import url(../blocks/block-questions/__answer/block-questions__answer.css);
 @import url(../blocks/block-questions/__title/_style/block-questions__title_style_questions.css);
-@import url(../blocks/MIX/display-block.css);
 @import url(../blocks/questions-form/questions-form.css);
 @import url(../blocks/questions-form/__title/questions-form__title.css);
 @import url(../blocks/questions-form/__input/questions-form__input.css);
@@ -268,7 +267,6 @@
 @import url(../blocks/questions-form/__button-submit/questions-form__button-submit.css);
 @import url(../blocks/questions-form/__button-submit/_type/questions-form__button-submit_type_active.css);
 @import url(../blocks/questions-form/__wrapper/questions-form__wrapper.css);
-@import url(../blocks/MIX/visible-block.css);
 
 
 @import url(../blocks/content-section/content-section.css);
@@ -373,6 +371,7 @@
 @import url(../blocks/select-page/select-page.css);
 @import url(../blocks/select-page/_style/select-page_style_guide-article.css);
 @import url(../blocks/select-page/_style/select-page_style_movie.css);
+@import url(../blocks/select-page/_style/select-page_style_rights-article.css);
 @import url(../blocks/select-page/__navigation/select-page__navigation.css);
 @import url(../blocks/select-page/__list/select-page__list.css);
 @import url(../blocks/select-page/__links/select-page__links.css);
@@ -380,6 +379,7 @@
 @import url(../blocks/select-page/__link/_active/select-page__link_active.css);
 @import url(../blocks/select-page/__link/_style/select-page__link_style_guide-article.css);
 @import url(../blocks/select-page/__image/select-page__image.css);
+@import url(../blocks/select-page/__image/_style/select-page__image_style_rights-article.css);
 
 @import url(../blocks/articles-container/articles-container.css);
 @import url(../blocks/book-container/book-container.css);
@@ -387,9 +387,6 @@
 @import url(../blocks/guide-container/_style/guide-container_style_rights.css);
 @import url(../blocks/guide-container/__card/guide-container__card.css);
 @import url(../blocks/guide-container/__divisor/guide-container__divisor.css);
-
-@import url(../blocks/MIX/form-circle.css);
-@import url(../blocks/MIX/form-semicircle.css);
 
 @import url(../blocks/block-rights/block-rights.css);
 @import url(../blocks/block-rights/__title/block-rights__title.css);
@@ -399,3 +396,15 @@
 @import url(../blocks/main-illustration/main-illustration.css);
 @import url(../blocks/guide-article-description/guide-article-description.css);
 @import url(../blocks/guide-article-description/_position/guide-article-description_position_center.css);
+@import url(../blocks/guide-article-description/_style/guide-article-description_style_rights-article.css);
+
+@import url(../blocks/MIX/background-blue.css);
+@import url(../blocks/MIX/background-green.css);
+@import url(../blocks/MIX/background-orange.css);
+@import url(../blocks/MIX/background-white.css);
+@import url(../blocks/MIX/background-yellow.css);
+@import url(../blocks/MIX/form-circle.css);
+@import url(../blocks/MIX/form-semicircle.css);
+@import url(../blocks/MIX/display-block.css);
+@import url(../blocks/MIX/visible-block.css);
+@import url(../blocks/MIX/display-none.css);
