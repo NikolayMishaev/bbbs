@@ -1,0 +1,15 @@
+.block-rights__category {
+  padding: 2px 7px;
+margin: 15px 0 0;
+background: rgba(255, 255, 255, 0.3);
+border-radius: 15px;
+font-family: PT Root UI;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #464646;
+}
