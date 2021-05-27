@@ -23,7 +23,8 @@
 @import url(../blocks/content/_style/content_style_personal-account.css);
 @import url(../blocks/content/_style/content_style_display-block.css);
 @import url(../blocks/content/__header/content__header.css);
-@import url(../blocks/content/__header/style_questions/content__header_style_questions.css);
+@import url(../blocks/content/__header/_style/content__header_style_questions.css);
+@import url(../blocks/content/__header/_style/content__header_style_guide.css);
 @import url(../blocks/one-column/one-column.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/_style/two-columns_style_first.css);
@@ -187,6 +188,8 @@
 @import url(../blocks/title/_style/title_style_questions.css);
 @import url(../blocks/title/_style/title_style_movie.css);
 @import url(../blocks/title/_style/title_style_book.css);
+@import url(../blocks/title/_style/title_style_guide.css);
+@import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/block-message/block-message.css);
 @import url(../blocks/block-message/__accent/__accent.css);
 @import url(../blocks/block-message/_type/block-message_type_margin.css);
@@ -268,11 +271,11 @@
 @import url(../blocks/content-section/__card/content-section__card.css);
 @import url(../blocks/content-section/__buttons/content-section__buttons.css);
 @import url(../blocks/block-guide/block-guide.css);
-@import url(../blocks/block-guide/__photo/_form/block-guide__photo_form_circle.css);
-@import url(../blocks/block-guide/__photo/_form/block-guide__photo_form_semicircle.css);
+@import url(../blocks/block-guide/_style/block-guide_style_content-menu.css);
 @import url(../blocks/block-guide/__photo/block-guide__photo.css);
 @import url(../blocks/block-guide/__link/block-guide__link.css);
 @import url(../blocks/block-guide/__caption/block-guide__caption.css);
+@import url(../blocks/block-guide/__caption/_style/block-guide__caption_style_content-menu.css);
 
 
 @import url(../blocks/personal-events/personal-events.css);
@@ -370,3 +373,6 @@
 @import url(../blocks/guide-container/guide-container.css);
 @import url(../blocks/guide-container/__card/guide-container__card.css);
 @import url(../blocks/guide-container/__divisor/guide-container__divisor.css);
+
+@import url(../blocks/MIX/form-circle.css);
+@import url(../blocks/MIX/form-semicircle.css);

@@ -3,6 +3,10 @@ list-style-type: none;
 margin-right: 30px;
 }
 
+.select-page__list:hover {
+opacity: .8;
+}
+
 .select-page__list:last-child {
   margin-right: 0;
 }

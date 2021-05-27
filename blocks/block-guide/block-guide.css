@@ -2,3 +2,10 @@
 margin: 0;
 height: 100%;
 }
+
+@media (max-width: 1024px) {
+  .block-guide {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+}

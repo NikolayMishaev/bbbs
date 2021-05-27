@@ -3,6 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   row-gap: 80px;
   column-gap: 30px;
+  justify-content: space-between;
 }
 
 @media (max-width: 1440px) {
@@ -11,8 +12,14 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .guide-container {
+    row-gap: 28px;
+  }
+}
+
 @media (max-width: 400px) {
   .guide-container {
-    row-gap: 31px;
+    row-gap: 29px;
   }
 }
