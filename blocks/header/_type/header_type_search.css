@@ -9,4 +9,10 @@
     width: inherit;
     box-sizing: border-box;
     max-width: inherit;
+    min-height: 800px;
+    align-content: flex-start;
+}
+
+.header_type_search:hover {
+cursor: pointer;
 }
