@@ -5,6 +5,10 @@
     margin-left: 15px;
 }
 
+.list__submit_cancel:hover{
+  background-color: #a7a6a6;
+}
+
 @media (max-width: 400px) {
   .list__submit_cancel{
     width: 90px;

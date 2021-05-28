@@ -9,10 +9,11 @@
   color: #224CFF;
   text-decoration: none;
   transition: opacity 0.2s ease-out;
+  align-self: flex-start;
 }
 
 .header__logo:hover {
-  opacity: 0.7;
+  color: #2E2468;
 }
 
 @media (max-width: 1375px) {
