@@ -1,3 +1,11 @@
 .block-stories__article {
-  align-items: flex-start;
+  max-width: 770px;
+  margin: 0 auto 80px;
+}
+
+@media (max-width: 1024px) {
+  .block-stories__article {
+    max-width: 570px;
+    margin-bottom: 50px;
+  }
 }

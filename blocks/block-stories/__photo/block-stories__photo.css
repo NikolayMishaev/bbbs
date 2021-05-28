@@ -9,7 +9,7 @@
 @media (max-width: 1439px) {
   .block-stories__photo {
     width: 100%;
-    max-height: 507px;
+    min-height: 507px;
   }
 }
 

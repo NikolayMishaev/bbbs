@@ -342,6 +342,7 @@
 @import url(../blocks/menu/__arrow/menu__arrow.css);
 @import url(../blocks/content/__stories/contetn__stories.css);
 @import url(../blocks/block-stories/__photo/block-stories__photo.css);
+@import url(../blocks/block-stories/__article/block-stories__article.css);
 @import url(../blocks/block-stories/__photo/_pos/block-stories__photo_pos.css);
 @import url(../blocks/block-stories/__crosshead/block-stories__crosshead.css);
 @import url(../blocks/block-stories/__crosshead/_pos/block-stories__crosshead_pos_margin_top_bottom.css);
@@ -351,3 +352,9 @@
 @import url(../blocks/block-stories/__horisont-line/block-stories__horisont-line.css);
 @import url(../blocks/block-stories/__photo-grid/block-stories__photo-grid.css);
 @import url(../blocks/block-stories/__photo-grid-item/block-stories__photo-grid-item.css);
+@import url(../blocks/block-stories/__arrow/block-stories__arrow.css);
+@import url(../blocks/block-stories/__arrow/_direction/block-stories__arrow_direction_left.css);
+@import url(../blocks/anchor/anchor.css);
+@import url(../blocks/menu/__button/_style/menu__button_style.css);
+@import url(../blocks/block-stories/__text/_margins/block_stories__text_margins.css);
+@import url(../blocks/block-stories/__tag-button/block-stories__tag-bottom.css);

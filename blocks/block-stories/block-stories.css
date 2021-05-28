@@ -1,3 +1,15 @@
 .block-stories {
-  gap: 80px;
+  /* grid-template-columns: minmax(290px, 1169px); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0; */
+  gap: 0;
 }
+/* 
+@media (max-width: 1023px) {
+  .block-stories {
+    margin: 0 15px;
+  }
+} */
