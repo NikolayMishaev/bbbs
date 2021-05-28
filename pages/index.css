@@ -202,16 +202,17 @@
 @import url(../blocks/block-message/block-message.css);
 @import url(../blocks/block-message/__accent/__accent.css);
 @import url(../blocks/block-message/_type/block-message_type_margin.css);
+@import url(../blocks/block-message/_style/block-message_style_places.css);
 @import url(../blocks/block-message/__text/block-message__text.css);
 @import url(../blocks/block-message/__button/block-message__button.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__list/menu__list.css);
 @import url(../blocks/menu/__list/_style/menu__list_style_questions.css);
-@import url(../blocks/menu/__list/_center/menu__list_center.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__item/_style/menu__item_style_questions.css);
 @import url(../blocks/menu/__button/menu__button.css);
 @import url(../blocks/menu/__button/_active/menu__button_active.css);
+@import url(../blocks/menu/__pseudo-block/menu__pseudo-block.css);
 @import url(../blocks/message/message.css);
 @import url(../blocks/places/places.css);
 
