@@ -1,5 +1,5 @@
 .list__buttons{
-    margin: 0 auto;
+    margin: 0 auto auto;
     margin-top: 30px;
     padding: 0;
     display: flex;

@@ -1,5 +1,5 @@
 .popup-menu__footer {
-  margin: auto auto 30px;
+  margin: 141px auto 30px;
   display: flex;
   font-family: PT Root UI;
   font-style: normal;
@@ -7,4 +7,10 @@
   font-size: 15px;
   line-height: 21px;
   color: #A7A6A6;
+}
+
+@media (max-width: 400px) {
+  .popup-menu__footer {
+    margin-top: 33px;
+  }
 }

@@ -9,7 +9,9 @@
     width: inherit;
     box-sizing: border-box;
     max-width: inherit;
-    min-height: 800px;
+    height: 800px;
+    max-height: 100vh;
+    overflow: auto;
     align-content: flex-start;
 }
 
