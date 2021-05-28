@@ -259,6 +259,7 @@
 @import url(../blocks/block-questions/_style/block-questions_style_questions.css);
 @import url(../blocks/three-columns/_style/three-columns_style_questions.css);
 @import url(../blocks/block-questions/__button/block-questions__button.css);
+@import url(../blocks/block-questions/__button/_active/block-questions__button_active.css);
 @import url(../blocks/block-questions/__answer/block-questions__answer.css);
 @import url(../blocks/block-questions/__title/_style/block-questions__title_style_questions.css);
 @import url(../blocks/questions-form/questions-form.css);
