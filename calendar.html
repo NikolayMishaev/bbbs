@@ -86,10 +86,10 @@
         <section class="menu">
           <ul class="menu__list menu__list_center">
             <li class="menu__item">
-              <button type="button" class="menu__button">Декабря</button>
+              <button type="button" aria-label="button month" class="menu__button">Декабря</button>
             </li>
             <li class="menu__item">
-              <button type="button" class="menu__button menu__button_active">Январь</button>
+              <button type="button" aria-label="button month" class="menu__button menu__button_active">Январь</button>
             </li>
           </ul>
         </section>
@@ -112,8 +112,8 @@
               <p class="list__contact">Александра, +7 926 356-78-90</p>
             </div>
             <div class="list__footer">
-              <button type="submit" class="list__submit list__submit_is-registered">Отменить запись</button>
-              <button type="button" class="list__button-view list__button-view_is-registered"
+              <button type="button" aria-label="button cancel" class="list__submit list__submit_is-registered">Отменить запись</button>
+              <button type="button" aria-label="button view" class="list__button-view list__button-view_is-registered"
                 id="list__button-view"></button>
             </div>
           </li>
@@ -133,9 +133,9 @@
               <p class="list__contact">Александра, +7 926 356-78-90</p>
             </div>
             <div class="list__footer">
-              <button disabled type="submit" class="list__submit">Записаться</button>
+              <button disabled type="button" aria-label="button sign up" class="list__submit">Записаться</button>
               <p class="list__place-number">Запись закрыта</p>
-              <button type="button" class="list__button-view"></button>
+              <button type="button" aria-label="button view" class="list__button-view"></button>
             </div>
           </li>
           <li class="list__element">
@@ -154,9 +154,9 @@
               <p class="list__contact">Александра, +7 926 356-78-90</p>
             </div>
             <div class="list__footer">
-              <button type="submit" class="list__submit list__submit_type_register">Записаться</button>
+              <button type="button" aria-label="button sign up" class="list__submit list__submit_type_register">Записаться</button>
               <p class="list__place-number">Осталось 5 мест</p>
-              <button type="button" class="list__button-view"></button>
+              <button type="button" aria-label="button view" class="list__button-view"></button>
             </div>
           </li>
           <li class="list__element">
@@ -175,9 +175,9 @@
               <p class="list__contact">Александра, +7 926 356-78-90</p>
             </div>
             <div class="list__footer">
-              <button type="submit" class="list__submit list__submit_type_register">Записаться</button>
+              <button type="button" aria-label="button sign up" class="list__submit list__submit_type_register">Записаться</button>
               <p class="list__place-number">Осталось 5 мест</p>
-              <button type="button" class="list__button-view"></button>
+              <button type="button" aria-label="button view" class="list__button-view"></button>
             </div>
           </li>
           <li class="list__element">
@@ -196,9 +196,9 @@
               <p class="list__contact">Александра, +7 926 356-78-90</p>
             </div>
             <div class="list__footer">
-              <button type="submit" class="list__submit list__submit_type_register">Записаться</button>
+              <button type="button" aria-label="button sign up" class="list__submit list__submit_type_register">Записаться</button>
               <p class="list__place-number">Осталось 5 мест</p>
-              <button type="button" class="list__button-view"></button>
+              <button type="button" aria-label="button view" class="list__button-view"></button>
             </div>
           </li>
         </ul>
@@ -213,8 +213,8 @@
         <button type="button" class="footer__donation">Помочь деньгами</button>
         <div class="footer__info">
           <p class="footer__copyright">&copy; Старшие Братья Старшие Сестры</p>
-          <p class="footer__about">Разработка – студенты <a href="#" class="footer__link">Яндекс.Практикум</a></p>
-          <p class="footer__about">Концепция и дизайн – <a href="#" class="footer__link">krkr.design</a></p>
+          <p class="footer__about">Разработка – студенты <a href="https://praktikum.yandex.ru" class="footer__link">Яндекс.Практикум</a></p>
+          <p class="footer__about">Концепция и дизайн – <a href="https://krkr.design" class="footer__link">krkr.design</a></p>
         </div>
 
         <nav class="navigation navigation_place_footer">
@@ -414,7 +414,7 @@
             "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил,
             смыслов и внутреннего ресурса для общения и взаимодействия с нашими подопечными. </p>
           <div class="list__footer">
-            <button type="submit" class="list__submit list__submit_type_register-popup">Записаться</button>
+            <button type="submit" aria-label="button submit" class="list__submit list__submit_type_register-popup">Записаться</button>
             <p class="list__place-number">Осталось 5 мест</p>
           </div>
         </div>
@@ -430,8 +430,8 @@
             5 декабря с 12:00–14:00
           </p>
           <div class="list__buttons">
-            <button type="submit" class="list__submit list__submit_confirm">Подтвердить запись</button>
-            <button type="submit" class="list__submit list__submit_cancel">Отменить</button>
+            <button type="submit" aria-label="button submit" class="list__submit list__submit_confirm">Подтвердить запись</button>
+            <button type="button" aria-label="button cancel" class="list__submit list__submit_cancel">Отменить</button>
           </div>
         </div>
       </div>
@@ -451,7 +451,7 @@
             Если у вас не получится прийти — отмените, пожалуйста, запись.
           </p>
           <div class="list__buttons">
-            <button type="submit" class="list__submit list__submit_return">Вернуться к календарю </button>
+            <button type="submit" aria-label="close popup" class="list__submit list__submit_return">Вернуться к календарю </button>
           </div>
         </div>
       </div>

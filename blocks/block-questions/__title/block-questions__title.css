@@ -1,4 +1,5 @@
 .block-questions__title {
+  font-family: Proto Grotesk Web Light;
   font-style: normal;
   font-weight: 300;
   font-size: 23px;
@@ -7,6 +8,12 @@
   max-width: 100%;
   position: relative;
   max-width: 770px;
+  color: #000;
+}
+
+.block-questions__title:hover {
+  color: #224CFF;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {

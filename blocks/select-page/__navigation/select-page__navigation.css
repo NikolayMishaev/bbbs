@@ -2,10 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 88px;
+}
+
+@media (max-width: 1024px) {
+  .select-page__navigation {
+    margin-left: 59px;
+  }
 }
 
 @media (max-width: 500px) {
   .select-page__navigation {
+    margin-left: unset;
     justify-content: flex-end;
   }
 }

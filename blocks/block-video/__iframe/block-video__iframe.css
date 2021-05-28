@@ -3,7 +3,7 @@
   height: 239px;
   border: none;
     width: 100%;
-    background: url(../../../images/iframe-video.jpg) no-repeat 100%/cover;
+    background: url(../../../images/block-video-movie.jpg) no-repeat center/cover;
 }
 
 @media (max-width: 1440px) {

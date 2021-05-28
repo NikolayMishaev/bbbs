@@ -1,10 +1,10 @@
 .select-page__list {
-list-style-type: none;
-margin-right: 30px;
+  list-style-type: none;
+  margin-right: 30px;
 }
 
 .select-page__list:hover {
-opacity: .8;
+  opacity: .8;
 }
 
 .select-page__list:last-child {
@@ -14,5 +14,9 @@ opacity: .8;
 @media (max-width: 1024px) {
   .select-page__list {
     margin-right: 20px;
+  }
+
+  .select-page__list:nth-child(5) {
+    display: none;
   }
 }

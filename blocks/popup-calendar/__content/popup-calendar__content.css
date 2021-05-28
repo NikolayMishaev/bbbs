@@ -16,6 +16,10 @@
     overflow: auto;
 }
 
+.popup-calendar__content:hover{
+cursor: auto;
+}
+
 @media (max-width: 1275px) {
   .popup-calendar__content{
       padding: 50px;

@@ -1,6 +1,6 @@
 .navigation__links_place_footer {
   grid-auto-rows: max-content;
-  grid-gap: 19px;
+  grid-gap: 20px;
 }
 
 @media (max-width: 1275px) {

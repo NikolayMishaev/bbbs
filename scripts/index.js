@@ -26,6 +26,8 @@ const popups = document.querySelectorAll('.popup');
 const buttonSignInSubmit = document.querySelector('.popup__button-submit');
 const formSignIn = document.querySelector('.popup__form');
 
+const page = document.querySelector('.page');
+
 const openPopup = popup => {
   popup.classList.add("visible-block");
   headerMenu.classList.remove('header_type_position-fixed');
@@ -56,14 +58,23 @@ buttonSearchMobileMenu.addEventListener('click', () => {
   header.classList.add('header_type_search');
   headerDivisor.classList.add('header__divisor_type_search');
   buttonHeaderSearch.classList.add('header__search_type_search');
+  closePopup(popupMobileMenu)
 });
 
 buttonHeaderSearch.addEventListener('click', () => {
+  if (buttonHeaderSearch.classList.contains('header__search_type_search')) {
+    navigationMenuHeader.classList.remove('display-none');
+    searchFormHeader.classList.remove('display-block');
+    header.classList.remove('header_type_search');
+    headerDivisor.classList.remove('header__divisor_type_search');
+    buttonHeaderSearch.classList.remove('header__search_type_search');
+  } else {
   navigationMenuHeader.classList.add('display-none');
   searchFormHeader.classList.add('display-block');
   header.classList.add('header_type_search');
   headerDivisor.classList.add('header__divisor_type_search');
   buttonHeaderSearch.classList.add('header__search_type_search');
+}
 });
 
 
@@ -97,6 +108,17 @@ buttonSignInSubmit.addEventListener('click', () => {
 });
 formSignIn.addEventListener('submit', (e) => {
   e.preventDefault();
+});
+
+page.addEventListener('click', (e) => {
+  if (e.target.classList.contains('header')) {
+  headerMenu.classList.remove('header_type_position-fixed');
+  navigationMenuHeader.classList.remove('display-none');
+  searchFormHeader.classList.remove('display-block');
+  header.classList.remove('header_type_search');
+  headerDivisor.classList.remove('header__divisor_type_search');
+  buttonHeaderSearch.classList.remove('header__search_type_search');
+  }
 });
 
 // при обратном скролле показываем header с display: fixed. При возврщании к началу страницы скрываем класс с фиксом
