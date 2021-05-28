@@ -4,11 +4,13 @@
   top:50%;
   transform: translate(-50%, -50%);
   max-width: 770px;
-  min-height: 559px;
   background-color: #fff;
   z-index: 2;
   border-radius: 30px;
   box-sizing: border-box;
+  padding-bottom: 50px;
+  overflow: auto;
+  max-height: 100vh;
 }
 
 .popup__container:hover {
@@ -18,6 +20,5 @@
 @media screen and (max-width: 800px) {
   .popup__container {
     min-width: 290px;
-    min-height: 546px;
   }
 }
