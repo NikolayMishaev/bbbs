@@ -1,0 +1,17 @@
+.guide-container_style_rights {
+  padding-top: 81px;
+  row-gap: 79px;
+}
+
+@media (max-width: 1024px) {
+  .guide-container_style_rights {
+    padding-top: 67px;
+    row-gap: 29px;
+  }
+}
+
+@media (max-width: 400px) {
+  .guide-container_style_rights {
+    padding-top: 30px;
+  }
+}

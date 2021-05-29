@@ -1,0 +1,15 @@
+.subtitle_style_guide-article {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .subtitle_style_guide-article {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitle_style_guide-article {
+    padding-bottom: 20px;
+  }
+}

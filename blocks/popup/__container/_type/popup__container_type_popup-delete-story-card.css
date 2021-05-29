@@ -1,15 +1,15 @@
 .popup__container_type_popup-delete-story-card {
   max-width: 470px;
-  min-height: 238px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
+  max-height: 100vh;
+  overflow: auto;
 }
 
 @media (max-width: 1024px) {
   .popup__container_type_popup-delete-story-card {
     max-width: 320px;
-    min-height: 216px;
   }
 }

@@ -4,8 +4,11 @@ const buttonsToggleAnswer = document.querySelectorAll(
 const answersToQuestions = document.querySelectorAll(
   ".block-questions__answer"
 );
+const buttonsQuestionTitle = document.querySelectorAll(
+  ".block-questions__title"
+);
 
-buttonsToggleAnswer.forEach((button, i) => {
+buttonsQuestionTitle.forEach((button, i) => {
   button.addEventListener("click", () => {
     answersToQuestions[i].classList.toggle("display-block");
   });

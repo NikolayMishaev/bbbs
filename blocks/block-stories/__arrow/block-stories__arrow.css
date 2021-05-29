@@ -1,0 +1,12 @@
+.block-stories__arrow {
+  margin: auto 0;
+  min-width: 30px;
+  min-height: 30px;
+  display: inline-block;
+}
+
+@media (max-width: 1439px) {
+  .block-stories__arrow {
+    display: none;
+  }
+}

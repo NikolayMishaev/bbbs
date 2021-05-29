@@ -1,8 +1,14 @@
 .content-section {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 78px;
 }
 
 .content-section:last-child {
   padding-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .content-section {
+    padding-bottom: 27px;
+  }
 }

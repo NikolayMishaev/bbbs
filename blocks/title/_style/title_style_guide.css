@@ -1,0 +1,9 @@
+.title_style_guide {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+  .title_style_guide {
+    padding-bottom: 20px;
+  }
+}

@@ -8,6 +8,7 @@
   margin: 105px 0 0;
   overflow: scroll;
   overflow-x: unset;
+  max-height: 364px;
 }
 
 .block-place__text::-webkit-scrollbar {

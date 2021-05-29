@@ -1,0 +1,15 @@
+.select-page {
+  padding-top: 82px;
+}
+
+@media (max-width: 1024px) {
+  .select-page {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .select-page {
+    padding-top: 30px;
+  }
+}

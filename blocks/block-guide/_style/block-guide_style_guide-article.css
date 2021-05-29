@@ -1,0 +1,6 @@
+@media (max-width: 1024px) {
+  .block-guide_style_guide-article {
+    max-width: unset;
+    margin: unset;
+  }
+}

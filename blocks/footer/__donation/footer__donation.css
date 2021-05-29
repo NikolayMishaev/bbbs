@@ -4,10 +4,11 @@
   align-self: center;
   box-sizing: content-box;
   background-color: transparent;
-  width: 167px;
+  width: 169px;
   min-height: 48px;
   border-radius: 100px;
   border: 1px solid #f3f2f2;
+  font-family: Proto Grotesk Web Light;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -17,7 +18,7 @@
   cursor: pointer;
   transition: opacity 0.2s ease-out;
   box-sizing: border-box;
-  margin-top: 6px;
+  margin-top: 3px;
 }
 
 .footer__donation:hover {

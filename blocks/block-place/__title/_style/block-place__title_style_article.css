@@ -1,0 +1,9 @@
+.block-place__title_style_article {
+  margin-top: 32px;
+}
+
+@media (max-width: 1024px) {
+  .block-place__title_style_article {
+    margin-top: 22px;
+  }
+}

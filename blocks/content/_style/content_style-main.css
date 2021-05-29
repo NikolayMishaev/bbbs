@@ -1,0 +1,7 @@
+.content_style-main {
+  display: grid;
+  gap: 30px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}

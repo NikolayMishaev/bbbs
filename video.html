@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Видео</title>
+  </head>
+
+  <body class="body">
+    <div class="page">
+      <header class="header page__header">
+        <a href="./index.html" class="header__logo">наставники.про</a>
+        <nav class="navigation navigation_place_header">
+          <ul class="navigation__links navigation__links_place_header">
+            <li class="navigation__list">
+              <a
+                href="./calendar.html"
+                class="navigation__link navigation__link_place_header"
+                >календарь</a
+              >
+            </li>
+            <li class="navigation__list">
+              <a
+                href="./places.html"
+                class="navigation__link navigation__link_place_header"
+                >куда пойти</a
+              >
+            </li>
+            <li class="navigation__list">
+              <a
+                href="./questions.html"
+                class="navigation__link navigation__link_place_header"
+                >вопросы</a
+              >
+            </li>
+            <li class="navigation__list navigation__list_type_submenu">
+              <a
+                href="./content_menu.html"
+                class="navigation__link navigation__link_place_header"
+                >читать и смотреть</a
+              >
+              <ul class="navigation__submenu-links">
+                <li class="navigation__submenu-list">
+                  <a href="./guide.html" class="navigation__submenu-link"
+                    >Справочник</a
+                  >
+                </li>
+                <li class="navigation__submenu-list">
+                  <a href="./video.html" class="navigation__submenu-link"
+                    >Видео</a
+                  >
+                </li>
+                <li class="navigation__submenu-list">
+                  <a href="./articles.html" class="navigation__submenu-link"
+                    >Статьи</a
+                  >
+                </li>
+                <li class="navigation__submenu-list">
+                  <a href="./movie.html" class="navigation__submenu-link"
+                    >Фильмы</a
+                  >
+                </li>
+                <li class="navigation__submenu-list">
+                  <a href="./book.html" class="navigation__submenu-link"
+                    >Книги</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="navigation__list">
+              <a
+                href="./rights.html"
+                class="navigation__link navigation__link_place_header"
+                >права детей</a
+              >
+            </li>
+            <li class="navigation__list">
+              <a href="#" class="navigation__link navigation__link_place_header"
+                >истории</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <form
+          action="#"
+          name="searcg"
+          class="header__form-search"
+          method="POST"
+        >
+          <label class="header__field">
+            <input
+              id="search-input"
+              required
+              name="search"
+              minlength="2"
+              maxlength="40"
+              placeholder=""
+              class="header__input"
+              type="text"
+            />
+            <span class="header__input-error"></span>
+          </label>
+          <div class="header__answer">
+            <p class="header__title">Причины подростковой агрессии</p>
+            <p class="header__category">статьи</p>
+          </div>
+          <div class="header__answer">
+            <p class="header__title">Агрессивное поведение детей-сирот</p>
+            <p class="header__category">видео</p>
+          </div>
+          <div class="header__answer">
+            <p class="header__title">
+              Что делать если ваш младший агрессивно себя ведет, решил закрыть
+              пару?
+            </p>
+            <p class="header__category">книги</p>
+          </div>
+        </form>
+        <button type="button" class="header__search"></button>
+        <div class="header__divisor"></div>
+        <button type="button" class="header__account"></button>
+        <button type="button" class="header__menu"></button>
+      </header>
+
+      <main class="content page__content content_style_display-block">
+        <section class="content__header content__header_style_questions">
+          <h1 class="title title_style_questions">Видео</h1>
+          <section class="menu">
+            <ul class="menu__list menu__list_style_questions">
+              <li class="menu__item menu__item_style_questions">
+                <button type="button" class="menu__button menu__button_active">
+                  Все
+                </button>
+              </li>
+              <li class="menu__item menu__item_style_questions">
+                <button type="button" class="menu__button">
+                  Ресурсная группа
+                </button>
+              </li>
+              <li class="menu__item menu__item_style_questions">
+                <button type="button" class="menu__button">Эксперт</button>
+              </li>
+              <li class="menu__item menu__item_style_questions">
+                <button type="button" class="menu__button">Пары</button>
+              </li>
+              <li class="menu__item menu__item_style_questions">
+                <button type="button" class="menu__button">События</button>
+              </li>
+              <li class="menu__item menu__item_style_questions">
+                <button type="button" class="menu__button">Медиа о нас</button>
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section
+          class="two-columns two-columns_style_video-header two-columns_style_video"
+        >
+          <div
+            class="block-video-header block-video-header_type_description background-yellow"
+          >
+            <h2 class="block-video-header__title">
+              Эфир с выпускником нашей программы
+            </h2>
+            <p class="block-video-header__caption">
+              Иван Рустаев, выпускник программы
+            </p>
+            <a href="#" class="block-video-header__category">смотреть видео</a>
+          </div>
+          <div class="block-video-header">
+            <iframe class="block-video-header__iframe"></iframe>
+          </div>
+        </section>
+
+        <section class="video-container">
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Меняется смысл – меняется жизнь
+              </h2>
+              <p class="block-video__caption">
+                Прямой эфир с актрисой театра и кино Эмилией Спивак
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-2.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Что в силах волонтера-наставника?
+              </h2>
+              <p class="block-video__caption">
+                Иван Рустаев, волонтер-наставник
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-3.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Творчество, наставничество, дети
+              </h2>
+              <p class="block-video__caption">
+                Виктория Ямина, Виктория Ямина, волонтеры
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-4.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">Дружба – меняет мир</h2>
+              <p class="block-video__caption">
+                Прямой эфир с актрисой театра и кино Эмилией Спивак
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Меняется смысл – меняется жизнь
+              </h2>
+              <p class="block-video__caption">
+                Прямой эфир с актрисой театра и кино Эмилией Спивак
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-2.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Что в силах волонтера-наставника?
+              </h2>
+              <p class="block-video__caption">
+                Иван Рустаев, волонтер-наставник
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-3.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Творчество, наставничество, дети
+              </h2>
+              <p class="block-video__caption">
+                Виктория Ямина, Виктория Ямина, волонтеры
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-4.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">Дружба – меняет мир</h2>
+              <p class="block-video__caption">
+                Прямой эфир с актрисой театра и кино Эмилией Спивак
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Меняется смысл – меняется жизнь
+              </h2>
+              <p class="block-video__caption">
+                Прямой эфир с актрисой театра и кино Эмилией Спивак
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-2.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Что в силах волонтера-наставника?
+              </h2>
+              <p class="block-video__caption">
+                Иван Рустаев, волонтер-наставник
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-3.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Творчество, наставничество, дети
+              </h2>
+              <p class="block-video__caption">
+                Виктория Ямина, Виктория Ямина, волонтеры
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-4.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">Дружба – меняет мир</h2>
+              <p class="block-video__caption">
+                Прямой эфир с актрисой театра и кино Эмилией Спивак
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Меняется смысл – меняется жизнь
+              </h2>
+              <p class="block-video__caption">
+                Прямой эфир с актрисой театра и кино Эмилией Спивак
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-2.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Что в силах волонтера-наставника?
+              </h2>
+              <p class="block-video__caption">
+                Иван Рустаев, волонтер-наставник
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-3.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">
+                Творчество, наставничество, дети
+              </h2>
+              <p class="block-video__caption">
+                Виктория Ямина, Виктория Ямина, волонтеры
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+          <div class="video-container__card">
+            <article class="block-video">
+              <iframe
+                style="background-image: url(./images/content-menu-video-4.jpg)"
+                class="block-video__iframe"
+              ></iframe>
+              <h2 class="block-video__title">Дружба – меняет мир</h2>
+              <p class="block-video__caption">
+                Прямой эфир с актрисой театра и кино Эмилией Спивак
+              </p>
+              <a href="#" class="block-video__category">смотреть видео</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="select-page">
+          <nav class="select-page__navigation">
+            <ul class="select-page__links">
+              <li class="select-page__list">
+                <a href="#" class="select-page__link select-page__link_active"
+                  >1</a
+                >
+              </li>
+              <li class="select-page__list">
+                <a href="#" class="select-page__link">2</a>
+              </li>
+              <li class="select-page__list">
+                <a href="#" class="select-page__link">3</a>
+              </li>
+              <li class="select-page__list">
+                <a href="#" class="select-page__link">4</a>
+              </li>
+              <li class="select-page__list">
+                <a href="#" class="select-page__link">5</a>
+              </li>
+              <li class="select-page__list">
+                <a href="#" class="select-page__link">...</a>
+              </li>
+              <li class="select-page__list">
+                <a href="#" class="select-page__link">18</a>
+              </li>
+            </ul>
+            <button
+              type="button"
+              aria-label="next-page"
+              class="button-next"
+            ></button>
+          </nav>
+        </section>
+      </main>
+
+      <footer class="footer page__footer">
+        <div class="footer__three-columns">
+          <a href="#" class="footer__logo"></a>
+          <button type="button" class="footer__donation">
+            Помочь деньгами
+          </button>
+          <div class="footer__info">
+            <p class="footer__copyright">
+              &copy; Старшие Братья Старшие Сестры
+            </p>
+            <p class="footer__about">
+              Разработка – студенты
+              <a href="https://praktikum.yandex.ru" class="footer__link"
+                >Яндекс.Практикум</a
+              >
+            </p>
+            <p class="footer__about">
+              Концепция и дизайн –
+              <a href="https://krkr.design" class="footer__link">krkr.design</a>
+            </p>
+          </div>
+          <nav class="navigation navigation_place_footer">
+            <ul class="navigation__links navigation__links_place_footer">
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./about.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >о проекте</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./calendar.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >календарь</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./places.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >куда пойти</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="#"
+                  class="navigation__link navigation__link_place_footer"
+                  >вопросы</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="#"
+                  class="navigation__link navigation__link_place_footer"
+                  >читать и смотреть</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./rights.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >права детей</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="#"
+                  class="navigation__link navigation__link_place_footer"
+                  >истории</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="navigation navigation_place_footer">
+            <ul class="navigation__links navigation__links_place_footer">
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="http://facebook.com"
+                  target="_blank"
+                  class="navigation__link navigation__link_place_footer"
+                  >facebook</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="http://vk.com"
+                  target="_blank"
+                  class="navigation__link navigation__link_place_footer"
+                  >vkontakte</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="http://instagram.com"
+                  target="_blank"
+                  class="navigation__link navigation__link_place_footer"
+                  >instagram</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="http://youtube.com"
+                  target="_blank"
+                  class="navigation__link navigation__link_place_footer"
+                  >youtube</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+
+      <div class="popups">
+        <div class="popup popup-city">
+          <div class="popup__container popup__container_type_popup-city">
+            <h2 class="popup-city__title">Выберите ваш город</h2>
+            <ul class="popup-city__main-city-list">
+              <li class="popup-city__main-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Москва
+                </button>
+              </li>
+              <li class="popup-city__main-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Санкт-Петербург
+                </button>
+              </li>
+            </ul>
+            <ul class="popup-city__other-city-list">
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Алексин
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Екатеринбург
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Барнаул
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Зубцов
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Калининград
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Киреевск
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Коломна
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Новомосковск
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Орехово-Зуево
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Тверь
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Тула
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="popup popup-sign-in">
+          <div class="popup__container">
+            <button
+              type="button"
+              aria-label="close popup"
+              class="popup__close close-popup-sign-in"
+            ></button>
+            <h2 class="popup__title">Вход</h2>
+            <p class="popup__message">
+              Вход в личный кабинет доступен наставникам программы «Старшие
+              Братья Старшие Сёстры».
+            </p>
+            <p class="popup__message">
+              Пожалуйста, введите логин и пароль из письма. Если вам не
+              приходило письмо, свяжитесь с вашим куратором.
+            </p>
+            <form action="#" name="sign-in" class="popup__form" method="POST">
+              <label class="popup__field">
+                <input
+                  id="login-input"
+                  required
+                  name="login"
+                  minlength="2"
+                  maxlength="40"
+                  placeholder="Логин"
+                  class="popup__input"
+                  type="text"
+                />
+                <span class="popup__input-error"></span>
+              </label>
+              <label class="popup__field">
+                <input
+                  id="password-input"
+                  required
+                  name="password"
+                  minlength="2"
+                  maxlength="200"
+                  placeholder="Пароль"
+                  class="popup__input"
+                  type="password"
+                />
+                <span class="popup__input-error"></span>
+              </label>
+              <a class="popup__help">Забыли пароль?</a>
+              <button
+                aria-label="submit form"
+                class="popup__button-submit"
+                type="submit"
+              >
+                Войти
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="popup-menu">
+          <div class="popup-menu__header">
+            <button type="button" class="popup-menu__search"></button>
+            <button type="button" class="popup-menu__account"></button>
+            <a href="./index.html" class="popup-menu__logo">наставники.про</a>
+            <button
+              type="button"
+              aria-label="close popup"
+              class="popup-menu__close"
+            ></button>
+          </div>
+          <nav class="popup-menu__navigation">
+            <ul class="popup-menu__links">
+              <li class="popup-menu__list">
+                <a href="./about.html" class="popup-menu__link">о проекте</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="./calendar.html" class="popup-menu__link">календарь</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="./places.html" class="popup-menu__link">куда пойти</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="#" class="popup-menu__link">вопросы</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="./content_menu.html" class="popup-menu__link"
+                  >читать и смотреть</a
+                >
+              </li>
+              <li class="popup-menu__list">
+                <a href="./rights.html" class="popup-menu__link">права детей</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="#" class="popup-menu__link">истории</a>
+              </li>
+            </ul>
+            <ul class="popup-menu__links">
+              <li class="popup-menu__list">
+                <a href="http://facebook.com" class="popup-menu__link"
+                  >facebook</a
+                >
+              </li>
+              <li class="popup-menu__list">
+                <a href="http://vk.com" class="popup-menu__link">vkontakte</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="http://instagram.com" class="popup-menu__link"
+                  >instagram</a
+                >
+              </li>
+              <li class="popup-menu__list">
+                <a href="http://youtube.com" class="popup-menu__link"
+                  >youtube</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="popup-menu__footer">
+            <p class="popup_menu__city">Москва.</p>
+            <button type="button" class="popup-menu__change-city">
+              Изменить город
+            </button>
+            <button type="button" class="popup-menu__exit">Выйти</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

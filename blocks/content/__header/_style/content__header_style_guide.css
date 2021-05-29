@@ -1,0 +1,10 @@
+.content__header_style_guide {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1600px) {
+  .content__header_style_guide {
+    max-width: 970px;
+  }
+}

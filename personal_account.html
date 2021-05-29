@@ -1,367 +1,724 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Личный кабинет</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="pages/index.css">
-  <title>Старшие Братья Старшие Сёстры</title>
-</head>
+  <body class="body">
+    <div class="page">
+      <header class="header page__header header_style_personal-account">
+        <a href="./index.html" class="header__logo">наставники.про</a>
+        <nav class="navigation navigation_place_header">
+          <ul class="navigation__links navigation__links_place_header">
+            <li class="navigation__list">
+              <a
+                href="./calendar.html"
+                class="navigation__link navigation__link_place_header"
+                >календарь</a
+              >
+            </li>
+            <li class="navigation__list">
+              <a
+                href="./places.html"
+                class="navigation__link navigation__link_place_header"
+                >куда пойти</a
+              >
+            </li>
+            <li class="navigation__list">
+              <a
+                href="./questions.html"
+                class="navigation__link navigation__link_place_header"
+                >вопросы</a
+              >
+            </li>
+            <li class="navigation__list navigation__list_type_submenu">
+              <a
+                href="./content_menu.html"
+                class="navigation__link navigation__link_place_header"
+                >читать и смотреть</a
+              >
+              <ul class="navigation__submenu-links">
+                <li class="navigation__submenu-list">
+                  <a href="./guide.html" class="navigation__submenu-link"
+                    >Справочник</a
+                  >
+                </li>
+                <li class="navigation__submenu-list">
+                  <a href="./video.html" class="navigation__submenu-link"
+                    >Видео</a
+                  >
+                </li>
+                <li class="navigation__submenu-list">
+                  <a href="./articles.html" class="navigation__submenu-link"
+                    >Статьи</a
+                  >
+                </li>
+                <li class="navigation__submenu-list">
+                  <a href="./movie.html" class="navigation__submenu-link"
+                    >Фильмы</a
+                  >
+                </li>
+                <li class="navigation__submenu-list">
+                  <a href="./book.html" class="navigation__submenu-link"
+                    >Книги</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="navigation__list">
+              <a
+                href="./rights.html"
+                class="navigation__link navigation__link_place_header"
+                >права детей</a
+              >
+            </li>
+            <li class="navigation__list">
+              <a href="#" class="navigation__link navigation__link_place_header"
+                >истории</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <form
+          action="#"
+          name="searcg"
+          class="header__form-search"
+          method="POST"
+        >
+          <label class="header__field">
+            <input
+              id="search-input"
+              required
+              name="search"
+              minlength="2"
+              maxlength="40"
+              placeholder=""
+              class="header__input"
+              type="text"
+            />
+            <span class="header__input-error"></span>
+          </label>
+          <div class="header__answer">
+            <p class="header__title">Причины подростковой агрессии</p>
+            <p class="header__category">статьи</p>
+          </div>
+          <div class="header__answer">
+            <p class="header__title">Агрессивное поведение детей-сирот</p>
+            <p class="header__category">видео</p>
+          </div>
+          <div class="header__answer">
+            <p class="header__title">
+              Что делать если ваш младший агрессивно себя ведет, решил закрыть
+              пару?
+            </p>
+            <p class="header__category">книги</p>
+          </div>
+        </form>
+        <button type="button" class="header__search"></button>
+        <div class="header__divisor"></div>
+        <button
+          type="button"
+          class="header__account header__account_authorized"
+        ></button>
+        <button type="button" class="header__menu"></button>
+        <div class="header__submenu-account">
+          <p class="header__current-city">Москва</p>
+          <button
+            type="button"
+            aria-label="change-city"
+            class="header__change-city"
+          >
+            Изменить ваш город
+          </button>
+          <button
+            type="button"
+            aria-label="change-city"
+            class="header__exit-account"
+          >
+            Выйти
+          </button>
+        </div>
+      </header>
 
-<body class="body">
-  <div class="page">
+      <main class="content page__content">
+        <sections class="personal-events">
+          <h2 class="personal-events__title">
+            У вас нет записи на мероприятия
+          </h2>
+          <div class="personal-events__container">
+            <article class="personal-events__events background-white">
+              <h3 class="personal-events__number">05</h3>
+              <p class="personal-events__month">декабрь</p>
+              <p class="personal-events__subtitle">
+                Субботний meet up: учимся проходить интевью
+              </p>
+            </article>
+            <article class="personal-events__events background-white">
+              <h3 class="personal-events__number">05</h3>
+              <p class="personal-events__month">декабрь</p>
+              <p class="personal-events__subtitle">
+                Субботний meet up: учимся проходить интевью
+              </p>
+            </article>
+          </div>
+        </sections>
 
-    <header class="header page__header header_style_personal-account">
+        <sections class="personal-story">
+          <h2 class="personal-story__title">
+            Составьте историю вашей дружбы с младшим. Эта страница доступна
+            только вам.
+          </h2>
+          <button
+            type="button"
+            aria-label="add-story"
+            class="personal-story__button-add-story"
+          >
+            Добавить встречу
+          </button>
+          <form action="#" class="story-form story-form_position_center">
+            <div class="story-form__add-photo background-white">
+              <img src="#" alt="" class="story-form__photo" />
+              <label class="story-form__field-add-photo"
+                >Загрузить фото
+                <input
+                  type="file"
+                  aria-label="add-photo"
+                  class="story-form__button-add-photo"
+                />
+              </label>
+            </div>
+            <div class="story-form__data background-white">
+              <label class="story-form__field story-form__field_size_large">
+                <input
+                  id="story-form-place-name"
+                  required
+                  name="name"
+                  minlength="2"
+                  maxlength="40"
+                  placeholder="Место встречи"
+                  class="story-form__input"
+                  type="text"
+                />
+                <span class="story-form__input-error"></span>
+              </label>
+              <label class="story-form__field story-form__field_size_small">
+                <input
+                  id="story-form-place-date"
+                  required
+                  name="date"
+                  placeholder="Дата  __.__.____"
+                  class="story-form__input"
+                  type="text"
+                  onfocus="(this.type='date')"
+                  onblur="if(this.value==''){this.type='text'}"
+                />
+                <span class="story-form__input-error"></span>
+              </label>
+              <textarea
+                class="story-form__textarea"
+                id="story-form-description"
+                name="story-form-text"
+                placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+                required
+              >
+              </textarea>
+              <div class="story-form__mark-wrapper">
+                <button
+                  type="button"
+                  aria-label="mark-great"
+                  class="story-form__mark story-form__mark_type_great"
+                ></button>
+                <button
+                  type="button"
+                  aria-label="mark-normal"
+                  class="story-form__mark story-form__mark_type_normal"
+                ></button>
+                <button
+                  type="button"
+                  aria-label="mark-bad"
+                  class="story-form__mark story-form__mark_type_bad"
+                ></button>
+                <p class="story-form__text">Оцените проведенное время</p>
+              </div>
+              <div class="story-form__buttons-wrapper">
+                <button
+                  type="button"
+                  aria-label="delete-story"
+                  class="story-form__button-delete-story"
+                >
+                  Удалить
+                </button>
+                <button
+                  type="submit"
+                  aria-label="submit-story"
+                  class="story-form__button-submit-story story-form__button-submit-story_type_active"
+                >
+                  Добавить
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="personal-story__container">
+            <div class="personal-story__card">
+              <div class="personal-story__image-container">
+                <img
+                  src="./images/personal-account-image-katya.png"
+                  alt="Катя"
+                  class="personal-story__photo"
+                />
+              </div>
+              <article class="personal-story__description background-white">
+                <h3 class="personal-story__card-title">Парк Горького</h3>
+                <p class="personal-story__date">декабрь, 2020</p>
+                <p class="personal-story__text">
+                  Описание в несколько срок. Подробное описание. Опишите вашу
+                  встречу, какие чувства вы испытывали, что понравилось не
+                  понравилось. Описание в несколько срок. Подробное описание.
+                  Подробное описание. Опишите вашу встречу, какие чувства вы
+                  испытывали, что понравилось не понравилось. Описание в
+                  несколько срок. Подробное описание. Опишите вашу встречу,
+                  какие чувства вы испытывали, что понравилось не понравилось.
+                  Описание в несколько срок. Подробное описание. Подробное
+                  описание. Опишите вашу встречу, какие чувства вы испытывали,
+                  что понравилось не понравилось. чувства вы испытывали, что
+                  понравилось не понравилось.
+                </p>
+                <p class="personal-story__day">05</p>
+                <div
+                  class="personal-story__mark personal-story__mark_type_great"
+                ></div>
+                <p
+                  class="personal-story__mark-text personal-story__mark-text_type_great"
+                >
+                  Было классно!
+                </p>
+                <select
+                  class="personal-story__button-share"
+                  id="personal-story-share"
+                  name="share"
+                >
+                  <option value="ibm">Поделиться с куратором</option>
+                  <option value="ubuntu">куратор 1</option>
+                  <option value="istok">куратор 2</option>
+                  <option value="istok">куратор 3</option>
+                </select>
+                <div class="personal-story__buttons-wrapper">
+                  <button
+                    type="button"
+                    aria-label="edit-story"
+                    class="personal-story__button-edit"
+                  >
+                    Редактировать
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="delete-story"
+                    class="personal-story__button-delete"
+                  >
+                    Удалить
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </sections>
+      </main>
 
-      <a href="./index.html" class="header__logo">наставники.про</a>
-      <nav class="navigation navigation_place_header">
-        <ul class="navigation__links navigation__links_place_header">
-          <li class="navigation__list">
-            <a href="./calendar.html" class="navigation__link navigation__link_place_header">календарь</a>
-          </li>
-          <li class="navigation__list">
-            <a href="./places.html" class="navigation__link navigation__link_place_header">куда пойти</a>
-          </li>
-          <li class="navigation__list">
-            <a href="./questions.html" class="navigation__link navigation__link_place_header">вопросы</a>
-          </li>
-          <li class="navigation__list navigation__list_type_submenu">
-            <a href="#" class="navigation__link navigation__link_place_header">читать и смотреть</a>
-            <ul class="navigation__submenu-links">
-              <li class="navigation__submenu-list">
-                <a href="#" class="navigation__submenu-link">Справочник</a>
+      <footer class="footer page__footer">
+        <div class="footer__three-columns">
+          <a href="#" class="footer__logo"></a>
+          <button type="button" class="footer__donation">
+            Помочь деньгами
+          </button>
+          <div class="footer__info">
+            <p class="footer__copyright">
+              &copy; Старшие Братья Старшие Сестры
+            </p>
+            <p class="footer__about">
+              Разработка – студенты
+              <a href="https://praktikum.yandex.ru" class="footer__link"
+                >Яндекс.Практикум</a
+              >
+            </p>
+            <p class="footer__about">
+              Концепция и дизайн –
+              <a href="https://krkr.design" class="footer__link">krkr.design</a>
+            </p>
+          </div>
+
+          <nav class="navigation navigation_place_footer">
+            <ul class="navigation__links navigation__links_place_footer">
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./about.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >о проекте</a
+                >
               </li>
-              <li class="navigation__submenu-list">
-                <a href="#" class="navigation__submenu-link">Видео</a>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./calendar.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >календарь</a
+                >
               </li>
-              <li class="navigation__submenu-list">
-                <a href="#" class="navigation__submenu-link">Статьи</a>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./places.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >куда пойти</a
+                >
               </li>
-              <li class="navigation__submenu-list">
-                <a href="#" class="navigation__submenu-link">Фильмы</a>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./questions.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >вопросы</a
+                >
               </li>
-              <li class="navigation__submenu-list">
-                <a href="#" class="navigation__submenu-link">Книги</a>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="#"
+                  class="navigation__link navigation__link_place_footer"
+                  >читать и смотреть</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="./rights.html"
+                  class="navigation__link navigation__link_place_footer"
+                  >права детей</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="#"
+                  class="navigation__link navigation__link_place_footer"
+                  >истории</a
+                >
               </li>
             </ul>
-          </li>
-          <li class="navigation__list">
-            <a href="#" class="navigation__link navigation__link_place_header">права детей</a>
-          </li>
-          <li class="navigation__list">
-            <a href="#" class="navigation__link navigation__link_place_header">истории</a>
-          </li>
-        </ul>
-      </nav>
-      <form action="#" name="searcg" class="header__form-search display-none" method="POST">
-        <label class="header__field">
-          <input id="search-input" required name="search" minlength="2" maxlength="40" placeholder=""
-            class="header__input" type="text">
-          <span class="header__input-error"></span>
-        </label>
-        <div class="header__answer">
-          <p class="header__title">Причины подростковой агрессии</p>
-          <p class="header__category">статьи</p>
+          </nav>
+          <nav class="navigation navigation_place_footer">
+            <ul class="navigation__links navigation__links_place_footer">
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="http://facebook.com"
+                  target="_blank"
+                  class="navigation__link navigation__link_place_footer"
+                  >facebook</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="http://vk.com"
+                  target="_blank"
+                  class="navigation__link navigation__link_place_footer"
+                  >vkontakte</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="http://instagram.com"
+                  target="_blank"
+                  class="navigation__link navigation__link_place_footer"
+                  >instagram</a
+                >
+              </li>
+              <li class="navigation__list navigation__list_place_footer">
+                <a
+                  href="http://youtube.com"
+                  target="_blank"
+                  class="navigation__link navigation__link_place_footer"
+                  >youtube</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="header__answer">
-          <p class="header__title">Агрессивное поведение детей-сирот</p>
-          <p class="header__category">видео</p>
-        </div>
-        <div class="header__answer">
-          <p class="header__title">Что делать если ваш младший агрессивно себя ведет, решил закрыть пару?</p>
-          <p class="header__category">книги</p>
-        </div>
-      </form>
-      <button type="button" class="header__search"></button>
-      <div class="header__divisor"></div>
-      <button type="button" class="header__account header__account_authorized"></button>
-      <button type="button" class="header__menu"></button>
-<div class="header__submenu-account">
-  <p class="header__current-city">Москва</p>
-  <button type="button" aria-label="change-city" class="header__change-city">Изменить ваш город</button>
-  <button type="button" aria-label="change-city" class="header__exit-account">Выйти</button>
-</div>
-    </header>
+      </footer>
 
-    <main class="content page__content content_style_personal-account">
-
-<sections class="personal-events">
-  <h2 class="personal-events__title">У вас нет записи на мероприятия</h2>
-  <div class="personal-events__container">
-  <article class="personal-events__events background-white">
-    <h3 class="personal-events__number">05</h3>
-    <p class="personal-events__month">декабрь</p>
-    <p class="personal-events__subtitle">Субботний meet up: учимся проходить интевью</p>
-  </article>
-  <article class="personal-events__events background-white">
-    <h3 class="personal-events__number">05</h3>
-    <p class="personal-events__month">декабрь</p>
-    <p class="personal-events__subtitle">Субботний meet up: учимся проходить интевью</p>
-  </article>
-</div>
-</sections>
-
-<sections class="personal-story">
-  <h2 class="personal-story__title">Составьте историю вашей дружбы с младшим. Эта страница доступна только вам.</h2>
-  <button type="button" aria-label="add-story" class="personal-story__button-add-story">Добавить встречу</button>
-  <form action="#" class="story-form story-form_position_center">
-    <div class="story-form__add-photo background-white">
-      <img src="#" alt="" class="story-form__photo">
-      <label class="story-form__field-add-photo">Загрузить фото
-      <input type="file" aria-label="add-photo" class="story-form__button-add-photo"></input>
-    </label>
-    </div>
-    <div class="story-form__data background-white">
-      <label class="story-form__field story-form__field_size_large">
-        <input id="story-form-place-name" required name="name" minlength="2" maxlength="40" placeholder="Место встречи"
-          class="story-form__input" type="text">
-        <span class="story-form__input-error"></span>
-      </label>
-      <label class="story-form__field story-form__field_size_small">
-        <input id="story-form-place-date" required name="date" placeholder="Дата  __.__.____"
-          class="story-form__input" type="text" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
-        <span class="story-form__input-error"></span>
-      </label>
-      <textarea class="story-form__textarea" id="story-form-description" name="story-form-text"
-              placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось" required></textarea>
-              <div class="story-form__mark-wrapper">
-              <button type="button" aria-label="mark-great" class="story-form__mark story-form__mark_type_great"></button>
-              <button type="button" aria-label="mark-normal" class="story-form__mark story-form__mark_type_normal"></button>
-              <button type="button" aria-label="mark-bad" class="story-form__mark story-form__mark_type_bad"></button>
-              <p class="story-form__text">Оцените проведенное время</p>
-            </div>
-            <div class="story-form__buttons-wrapper">
-              <button type="button" aria-label="delete-story" class="story-form__button-delete-story">Удалить</button>
-              <button type="submit" aria-label="submit-story" class="story-form__button-submit-story story-form__button-submit-story_type_active">Добавить</button>
-            </div>
-    </div>
-  </form>
-  <div class="personal-story__container">
-    <div class="personal-story__card">
-      <div class="personal-story__image-container">
-      <img src="./images/personal-account-image-katya.png" alt="Катя" class="personal-story__photo">
-    </div>
-      <article class="personal-story__description background-white">
-      <h3 class="personal-story__card-title">Парк Горького</h3>
-      <p class="personal-story__date">декабрь, 2020</p>
-      <p class="personal-story__text">Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. Описание в несколько срок. Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось.  Описание в несколько срок. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. Описание в несколько срок. Подробное описание. Подробное описание. Опишите вашу встречу, какие чувства вы испытывали, что понравилось не понравилось. чувства вы испытывали, что понравилось не понравилось. </p>
-      <p class="personal-story__day">05</p>
-      <div class="personal-story__mark personal-story__mark_type_great"></div>
-    <p class="personal-story__mark-text personal-story__mark-text_type_great">Было классно!</p>
-    <select class="personal-story__button-share" id="personal-story-share" name="share">
-      <option value="ibm">Поделиться с куратором</option>
-      <option value="ubuntu">куратор 1</option>
-      <option value="istok">куратор 2</option>
-      <option value="istok">куратор 3</option>
-    </select>
-    <div class="personal-story__buttons-wrapper">
-    <button type="button" aria-label="edit-story" class="personal-story__button-edit">Редактировать</button>
-    <button type="button" aria-label="delete-story" class="personal-story__button-delete">Удалить</button>
-  </div>
-    </article>
-    </div>
-  </div>
-</sections>
-
-    </main>
-
-    <footer class="footer page__footer">
-
-      <div class="footer__three-columns">
-        <a href="#" class="footer__logo"></a>
-        <button type="button" class="footer__donation">Помочь деньгами</button>
-        <div class="footer__info">
-          <p class="footer__copyright">&copy; Старшие Братья Старшие Сестры</p>
-          <p class="footer__about">Разработка – студенты <a href="#" class="footer__link">Яндекс.Практикум</a></p>
-          <p class="footer__about">Концепция и дизайн – <a href="#" class="footer__link">krkr.design</a></p>
+      <div class="popups">
+        <div class="popup popup-delete-story-card">
+          <div
+            class="popup__container popup__container_type_popup-delete-story-card"
+          >
+            <h2 class="popup-delete-story-card__title">
+              Удалить встречу в Парке Горького 5 декабря 2020?
+            </h2>
+            <button
+              type="button"
+              aria-label="delete-story-card"
+              disabled
+              class="popup-delete-story-card__button-delete"
+            >
+              Удалить
+            </button>
+            <button
+              type="button"
+              aria-label="cancel-delete-story-card"
+              class="popup-delete-story-card__button-cancel"
+            >
+              Отмена
+            </button>
+          </div>
         </div>
 
-        <nav class="navigation navigation_place_footer">
-          <ul class="navigation__links navigation__links_place_footer">
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="./about.html" class="navigation__link navigation__link_place_footer">о проекте</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="./calendar.html" class="navigation__link navigation__link_place_footer">календарь</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="./places.html" class="navigation__link navigation__link_place_footer">куда пойти</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="./questions.html" class="navigation__link navigation__link_place_footer">вопросы</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="#" class="navigation__link navigation__link_place_footer">читать и
-                смотреть</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="#" class="navigation__link navigation__link_place_footer">права детей</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="#" class="navigation__link navigation__link_place_footer">истории</a>
-            </li>
-          </ul>
-        </nav>
-        <nav class="navigation navigation_place_footer">
-          <ul class="navigation__links navigation__links_place_footer">
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="http://facebook.com" target="_blank"
-                class="navigation__link navigation__link_place_footer">facebook</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="http://vk.com" target="_blank"
-                class="navigation__link navigation__link_place_footer">vkontakte</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="http://instagram.com" target="_blank"
-                class="navigation__link navigation__link_place_footer">instagram</a>
-            </li>
-            <li class="navigation__list navigation__list_place_footer">
-              <a href="http://youtube.com" target="_blank"
-                class="navigation__link navigation__link_place_footer">youtube</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="popup popup-city">
+          <div class="popup__container popup__container_type_popup-city">
+            <h2 class="popup-city__title">Выберите ваш город</h2>
+            <ul class="popup-city__main-city-list">
+              <li class="popup-city__main-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Москва
+                </button>
+              </li>
+              <li class="popup-city__main-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Санкт-Петербург
+                </button>
+              </li>
+            </ul>
+            <ul class="popup-city__other-city-list">
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Алексин
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Екатеринбург
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Барнаул
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Зубцов
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Калининград
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Киреевск
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Коломна
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Новомосковск
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Орехово-Зуево
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Тверь
+                </button>
+              </li>
+              <li class="popup-city__other-city-item">
+                <button
+                  type="button"
+                  aria-label="change city"
+                  class="popup-city__button"
+                >
+                  Тула
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="popup popup-sign-in">
+          <div class="popup__container">
+            <button
+              type="button"
+              aria-label="close popup"
+              class="popup__close"
+            ></button>
+            <h2 class="popup__title">Вход</h2>
+            <p class="popup__message">
+              Вход в личный кабинет доступен наставникам программы «Старшие
+              Братья Старшие Сёстры».
+            </p>
+            <p class="popup__message">
+              Пожалуйста, введите логин и пароль из письма. Если вам не
+              приходило письмо, свяжитесь с вашим куратором.
+            </p>
+            <form action="#" name="sign-in" class="popup__form" method="POST">
+              <label class="popup__field">
+                <input
+                  id="login-input"
+                  required
+                  name="login"
+                  minlength="2"
+                  maxlength="40"
+                  placeholder="Логин"
+                  class="popup__input"
+                  type="text"
+                />
+                <span class="popup__input-error"></span>
+              </label>
+              <label class="popup__field">
+                <input
+                  id="password-input"
+                  required
+                  name="password"
+                  minlength="2"
+                  maxlength="200"
+                  placeholder="Пароль"
+                  class="popup__input"
+                  type="password"
+                />
+                <span class="popup__input-error"></span>
+              </label>
+              <a class="popup__help">Забыли пароль?</a>
+              <button
+                aria-label="submit form"
+                class="popup__button-submit"
+                type="submit"
+              >
+                Войти
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="popup-menu">
+          <div class="popup-menu__header">
+            <button type="button" class="popup-menu__search"></button>
+            <button type="button" class="popup-menu__account"></button>
+            <a href="./index.html" class="popup-menu__logo">наставники.про</a>
+            <button
+              type="button"
+              aria-label="close popup"
+              class="popup-menu__close"
+            ></button>
+          </div>
+          <nav class="popup-menu__navigation">
+            <ul class="popup-menu__links">
+              <li class="popup-menu__list">
+                <a href="./about.html" class="popup-menu__link">о проекте</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="./calendar.html" class="popup-menu__link">календарь</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="./places.html" class="popup-menu__link">куда пойти</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="./questions.html" class="popup-menu__link">вопросы</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="./content_menu.html" class="popup-menu__link"
+                  >читать и смотреть</a
+                >
+              </li>
+              <li class="popup-menu__list">
+                <a href="./rights.html" class="popup-menu__link">права детей</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="#" class="popup-menu__link">истории</a>
+              </li>
+            </ul>
+            <ul class="popup-menu__links">
+              <li class="popup-menu__list">
+                <a href="http://facebook.com" class="popup-menu__link"
+                  >facebook</a
+                >
+              </li>
+              <li class="popup-menu__list">
+                <a href="http://vk.com" class="popup-menu__link">vkontakte</a>
+              </li>
+              <li class="popup-menu__list">
+                <a href="http://instagram.com" class="popup-menu__link"
+                  >instagram</a
+                >
+              </li>
+              <li class="popup-menu__list">
+                <a href="http://youtube.com" class="popup-menu__link"
+                  >youtube</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="popup-menu__footer">
+            <p class="popup_menu__city">Москва.</p>
+            <button type="button" class="popup-menu__change-city">
+              Изменить город
+            </button>
+            <button type="button" class="popup-menu__exit">Выйти</button>
+          </div>
+        </div>
       </div>
-    </footer>
-
-    <div class="popups">
-
-<div class="popup popup-delete-story-card">
-  <div class="popup__container popup__container_type_popup-delete-story-card">
-    <h2 class="popup-delete-story-card__title">Удалить встречу в Парке Горького 5 декабря 2020?</h2>
-    <button type="button" aria-label="delete-story-card" disabled class="popup-delete-story-card__button-delete">Удалить</button>
-    <button type="button" aria-label="cancel-delete-story-card" class="popup-delete-story-card__button-cancel">Отмена</button>
-  </div>
-</div>
-
-      <div class="popup popup-city">
-        <div class="popup__container popup__container_type_popup-city">
-          <h2 class="popup-city__title">Выберите ваш город</h2>
-          <ul class="popup-city__main-city-list">
-            <li class="popup-city__main-city-item">
-              <button type="button" aria-label="change city" class="popup-city__button">Москва</button>
-            </li>
-            <li class="popup-city__main-city-item">
-              <button type="button" aria-label="change city" class="popup-city__button">
-                Санкт-Петербург</button>
-            </li>
-          </ul>
-          <ul class="popup-city__other-city-list">
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Алексин</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Екатеринбург</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Барнаул</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Зубцов</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Калининград</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Киреевск</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Коломна</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Новомосковск</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Орехово-Зуево</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Тверь</button></li>
-            <li class="popup-city__other-city-item"><button type="button" aria-label="change city"
-                class="popup-city__button">Тула</button></li>
-          </ul>
-        </div>
-      </div>
-
-
-      <div class="popup popup-sign-in">
-        <div class="popup__container">
-          <button type="button" aria-label="close popup" class="popup__close"></button>
-          <h2 class="popup__title">Вход</h2>
-          <p class="popup__message">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие
-            Сёстры».</p>
-          <p class="popup__message">Пожалуйста, введите логин и пароль из письма. Если вам не приходило письмо,
-            свяжитесь с вашим куратором.</p>
-          <form action="#" name="sign-in" class="popup__form" method="POST">
-            <label class="popup__field">
-              <input id="login-input" required name="login" minlength="2" maxlength="40" placeholder="Логин"
-                class="popup__input" type="text">
-              <span class="popup__input-error"></span>
-            </label>
-            <label class="popup__field">
-              <input id="password-input" required name="password" minlength="2" maxlength="200" placeholder="Пароль"
-                class="popup__input" type="password">
-              <span class="popup__input-error"></span>
-            </label>
-            <p class="popup__help">Забыли пароль?</p>
-            <button aria-label="submit form" class="popup__button-submit" type="submit">Войти</button>
-          </form>
-        </div>
-      </div>
-
-
-      <div class="popup-menu">
-        <div class="popup-menu__header">
-          <button type="button" class="popup-menu__search"></button>
-          <button type="button" class="popup-menu__account"></button>
-          <a href="./index.html" class="popup-menu__logo">наставники.про</a>
-          <button type="button" aria-label="close popup" class="popup-menu__close"></button>
-        </div>
-        <nav class="popup-menu__navigation">
-          <ul class="popup-menu__links">
-            <li class="popup-menu__list">
-              <a href="./about.html" class="popup-menu__link">о проекте</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="./calendar.html" class="popup-menu__link">календарь</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="./places.html" class="popup-menu__link">куда пойти</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="./questions.html" class="popup-menu__link">вопросы</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="#" class="popup-menu__link">читать и смотреть</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="#" class="popup-menu__link">права детей</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="#" class="popup-menu__link">истории</a>
-            </li>
-          </ul>
-          <ul class="popup-menu__links">
-            <li class="popup-menu__list">
-              <a href="http://facebook.com" class="popup-menu__link">facebook</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="http://vk.com" class="popup-menu__link">vkontakte</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="http://instagram.com" class="popup-menu__link">instagram</a>
-            </li>
-            <li class="popup-menu__list">
-              <a href="http://youtube.com" class="popup-menu__link">youtube</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="popup-menu__footer">
-          <p class="popup_menu__city">Москва.</p>
-          <button type="button" class="popup-menu__change-city">Изменить город</button>
-          <button type="button" class="popup-menu__exit">Выйти</button>
-        </div>
-      </div>
-
-
     </div>
 
-  </div>
-
-  <script src="./scripts/index.js"></script>
-  <script src="./scripts/personal_account.js"></script>
-
-</body>
-
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/personal_account.js"></script>
+  </body>
 </html>

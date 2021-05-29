@@ -13,6 +13,11 @@
   cursor: pointer;
   background-color: white;
 }
+
+.list__button-view:hover {
+  background-color: #c8d1ff;
+}
+
 @media (max-width: 1024px) {
   .list__button-view {
     width: 40px;

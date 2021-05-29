@@ -11,7 +11,11 @@
   text-decoration: none;
 }
 
-@media (max-width: 400px) {
+.block-place__category:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
   .block-place__category {
     font-size: 12px;
     line-height: 17px;

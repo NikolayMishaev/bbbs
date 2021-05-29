@@ -10,6 +10,10 @@
   text-decoration: none;
 }
 
+.block-video-header__category:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 1024px) {
   .block-video-header__category {
     font-size: 12px;

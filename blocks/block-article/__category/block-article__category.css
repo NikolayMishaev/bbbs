@@ -7,6 +7,11 @@
   line-height: 19px;
   letter-spacing: 0.2px;
   color: #224cff;
+  text-decoration: none;
+}
+
+.block-article__category:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 1024px) {

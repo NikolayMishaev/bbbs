@@ -14,4 +14,7 @@
   .content-section__title {
     text-align: unset;
   }
+  .content-section__title:after {
+    margin: 10px 0 20px;
+  }
 }

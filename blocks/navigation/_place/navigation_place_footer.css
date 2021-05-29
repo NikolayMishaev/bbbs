@@ -24,13 +24,13 @@
     order: 3;
     padding-bottom: 0;
     grid-column: unset;
-    margin-bottom: 11px;
+    margin-bottom: 13px;
     border-bottom: none;
   }
 }
 
 @media (max-width: 900px) {
   .navigation_place_footer:last-child {
-    margin-bottom: 13px;
+    margin-bottom: 11px;
   }
 }

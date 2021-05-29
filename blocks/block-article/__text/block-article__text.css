@@ -1,0 +1,18 @@
+.block-article__text {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1a1a1a;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+  .block-article__text {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 30px;
+  }
+}

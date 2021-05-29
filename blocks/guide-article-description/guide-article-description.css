@@ -1,0 +1,11 @@
+.guide-article-description {
+  max-width: 769px;
+  padding-top: 50px;
+}
+
+@media (max-width: 1024px) {
+  .guide-article-description {
+    max-width: 570px;
+    padding-top: 30px;
+  }
+}

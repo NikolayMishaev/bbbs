@@ -1,0 +1,7 @@
+.block_stories__text_margins {
+  margin: 10px auto 0;
+}
+
+.block_stories__text_margins:first-child {
+  margin: 0;
+}

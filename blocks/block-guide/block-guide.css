@@ -1,16 +1,11 @@
 .block-guide {
   margin: 0;
-  width: 420px;
-}
-
-@media (max-width: 1440px) {
-  .block-guide {
-    width: 370px;
-  }
+  height: 100%;
 }
 
 @media (max-width: 1024px) {
   .block-guide {
-    width: 290px;
+    max-width: 290px;
+    margin: 0 auto;
   }
 }

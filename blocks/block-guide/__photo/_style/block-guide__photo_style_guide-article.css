@@ -1,0 +1,31 @@
+.block-guide__photo_style_guide-article {
+  border-radius: 30px;
+  width: 1170px;
+  height: 769px;
+}
+
+@media (max-width: 1440px) {
+  .block-guide__photo_style_guide-article {
+    width: 970px;
+    height: 637px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-guide__photo_style_guide-article {
+    width: 100%;
+    height: 507px;
+  }
+}
+
+@media (max-width: 700px) {
+  .block-guide__photo_style_guide-article {
+    height: 67vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .block-guide__photo_style_guide-article {
+    height: 191px;
+  }
+}

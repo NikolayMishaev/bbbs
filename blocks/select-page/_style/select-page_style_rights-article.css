@@ -1,0 +1,14 @@
+.select-page_style_rights-article {
+  padding: 0 15px;
+  padding-top: unset;
+  max-width: 769px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .select-page_style_rights-article {
+    max-width: 570px;
+  }
+}

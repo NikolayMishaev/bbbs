@@ -35,29 +35,43 @@
               >
             </li>
             <li class="navigation__list navigation__list_type_submenu">
-              <a href="#" class="navigation__link navigation__link_place_header"
+              <a
+                href="./content_menu.html"
+                class="navigation__link navigation__link_place_header"
                 >читать и смотреть</a
               >
               <ul class="navigation__submenu-links">
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Справочник</a>
+                  <a href="./guide.html" class="navigation__submenu-link"
+                    >Справочник</a
+                  >
                 </li>
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Видео</a>
+                  <a href="./video.html" class="navigation__submenu-link"
+                    >Видео</a
+                  >
                 </li>
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Статьи</a>
+                  <a href="./articles.html" class="navigation__submenu-link"
+                    >Статьи</a
+                  >
                 </li>
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Фильмы</a>
+                  <a href="./movie.html" class="navigation__submenu-link"
+                    >Фильмы</a
+                  >
                 </li>
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Книги</a>
+                  <a href="./book.html" class="navigation__submenu-link"
+                    >Книги</a
+                  >
                 </li>
               </ul>
             </li>
             <li class="navigation__list">
-              <a href="#" class="navigation__link navigation__link_place_header"
+              <a
+                href="./rights.html"
+                class="navigation__link navigation__link_place_header"
                 >права детей</a
               >
             </li>
@@ -71,7 +85,7 @@
         <form
           action="#"
           name="searcg"
-          class="header__form-search display-none"
+          class="header__form-search"
           method="POST"
         >
           <label class="header__field">
@@ -109,7 +123,7 @@
         <button type="button" class="header__menu"></button>
       </header>
 
-      <main class="content page__content">
+      <main class="content page__content content_style-main">
         <section class="two-columns two-columns_style_first">
           <article class="block-calendar">
             <p class="block-calendar__caption">Волонтёры + дети</p>
@@ -123,9 +137,19 @@
               Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)
             </p>
             <p class="block-calendar__phone">Александра, +7 926 356-78-90</p>
-            <button class="block-calendar__sign-up">Записаться</button>
+            <button
+              type="button"
+              aria-label="button sign up"
+              class="block-calendar__sign-up"
+            >
+              Записаться
+            </button>
             <p class="block-calendar__info">Осталось 5 мест</p>
-            <button class="block-calendar__add"></button>
+            <button
+              type="button"
+              aria-label="button add"
+              class="block-calendar__add"
+            ></button>
           </article>
           <article class="block-guest background-green">
             <div class="block-guest__container-header">
@@ -151,7 +175,9 @@
               усадьба Архангельское в две строки
             </p>
             <div class="block-place__image"></div>
-            <a href="#" class="block-place__category">перейти на сайт</a>
+            <a href="./places.html" class="block-place__category"
+              >перейти на сайт</a
+            >
           </article>
           <article class="block-place_type_description background-white">
             <p class="block-place__caption">Девочка, 10 лет. Активный отдых</p>
@@ -176,12 +202,14 @@
           <article
             class="block-article block-article_style_main background-blue"
           >
-            <p class="block-atricle__title">
+            <blockquote class="block-atricle__title">
               У таких детей возникает ощущение отверженности. Оно приводит к
               напряженности и недоверию к людям и, как итог, к реальному
               неприятию себя и окружающих.
-            </p>
-            <p class="block-article__category">читать статью</p>
+            </blockquote>
+            <a href="./articles.html" class="block-article__category"
+              >читать статью</a
+            >
           </article>
         </section>
         <section class="four-columns">
@@ -193,19 +221,21 @@
             <p class="block-video__caption">
               Василий Сигарев, Борисов-Мусотов (Россия), 2009 год
             </p>
-            <a href="#" class="block-video__category">смотреть трейлер</a>
+            <a href="./movie.html" class="block-video__category"
+              >смотреть трейлер</a
+            >
             <div
               class="block-video__caption block-video__caption_type_overflow"
             >
-              <a
+              <span
                 href="#"
                 class="block-video__category block-video__category_type_overflow-video"
-                >рубрика</a
+                >рубрика</span
               >
-              <a
+              <span
                 href="#"
                 class="block-video__category block-video__category_type_overflow-video"
-                >рубрика</a
+                >рубрика</span
               >
             </div>
           </article>
@@ -215,19 +245,21 @@
             <p class="block-video__caption">
               Клод Баррас, мультфильм, Швейцария, Франция, 2016
             </p>
-            <a href="#" class="block-video__category">смотреть трейлер</a>
+            <a href="./movie.html" class="block-video__category"
+              >смотреть трейлер</a
+            >
             <div
               class="block-video__caption block-video__caption_type_overflow"
             >
-              <a
+              <span
                 href="#"
                 class="block-video__category block-video__category_type_overflow-video"
-                >рубрика</a
+                >рубрика</span
               >
-              <a
+              <span
                 href="#"
                 class="block-video__category block-video__category_type_overflow-video"
-                >рубрика</a
+                >рубрика</span
               >
             </div>
           </article>
@@ -237,19 +269,21 @@
             <p class="block-video__caption">
               Василий Сигарев, Россия, 2009 год
             </p>
-            <a href="#" class="block-video__category">смотреть трейлер</a>
+            <a href="./movie.html" class="block-video__category"
+              >смотреть трейлер</a
+            >
             <div
               class="block-video__caption block-video__caption_type_overflow"
             >
-              <a
+              <span
                 href="#"
                 class="block-video__category block-video__category_type_overflow-video"
-                >рубрика</a
+                >рубрика</span
               >
-              <a
+              <span
                 href="#"
                 class="block-video__category block-video__category_type_overflow-video"
-                >рубрика</a
+                >рубрика</span
               >
             </div>
           </article>
@@ -261,25 +295,27 @@
             <p class="block-video__caption">
               Василий Сигарев, Борисов-Мусотов (Россия), 2009 год
             </p>
-            <a href="#" class="block-video__category">смотреть трейлер</a>
+            <a href="./movie.html" class="block-video__category"
+              >смотреть трейлер</a
+            >
             <div
               class="block-video__caption block-video__caption_type_overflow"
             >
-              <a
+              <span
                 href="#"
                 class="block-video__category block-video__category_type_overflow-video"
-                >рубрика</a
+                >рубрика</span
               >
-              <a
+              <span
                 href="#"
                 class="block-video__category block-video__category_type_overflow-video"
-                >рубрика</a
+                >рубрика</span
               >
             </div>
           </article>
         </section>
         <section class="two-columns two-columns_style_video-header">
-          <article
+          <div
             class="block-video-header block-video-header_type_description background-yellow"
           >
             <h2 class="block-video-header__title">
@@ -288,11 +324,13 @@
             <p class="block-video-header__caption">
               Иван Рустаев, выпускник программы
             </p>
-            <a href="#" class="block-video-header__category">смотреть видео</a>
-          </article>
-          <article class="block-video-header">
+            <a href="./video.html" class="block-video-header__category"
+              >смотреть видео</a
+            >
+          </div>
+          <div class="block-video-header">
             <iframe class="block-video-header__iframe"></iframe>
-          </article>
+          </div>
         </section>
         <section class="two-columns two-columns_style_questions">
           <article class="block-links">
@@ -304,25 +342,31 @@
           </article>
           <section class="three-columns">
             <article class="block-questions background-white">
-              <h2 class="block-questions__title">
-                Я боюсь, что ребёнок ко мне слишком сильно привяжется. Что
-                делать?
-              </h2>
-              <a href="#" class="block-questions__category">рубрика</a>
+              <a href="./questions.html" class="block-questions__link">
+                <h2 class="block-questions__title">
+                  Я боюсь, что ребёнок ко мне слишком сильно привяжется. Что
+                  делать?
+                </h2>
+              </a>
+              <span class="block-questions__category">рубрика</span>
             </article>
             <article class="block-questions background-white">
-              <h2 class="block-questions__title">
-                Возможно ли продлить срок участия в программе, если и я и мой
-                «младший» хотим остаться в программе?
-              </h2>
-              <a href="#" class="block-questions__category">рубрика</a>
+              <a href="./questions.html" class="block-questions__link">
+                <h2 class="block-questions__title">
+                  Возможно ли продлить срок участия в программе, если и я и мой
+                  «младший» хотим остаться в программе?
+                </h2>
+              </a>
+              <span class="block-questions__category">рубрика</span>
             </article>
             <article class="block-questions background-white">
-              <h2 class="block-questions__title">
-                Что делать если Ваш младший решил закрыть пару, т.к. слишком
-                занят с учебой и друзьями?
-              </h2>
-              <a href="#" class="block-questions__category">рубрика</a>
+              <a href="./questions.html" class="block-questions__link">
+                <h2 class="block-questions__title">
+                  Что делать если Ваш младший решил закрыть пару, т.к. слишком
+                  занят с учебой и друзьями?
+                </h2>
+              </a>
+              <span class="block-questions__category">рубрика</span>
             </article>
           </section>
         </section>
@@ -330,12 +374,14 @@
           <article
             class="block-article block-article_style_main background-green"
           >
-            <p class="block-atricle__title">
+            <blockquote class="block-atricle__title">
               У таких детей возникает ощущение отверженности. Оно приводит к
               напряженности и недоверию к людям и, как итог, к реальному
               неприятию себя и окружающих.
-            </p>
-            <p class="block-article__category">читать статью</p>
+            </blockquote>
+            <a href="./articles.html" class="block-article__category"
+              >читать статью</a
+            >
           </article>
         </section>
       </main>
@@ -352,11 +398,13 @@
             </p>
             <p class="footer__about">
               Разработка – студенты
-              <a href="#" class="footer__link">Яндекс.Практикум</a>
+              <a href="https://praktikum.yandex.ru" class="footer__link"
+                >Яндекс.Практикум</a
+              >
             </p>
             <p class="footer__about">
               Концепция и дизайн –
-              <a href="#" class="footer__link">krkr.design</a>
+              <a href="https://krkr.design" class="footer__link">krkr.design</a>
             </p>
           </div>
 
@@ -399,7 +447,7 @@
               </li>
               <li class="navigation__list navigation__list_place_footer">
                 <a
-                  href="#"
+                  href="./rights.html"
                   class="navigation__link navigation__link_place_footer"
                   >права детей</a
                 >
@@ -623,7 +671,7 @@
                 />
                 <span class="popup__input-error"></span>
               </label>
-              <p class="popup__help">Забыли пароль?</p>
+              <a class="popup__help">Забыли пароль?</a>
               <button
                 aria-label="submit form"
                 class="popup__button-submit"
@@ -661,10 +709,12 @@
                 <a href="./questions.html" class="popup-menu__link">вопросы</a>
               </li>
               <li class="popup-menu__list">
-                <a href="#" class="popup-menu__link">читать и смотреть</a>
+                <a href="./content_menu.html" class="popup-menu__link"
+                  >читать и смотреть</a
+                >
               </li>
               <li class="popup-menu__list">
-                <a href="#" class="popup-menu__link">права детей</a>
+                <a href="./rights.html" class="popup-menu__link">права детей</a>
               </li>
               <li class="popup-menu__list">
                 <a href="#" class="popup-menu__link">истории</a>
