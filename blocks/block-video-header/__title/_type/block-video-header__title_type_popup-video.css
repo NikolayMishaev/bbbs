@@ -1,5 +1,6 @@
 .block-video-header__title_type_popup-video {
   margin-top: 30px;
+  width: 100%;
 }
 
 @media (max-width: 1024px) {
