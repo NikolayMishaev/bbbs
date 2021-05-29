@@ -1,0 +1,16 @@
+.block-stories__photo_pos {
+  margin: 0 auto 50px;
+}
+
+@media (max-width: 1024px) {
+  .block-stories__photo_pos {
+    margin-bottom: 20px;
+    /* margin-top: 30px; */
+  }
+}
+
+@media (max-width: 320px) {
+  .block-stories__photo_pos {
+    margin-bottom: 15px;
+  }
+}

@@ -5,6 +5,7 @@ height: 100%;
 top:0;
 right: 0;
 background: linear-gradient(to right, transparent, #F3F2F2);
+z-index: 1;
 }
 
 @media (max-width: 1024px) {

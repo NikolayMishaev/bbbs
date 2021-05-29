@@ -1,0 +1,20 @@
+.block-stories__photo-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-wrap: unset;
+  width: 95vw;
+  padding: 0;
+  margin: 80px 0;
+}
+
+@media (max-width: 1024px) {
+  .block-stories__photo-grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}

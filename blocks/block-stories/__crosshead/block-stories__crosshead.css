@@ -1,0 +1,19 @@
+.block-stories__crosshead {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 1439px) {
+  .block-stories__crosshead {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
