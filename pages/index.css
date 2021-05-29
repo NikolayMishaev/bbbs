@@ -150,6 +150,7 @@
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__container/_type/popup__container_type_popup-city.css);
 @import url(../blocks/popup/__container/_type/popup__container_type_advice.css);
+@import url(../blocks/popup/__container/_type/popup__container_type_advice-sucess.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__button-submit/popup__button-submit.css);
 @import url(../blocks/popup/__button-submit/_type/popup__button-submit_type_advice.css);
@@ -159,6 +160,7 @@
 @import url(../blocks/popup/__button-add/popup__button-add.css);
 @import url(../blocks/popup/__caption/popup__caption.css);
 @import url(../blocks/popup/__visible-checkbox/popup__visible-checkbox.css);
+@import url(../blocks/popup/__logo/popup__logo.css);
 @import url(../blocks/popup-menu/popup-menu.css);
 @import url(../blocks/popup-menu/__search/popup-menu__search.css);
 @import url(../blocks/popup-menu/__navigation/popup-menu__navigation.css);
@@ -201,8 +203,10 @@
 @import url(../blocks/block-message/block-message.css);
 @import url(../blocks/block-message/__accent/__accent.css);
 @import url(../blocks/block-message/_type/block-message_type_margin.css);
+@import url(../blocks/block-message/_type/block-message_type_advice-sucess.css);
 @import url(../blocks/block-message/_style/block-message_style_places.css);
 @import url(../blocks/block-message/__text/block-message__text.css);
+@import url(../blocks/block-message/__text/_type/block-message__text_type_advice-sucess.css);
 @import url(../blocks/block-message/__button/block-message__button.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__list/menu__list.css);

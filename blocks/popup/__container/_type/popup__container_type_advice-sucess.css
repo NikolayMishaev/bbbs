@@ -1,0 +1,15 @@
+.popup__container_type_advice-sucess {
+  height: 618px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+    max-height: 100vh;
+    padding: 50px;
+}
+
+@media (max-width: 500px) {
+  .popup__container_type_advice-sucess {
+    padding: 30px 15px;
+  }
+}
