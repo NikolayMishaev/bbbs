@@ -77,6 +77,7 @@
 @import url(../blocks/block-calendar/__add/block-calendar__add.css);
 @import url(../blocks/block-photo/block-photo.css);
 @import url(../blocks/block-photo/__title/block-photo__title.css);
+@import url(../blocks/block-photo/__link/block-photo__link.css);
 @import url(../blocks/block-place/block-place.css);
 @import url(../blocks/block-place/_type/block-place_type_small.css);
 @import url(../blocks/block-place/_size/block-place_size_small.css);
