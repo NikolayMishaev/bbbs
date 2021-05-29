@@ -1,11 +1,11 @@
 .content-section__title {
-text-align: center;
-margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 .content-section__title:after {
-  content: '';
-  border-bottom: 1px solid #224CFF;
+  content: "";
+  border-bottom: 1px solid #224cff;
   display: block;
   margin: 20px 0 50px;
 }
@@ -13,5 +13,8 @@ margin: 0;
 @media (max-width: 1024px) {
   .content-section__title {
     text-align: unset;
+  }
+  .content-section__title:after {
+    margin: 10px 0 20px;
   }
 }

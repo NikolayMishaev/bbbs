@@ -1,0 +1,15 @@
+.block-rights {
+  height: 100%;
+  display: flex;
+}
+
+.block-rights::before {
+  content: "";
+  padding-top: 100%;
+}
+
+@media (max-width: 1024px) {
+  .block-rights {
+    max-height: 290px;
+  }
+}

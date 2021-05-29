@@ -1,0 +1,31 @@
+.content__header_style_rights-article {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 772px;
+  border-radius: 3px 400px 400px 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1440px) {
+  .content__header_style_rights-article {
+    margin-top: 172px;
+    min-height: 579px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content__header_style_rights-article {
+    margin-top: 156px;
+    min-height: 412px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content__header_style_rights-article {
+    margin-top: 1px;
+    border-radius: 3px;
+  }
+}

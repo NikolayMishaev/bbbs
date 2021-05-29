@@ -1,0 +1,32 @@
+.content__pseudo-block {
+  position: absolute;
+  top: -522px;
+  right: 0;
+  width: 79%;
+  height: 772px;
+  z-index: -1;
+  border-radius: 3px 3px 3px 400px;
+}
+
+@media (max-width: 1440px) {
+  .content__pseudo-block {
+    height: 322px;
+    top: 0;
+    border-radius: 3px 3px 3px 295px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content__pseudo-block {
+    height: 368px;
+    top: -102px;
+    border-radius: 3px 3px 3px 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content__pseudo-block {
+    width: 100%;
+    border-radius: 3px;
+  }
+}

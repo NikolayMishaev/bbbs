@@ -1,10 +1,10 @@
 .navigation__links_place_footer {
   grid-auto-rows: max-content;
-  grid-gap: 19px;
+  grid-gap: 20px;
 }
 
 @media (max-width: 1275px) {
-  .navigation__links_place_footer  {
+  .navigation__links_place_footer {
     grid-template-rows: unset;
     display: flex;
     flex-wrap: wrap;
@@ -15,9 +15,7 @@
 }
 
 @media (max-width: 400px) {
-  .navigation__links_place_footer  {
+  .navigation__links_place_footer {
     transform: translate(8px, 0);
   }
 }
-
-

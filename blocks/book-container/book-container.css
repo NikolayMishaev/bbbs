@@ -1,0 +1,22 @@
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  row-gap: 80px;
+  column-gap: 30px;
+  padding-top: 80px;
+}
+
+@media (max-width: 1024px) {
+  .book-container {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    row-gap: 26px;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .book-container {
+    row-gap: 30px;
+    padding-top: 30px;
+  }
+}

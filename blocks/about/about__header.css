@@ -23,7 +23,7 @@
 }
 
 .about__logo {
-  background: url(../../images/about-logo.svg) no-repeat 100%/cover;
+  background: url(../../images/about-logo.svg) no-repeat 100% / cover;
   width: 357px;
   height: 65px;
   border: none;
@@ -31,7 +31,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .about__logo  {
+  .about__logo {
     width: 252px;
     height: 46px;
     margin: 30px auto 50px;
@@ -39,7 +39,7 @@
 }
 
 @media screen and (max-width: 400px) {
-  .about__logo  {
+  .about__logo {
     margin: 20px auto 30px;
   }
 }
@@ -53,7 +53,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .about__three-columns  {
+  .about__three-columns {
     grid-template-columns: unset;
   }
 }
@@ -62,11 +62,11 @@
   max-width: 570px;
   width: 100%;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
-  .about__column   {
+  .about__column {
     max-width: 570px;
   }
 }
@@ -88,7 +88,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .about__column-header{
+  .about__column-header {
     font-size: 19px;
     line-height: 23px;
     padding: 24px 0 23px;
@@ -99,7 +99,7 @@
   display: flex;
   flex-direction: column;
   min-height: 256px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 30px;
   padding: 30px;
   box-sizing: border-box;
@@ -142,14 +142,14 @@
   font-size: 15px;
   line-height: 19px;
   letter-spacing: 0.2px;
-  color: #224CFF;
+  color: #224cff;
   cursor: pointer;
   transition: opacity 1s ease-in;
   padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .about__action  {
+  .about__action {
     font-size: 12px;
     line-height: 17px;
   }

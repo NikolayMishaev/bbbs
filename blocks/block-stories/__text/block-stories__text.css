@@ -1,0 +1,26 @@
+.block-stories__text {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color: #000000;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 770px;
+}
+
+@media (max-width: 1024px) {
+  .block-stories__text {
+    max-width: 570px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 320px) {
+  .block-stories__text {
+    max-width: 290px;
+  }
+}

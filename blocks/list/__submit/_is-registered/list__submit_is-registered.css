@@ -1,5 +1,11 @@
-.list__submit_is-registered{
-    color: white;
-    background:  #224CFF;
-    width: 168px;
+.list__submit_is-registered {
+  color: white;
+  background: #224cff;
+  width: 168px;
+}
+
+.list__submit_is-registered:hover {
+  background: #2e2468;
+  color: #f3f2f2;
+  border: 1px solid #2e2468;
 }

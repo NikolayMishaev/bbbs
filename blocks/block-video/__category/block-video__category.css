@@ -1,13 +1,17 @@
 .block-video__category {
   font-family: Proto Grotesk Web Light;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 19px;
-letter-spacing: 0.2px;
-color: #224CFF;
-margin: auto auto 15px;
-text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #224cff;
+  margin: auto auto 15px;
+  text-decoration: none;
+}
+
+.block-video__category:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 1024px) {
@@ -16,4 +20,3 @@ text-decoration: none;
     line-height: 17px;
   }
 }
-

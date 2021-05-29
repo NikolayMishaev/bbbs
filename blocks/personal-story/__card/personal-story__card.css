@@ -9,7 +9,7 @@
 
 @media (max-width: 1024px) {
   .personal-story__card {
-flex-wrap: wrap;
-padding-top: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
   }
 }

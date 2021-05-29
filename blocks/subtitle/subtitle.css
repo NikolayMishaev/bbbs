@@ -1,0 +1,19 @@
+.subtitle {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #1a1a1a;
+  margin: 0;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+  .subtitle {
+    font-size: 19px;
+    line-height: 23px;
+    padding-bottom: 50px;
+  }
+}

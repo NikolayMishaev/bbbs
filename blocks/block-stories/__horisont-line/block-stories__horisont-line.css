@@ -1,0 +1,7 @@
+.block-stories__horisont-line {
+  box-sizing: border-box;
+  max-width: 770px;
+  width: 100%;
+  border-top: 1px solid #464646;
+  height: 1px;
+}

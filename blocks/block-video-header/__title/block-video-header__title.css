@@ -7,11 +7,11 @@
   color: #000000;
   margin: 0 auto 5px;
   text-align: center;
-  }
+}
 
-  @media (max-width: 1024px) {
-    .block-video-header__title  {
-      font-size: 19px;
-  line-height: 23px;
-    }
+@media (max-width: 1024px) {
+  .block-video-header__title {
+    font-size: 19px;
+    line-height: 23px;
   }
+}

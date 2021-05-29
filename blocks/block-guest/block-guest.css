@@ -8,21 +8,21 @@
 }
 
 @media (max-width: 1440px) {
-  .block-guest  {
-      min-height: 414px;
-      display: flex;
-      flex-wrap: wrap;
-    }
+  .block-guest {
+    min-height: 414px;
+    display: flex;
+    flex-wrap: wrap;
   }
+}
 
-  @media (max-width: 1024px) {
-    .block-guest {
-      min-height: 382px;
-    }
+@media (max-width: 1024px) {
+  .block-guest {
+    min-height: 382px;
   }
+}
 
-  @media (max-width: 400px) {
-    .block-guest {
-      min-height: 290px;
-    }
+@media (max-width: 400px) {
+  .block-guest {
+    min-height: 290px;
   }
+}

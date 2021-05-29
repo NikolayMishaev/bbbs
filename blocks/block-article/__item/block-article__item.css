@@ -1,0 +1,31 @@
+.block-article__item {
+  list-style-type: none;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.block-article__item:after {
+  content: "";
+  border-bottom: 1px solid #a7a6a6;
+  display: block;
+  margin: 14.4px 0;
+}
+
+.block-article__item:last-child::after {
+  border-bottom: none;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .block-article__item {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .block-article__item::after {
+    margin: 14.4px 0 9.5px;
+  }
+}

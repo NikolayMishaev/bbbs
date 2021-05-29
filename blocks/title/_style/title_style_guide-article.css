@@ -1,0 +1,26 @@
+.title_style_guide-article {
+  padding-bottom: 40px;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+@media (max-width: 1024px) {
+  .title_style_guide-article {
+    padding-bottom: 20px;
+    font-size: 37px;
+    line-height: 39px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title_style_guide-article {
+    padding-bottom: 30px;
+    font-size: 23px;
+    line-height: 30px;
+  }
+}

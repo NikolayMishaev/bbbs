@@ -1,0 +1,14 @@
+.block-description {
+  width: 100%;
+  border-radius: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+  min-height: 222px;
+}
+
+@media (max-width: 1024px) {
+  .block-description {
+    min-height: 188px;
+    padding: 30px 15px;
+  }
+}

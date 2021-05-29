@@ -1,0 +1,9 @@
+.block-stories__subtitle_pos_article {
+  margin: 0 auto 50px;
+}
+
+@media (max-width: 1024px) {
+  .block-stories__subtitle_pos_article {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,9 @@
+.guide-article-description_style_rights-article {
+  padding: 80px 15px 0;
+}
+
+@media (max-width: 1024px) {
+  .guide-article-description_style_rights-article {
+    padding: 52px 15px 0;
+  }
+}

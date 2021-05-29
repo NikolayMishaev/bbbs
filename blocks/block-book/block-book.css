@@ -1,0 +1,10 @@
+.block-book {
+  padding: 30px 0;
+  border-radius: 30px;
+}
+
+@media (max-width: 1024px) {
+  .block-book {
+    padding: 30px 0;
+  }
+}

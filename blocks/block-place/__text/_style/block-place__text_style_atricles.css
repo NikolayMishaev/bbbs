@@ -1,0 +1,15 @@
+.block-place__text_style_atricles {
+  margin-top: 124px;
+}
+
+@media (max-width: 1280px) {
+  .block-place__text_style_atricles {
+    margin-top: unset;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-place__text_style_atricles {
+    max-height: 127px;
+  }
+}

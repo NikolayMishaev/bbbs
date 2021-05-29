@@ -1,0 +1,15 @@
+.two-columns_style_articles {
+  padding: 55px 0 80px;
+}
+
+@media (max-width: 1024px) {
+  .two-columns_style_articles {
+    padding: 45px 0 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .two-columns_style_articles {
+    padding: 26px 0 29px;
+  }
+}

@@ -1,5 +1,5 @@
 .header__account {
-  background: url(../../../images/header-account.svg) no-repeat 100%/cover;
+  background: url(../../../images/header-account.svg) no-repeat 100% / cover;
   width: 30px;
   height: 30px;
   border: none;
@@ -14,7 +14,7 @@
   opacity: 0.7;
 }
 
-.header__account:focus{
+.header__account:focus {
   outline: none;
 }
 

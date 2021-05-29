@@ -1,0 +1,15 @@
+.block-book__book {
+  border-radius: 3px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .block-book__book {
+    min-height: 272px;
+    width: 200px;
+  }
+}

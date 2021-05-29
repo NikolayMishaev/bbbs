@@ -1,0 +1,9 @@
+.two-columns_style_video {
+  padding: 80px 0;
+}
+
+@media (max-width: 1024px) {
+  .two-columns_style_video {
+    padding: 30px 0;
+  }
+}

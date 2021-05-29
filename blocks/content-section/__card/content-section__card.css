@@ -1,0 +1,15 @@
+.content-section__card {
+  width: 420px;
+}
+
+@media (max-width: 1440px) {
+  .content-section__card {
+    width: 370px;
+  }
+}
+
+@media (max-width: 400px) {
+  .content-section__card {
+    width: 290px;
+  }
+}

@@ -1,27 +1,27 @@
 .popup-delete-story-card__button-cancel {
   min-width: 100px;
   min-height: 48px;
-  background-color:transparent;
+  background-color: transparent;
   border: 1px solid #000;
-box-sizing: border-box;
-border-radius: 100px;
-font-family: Proto Grotesk Web Light;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 19px;
-letter-spacing: 0.2px;
-color: #000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #000;
 }
 
 .popup-delete-story-card__button-cancel:hover {
-cursor: pointer;
-background: #E0E0E0;
+  cursor: pointer;
+  background: #e0e0e0;
 }
 
 .popup-delete-story-card__button-cancel:disabled {
-  color: #A7A6A6;
-  border-color: #A7A6A6;
+  color: #a7a6a6;
+  border-color: #a7a6a6;
   pointer-events: none;
 }
 
@@ -30,6 +30,6 @@ background: #E0E0E0;
     min-width: 78px;
     min-height: 40px;
     font-size: 12px;
-line-height: 17px;
+    line-height: 17px;
   }
 }

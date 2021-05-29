@@ -2,17 +2,17 @@
   margin: 0 0 0 auto;
   text-align: end;
   font-family: Proto Grotesk Web Light;
-font-style: normal;
-font-weight: 300;
-font-size: 100px;
-line-height: 100px;
-letter-spacing: -2px;
-color: #000000;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  color: #000000;
 }
 
 @media (max-width: 1024px) {
   .block-calendar__number {
     font-size: 60px;
     line-height: 60px;
-    }
   }
+}

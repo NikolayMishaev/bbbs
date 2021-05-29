@@ -6,7 +6,7 @@
 
 @media (max-width: 1024px) {
   .story-form {
-flex-wrap: wrap;
-padding-top: 29px;
+    flex-wrap: wrap;
+    padding-top: 29px;
   }
 }
