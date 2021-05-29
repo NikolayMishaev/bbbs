@@ -113,10 +113,14 @@
 @import url(../blocks/block-video/__caption/_type/block-video__caption_type_overflow.css);
 @import url(../blocks/block-video-header/block-video-header.css);
 @import url(../blocks/block-video-header/_type/block-video-header_type_description.css);
+@import url(../blocks/block-video-header/_type/block-video-header_type_popup-video.css);
 @import url(../blocks/block-video-header/__iframe/block-video-header__iframe.css);
+@import url(../blocks/block-video-header/__iframe/_type/block-video-header__iframe_type_popup-video.css);
 @import url(../blocks/block-video-header/__title/block-video-header__title.css);
+@import url(../blocks/block-video-header/__title/_type/block-video-header__title_type_popup-video.css);
 @import url(../blocks/block-video-header/__category/block-video-header__category.css);
 @import url(../blocks/block-video-header/__caption/block-video-header__caption.css);
+@import url(../blocks/block-video-header/__caption/_type/block-video-header__caption_type_popup-video.css);
 @import url(../blocks/block-links/block-links.css);
 @import url(../blocks/block-links/__iframe/block-links__iframe.css);
 @import url(../blocks/block-questions/block-questions.css);
@@ -151,6 +155,7 @@
 @import url(../blocks/popup/__container/_type/popup__container_type_popup-city.css);
 @import url(../blocks/popup/__container/_type/popup__container_type_advice.css);
 @import url(../blocks/popup/__container/_type/popup__container_type_advice-sucess.css);
+@import url(../blocks/popup/__container/_type/popup__container_type_video.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__button-submit/popup__button-submit.css);
 @import url(../blocks/popup/__button-submit/_type/popup__button-submit_type_advice.css);

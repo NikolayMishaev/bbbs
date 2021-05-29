@@ -1,0 +1,9 @@
+.block-video-header__title_type_popup-video {
+  margin-top: 30px;
+}
+
+@media (max-width: 640px) {
+  .block-video-header__title_type_popup-video {
+  margin: 10px 0 0;
+}
+}
