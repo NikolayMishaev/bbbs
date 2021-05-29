@@ -9,9 +9,10 @@ buttonsPlayVideo.forEach(button=>{
   })
 })
 
+buttonPlayVideoHeader ?
 buttonPlayVideoHeader.addEventListener('click', ()=>{
   openPopup(popupVideo);
-})
+}) : '';
 
 
 containerPopupVideo.addEventListener('click', (e)=>{

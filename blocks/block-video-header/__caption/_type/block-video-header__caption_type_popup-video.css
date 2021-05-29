@@ -3,3 +3,7 @@
   padding-bottom: 50px;
   width: 100%;
 }
+
+.block-video-header__caption_type_popup-video:hover {
+cursor: pointer;
+}
