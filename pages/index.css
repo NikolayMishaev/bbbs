@@ -432,6 +432,7 @@
 @import url(../blocks/block-stories/__subtitle/_pos/block-stories__subtitle_pos_article.css);
 @import url(../blocks/block-stories/__title/block-stories__title.css);
 @import url(../blocks/block-stories/__menu/block-stories__menu.css);
+@import url(../blocks/block-stories/__menu/_type/block-stories__menu_type_position-fixed.css);
 @import url(../blocks/block-stories/__photo/block-stories__photo.css);
 @import url(../blocks/block-stories/__article/block-stories__article.css);
 @import url(../blocks/block-stories/__photo/_pos/block-stories__photo_pos.css);

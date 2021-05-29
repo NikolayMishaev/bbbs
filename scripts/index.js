@@ -28,6 +28,8 @@ const formSignIn = document.querySelector('.popup__form');
 
 const page = document.querySelector('.page');
 
+const menuStories = document.querySelector('.menu_type_stories');
+
 const openPopup = popup => {
   popup.classList.add("visible-block");
   headerMenu.classList.remove('header_type_position-fixed');
@@ -127,8 +129,10 @@ let current = 0;
 const checkScroll = () => {
   if (window.pageYOffset < current && window.pageYOffset > 50 && !popupSignIn.classList.contains("visible-block")) {
     headerMenu.classList.add('header_type_position-fixed');
+    menuStories ? menuStories.classList.add('block-stories__menu_type_position-fixed'): '' ;
   } else {
     headerMenu.classList.remove('header_type_position-fixed');
+    menuStories ? menuStories.classList.remove('block-stories__menu_type_position-fixed'): '' ;
   }
   current = window.pageYOffset;
 }
