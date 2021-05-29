@@ -5,7 +5,7 @@
   display: inline-block;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1440px) {
   .block-stories__arrow {
     display: none;
   }

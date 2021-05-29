@@ -9,7 +9,7 @@
   margin: 0 50px;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1024px) {
   .block-stories__photo-grid-item {
     max-width: 570px;
     min-height: 379px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 400px) {
   .block-stories__photo-grid-item {
     max-width: 260px;
     min-height: 172px;

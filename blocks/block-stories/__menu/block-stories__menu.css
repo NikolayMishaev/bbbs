@@ -3,13 +3,13 @@
   flex-direction: row;
   justify-content: unset;
   align-items: center;
-  /* max-height: 48px; */
-  margin: 50px;
+  margin-bottom: 40px;
   width: 100%;
   max-width: 1170px;
+  margin-left: 55px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .block-stories__menu {
     display: flex;
     flex-direction: row;
@@ -19,17 +19,15 @@
     white-space: nowrap;
     overflow-x: auto;
     overflow-wrap: unset;
-    width: calc(100vw - 15px);
     padding: 0;
     margin-left: 15px;
-    /* max-height: 40px; */
-    padding-left: 25px;
     box-sizing: border-box;
+    margin-bottom: 30px;
   }
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 400px) {
   .block-stories__menu {
-    margin-bottom: 30px;
+    margin-left: 0;
   }
 }

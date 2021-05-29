@@ -1,9 +1,9 @@
 .block-stories__crosshead_pos_margin_top_bottom {
-  margin: 60px auto;
+  margin: 60px auto 58px;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1024px) {
   .block-stories__crosshead_pos_margin_top_bottom {
-    margin: 30px auto;
+    margin: 30px auto 28px;
   }
 }

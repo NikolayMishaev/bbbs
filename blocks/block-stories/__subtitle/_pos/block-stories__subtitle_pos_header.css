@@ -4,6 +4,6 @@
 
 @media (max-width: 1024px) {
   .block-stories__subtitle_pos_header {
-    margin: 20px auto;
+    margin: 20px auto 30px;
   }
 }

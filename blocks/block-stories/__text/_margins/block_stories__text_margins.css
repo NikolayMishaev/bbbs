@@ -1,7 +1,13 @@
 .block_stories__text_margins {
-  margin: 10px auto 0;
+  margin: 25px auto 0;
 }
 
 .block_stories__text_margins:first-child {
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .block_stories__text_margins {
+margin-top: 19px;
+  }
 }

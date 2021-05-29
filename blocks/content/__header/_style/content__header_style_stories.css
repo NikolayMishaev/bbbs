@@ -1,29 +1,28 @@
-.block-stories__crossline {
+.content__header_style_stories {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 80px 0 0;
+  margin: 0;
   width: 100%;
   padding: 0 75px 0;
   box-sizing: border-box;
 }
 
 @media (max-width: 1440px) {
-  .block-stories__crossline {
+  .content__header_style_stories {
     padding: 0 135px 0;
   }
 }
 
 @media (max-width: 1024px) {
-  .block-stories__crossline {
-    margin: 50px 0 0;
+  .content__header_style_stories {
     padding: 0 127px 0;
   }
 }
 
 @media (max-width: 900px) {
-  .block-stories__crossline {
+  .content__header_style_stories {
     padding: 0 15px 0;
   }
 }
