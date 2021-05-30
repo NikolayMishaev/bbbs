@@ -11,7 +11,7 @@ margin-top: 10px;
   display: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
   .menu__list {
 justify-content: unset;
 flex-wrap: nowrap;
