@@ -25,20 +25,20 @@ function setupFBframe(frame) {
 }
 
 /* begin Document Ready */
-document.addEventListener('DOMContentLoaded', function() {
-  const facebookIframe = document.querySelector('#facebook-iframe');
+document.addEventListener("DOMContentLoaded", function () {
+  const facebookIframe = document.querySelector("#facebook-iframe");
   setupFBframe(facebookIframe);
 
   /* begin Window Resize */
 
-  (function() {
+  (function () {
     window.addEventListener("resize", resizeThrottler, false);
 
     let resizeTimeout;
 
     function resizeThrottler() {
       if (!resizeTimeout) {
-        resizeTimeout = setTimeout(function() {
+        resizeTimeout = setTimeout(function () {
           resizeTimeout = null;
           actualResizeHandler();
         }, 66);
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function actualResizeHandler() {
-      document.querySelector('#facebook-iframe').removeAttribute('src');
+      document.querySelector("#facebook-iframe").removeAttribute("src");
       setupFBframe(facebookIframe);
     }
   })();

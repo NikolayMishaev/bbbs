@@ -1,6 +1,5 @@
 .header_type_search {
   align-items: unset;
-<<<<<<< HEAD
   flex-wrap: wrap;
   position: fixed;
   background: #f3f2f2;
@@ -10,23 +9,12 @@
   width: inherit;
   box-sizing: border-box;
   max-width: inherit;
-=======
-    flex-wrap: wrap;
-    position: fixed;
-    background: #F3F2F2;
-    z-index: 50;
-    margin-top: 0;
-    padding-top: 40px;
-    width: inherit;
-    box-sizing: border-box;
-    max-width: inherit;
-    height: 800px;
-    max-height: 100vh;
-    overflow: auto;
-    align-content: flex-start;
+  height: 800px;
+  max-height: 100vh;
+  overflow: auto;
+  align-content: flex-start;
 }
 
 .header_type_search:hover {
-cursor: pointer;
->>>>>>> cf9090113935669104803baca82ad365235b869a
+  cursor: pointer;
 }

@@ -7,7 +7,7 @@
 }
 
 .block-guest__logo:hover {
-opacity: .8;
+  opacity: 0.8;
 }
 
 @media (max-width: 1440px) {

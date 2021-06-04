@@ -8,23 +8,23 @@
 }
 
 .popup__container_type_video:hover {
-cursor: pointer;
+  cursor: pointer;
 }
 
 @media (max-width: 1440px) {
   .popup__container_type_video {
-  max-height: 789px;
-}
+    max-height: 789px;
+  }
 }
 
 @media (max-width: 1024px) {
   .popup__container_type_video {
-  max-height: 640px;
-}
+    max-height: 640px;
+  }
 }
 
 @media (max-width: 400px) {
   .popup__container_type_video {
-  max-height: 400px;
-}
+    max-height: 400px;
+  }
 }

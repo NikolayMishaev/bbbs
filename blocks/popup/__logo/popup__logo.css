@@ -1,8 +1,9 @@
 .popup__logo {
-background: url(../../../images/popup-advice-sucess.jpg) no-repeat center/cover;
-width: 278px;
-min-height: 174px;
-margin-top: auto;
+  background: url(../../../images/popup-advice-sucess.jpg) no-repeat
+    center/cover;
+  width: 278px;
+  min-height: 174px;
+  margin-top: auto;
 }
 
 @media (max-width: 400px) {

@@ -4,28 +4,24 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-<<<<<<< HEAD
-  padding: 0;
-=======
   padding: 0 75px 0;
   box-sizing: border-box;
 }
 
 @media (max-width: 1440px) {
-.content__stories {
+  .content__stories {
     padding: 0 135px 0;
   }
 }
 
 @media (max-width: 1024px) {
-.content__stories {
+  .content__stories {
     padding: 0 127px 0;
   }
 }
 
 @media (max-width: 900px) {
-.content__stories {
+  .content__stories {
     padding: 0 15px 0;
   }
->>>>>>> cf9090113935669104803baca82ad365235b869a
 }
