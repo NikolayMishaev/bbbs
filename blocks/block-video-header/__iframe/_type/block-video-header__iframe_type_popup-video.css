@@ -1,0 +1,5 @@
+.block-video-header__iframe_type_popup-video {
+  height: unset;
+  flex: 1;
+  min-height: 240px;
+}

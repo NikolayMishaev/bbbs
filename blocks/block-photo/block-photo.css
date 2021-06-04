@@ -11,6 +11,10 @@
   min-height: 520px;
 }
 
+.block-photo:hover {
+  opacity: .8;
+  }
+
 .block-photo:after {
   content: "";
   position: absolute;

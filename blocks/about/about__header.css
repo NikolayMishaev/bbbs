@@ -76,22 +76,40 @@
 }
 
 .about__column-header {
-  display: block;
   margin: 0;
-  padding: 45px 0;
   text-align: center;
   border-radius: 70px;
   font-style: normal;
   font-weight: 300;
   font-size: 23px;
   line-height: 30px;
+  min-height: 120px;
+  height: 120px;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.about__column-header::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.about__column-header::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #E8E6E6;
 }
 
 @media screen and (max-width: 1024px) {
   .about__column-header {
     font-size: 19px;
     line-height: 23px;
-    padding: 24px 0 23px;
+    min-height: 70px;
+    height: 70px;
+    padding: 20px;
   }
 }
 

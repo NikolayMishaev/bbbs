@@ -1,6 +1,7 @@
 .popup-menu {
   width: 100%;
-  min-height: 500px;
+  max-height: 100vh;
+  overflow: auto;
   background: #ffffff;
   border-radius: 0px 0px 30px 30px;
   position: fixed;

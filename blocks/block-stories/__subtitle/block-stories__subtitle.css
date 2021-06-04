@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .block-stories__subtitle {
     max-width: 290px;
   }

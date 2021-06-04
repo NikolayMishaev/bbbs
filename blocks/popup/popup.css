@@ -7,7 +7,12 @@
   position: absolute;
   top: 0;
   left: 0;
+<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.3);
+=======
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 1;
+>>>>>>> cf9090113935669104803baca82ad365235b869a
 }
 
 .popup:hover {

@@ -5,9 +5,9 @@
   align-items: center;
   flex-wrap: nowrap;
   white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-wrap: unset;
-  width: 100vw;
+  width: 100%;
   padding: 0;
   margin: 80px 0;
 }

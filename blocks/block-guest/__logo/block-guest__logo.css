@@ -3,6 +3,11 @@
   width: 252px;
   height: 46px;
   margin: 40px 30px;
+  display: block;
+}
+
+.block-guest__logo:hover {
+opacity: .8;
 }
 
 @media (max-width: 1440px) {

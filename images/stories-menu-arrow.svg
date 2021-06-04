@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6 0L30 14.4 15.5 30h-2l9.8-10.7c2.2-2.1 1.6-4-1.1-4.1H0v-1.6h22c2.8-.2 3.4-1.7 1.6-3.9l-9-9.7h2z" fill="#000"/>
 </svg>
 
+=======
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5916 0L30 14.3793L15.5318 30H13.4987L23.3441 19.3448C25.5145 17.1724 24.9357 15.3103 22.1865 15.1552H0V13.6034H22.0418C24.791 13.4483 25.3698 11.8966 23.6334 9.72414L14.5659 0H16.5916Z" fill="black"/>
+</svg>
+>>>>>>> cf9090113935669104803baca82ad365235b869a

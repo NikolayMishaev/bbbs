@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="pages/index.css" />
-    <title>Старшие Братья Старшие Сёстры</title>
+    <title>Истории</title>
   </head>
 
   <body class="body">
@@ -35,34 +35,50 @@
               >
             </li>
             <li class="navigation__list navigation__list_type_submenu">
-              <a href="#" class="navigation__link navigation__link_place_header"
+              <a
+                href="./content_menu.html"
+                class="navigation__link navigation__link_place_header"
                 >читать и смотреть</a
               >
               <ul class="navigation__submenu-links">
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Справочник</a>
+                  <a href="./guide.html" class="navigation__submenu-link"
+                    >Справочник</a
+                  >
                 </li>
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Видео</a>
+                  <a href="./video.html" class="navigation__submenu-link"
+                    >Видео</a
+                  >
                 </li>
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Статьи</a>
+                  <a href="./articles.html" class="navigation__submenu-link"
+                    >Статьи</a
+                  >
                 </li>
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Фильмы</a>
+                  <a href="./movie.html" class="navigation__submenu-link"
+                    >Фильмы</a
+                  >
                 </li>
                 <li class="navigation__submenu-list">
-                  <a href="#" class="navigation__submenu-link">Книги</a>
+                  <a href="./book.html" class="navigation__submenu-link"
+                    >Книги</a
+                  >
                 </li>
               </ul>
             </li>
             <li class="navigation__list">
-              <a href="#" class="navigation__link navigation__link_place_header"
+              <a
+                href="./rights.html"
+                class="navigation__link navigation__link_place_header"
                 >права детей</a
               >
             </li>
             <li class="navigation__list">
-              <a href="#" class="navigation__link navigation__link_place_header"
+              <a
+                href="./stories.html"
+                class="navigation__link navigation__link_place_header"
                 >истории</a
               >
             </li>
@@ -71,7 +87,7 @@
         <form
           action="#"
           name="searcg"
-          class="header__form-search display-none"
+          class="header__form-search"
           method="POST"
         >
           <label class="header__field">
@@ -120,7 +136,8 @@
             пары — свой результат и свои достижения. Именно об этом мы
             рассказываем в историях.
           </blockquote>
-          <section class="menu block-stories__menu">
+          <section class="menu block-stories__menu menu_type_stories">
+            <div class="menu__pseudo-block"></div>
             <ul class="menu__list menu__list_style_stories">
               <li class="menu__item">
                 <button
@@ -233,46 +250,45 @@
             </ul>
             <div class="menu__arrow"></div>
           </section>
-          <section class="content__stories">
-            <div class="block-stories__photo block-stories__photo_pos">
-              <a id="story_1"></a>
-            </div>
-            <h2 class="block-stories__crosshead">Алина и Марина</h2>
-            <span class="block-stories__caption"
-              >Вместе с февраля 2013 года</span
-            >
-            <blockquote
-              class="block-stories__subtitle block-stories__subtitle_pos_article"
-            >
-              Волонтёром в программе «Старшие Братья Старшие Сёстры» я стал в
-              2012 году, а в первые месяцы 2013-го после всех тестов и тренингов
-              у меня появился младший – Никита. Надо сказать, что шёл я к этому
-              довольно долго два или три года. Нет, не потому что собирался с
-              мыслями. Я совершенно чётко осознавал, что накопил достаточный
-              эмоциональный бэкграунд и готов делиться им с детьми, а точнее – с
-              каким-то одним ребёнком.
-            </blockquote>
-            <p class="block-stories__text">
-              Волонтёром в программе «Старшие Братья Старшие Сёстры» я стал в
-              2012 году, а в первые месяцы 2013-го после всех тестов и тренингов
-              у меня появился младший — Никита. Надо сказать, что шёл я к этому
-              довольно долго два или три года. Нет, не потому что собирался с
-              мыслями. Я совершенно чётко осознавал, что накопил достаточный
-              эмоциональный бэкграунд и готов делиться им с детьми, а точнее — с
-              каким-то одним ребёнком. Но большинство некоммерческих
-              организаций, которые работают с сиротами, практикуют массовые
-              выезды волонтёров к группам детей, а мне хотелось найти программу,
-              где организуют индивидуальное общение взрослого и ребёнка,
-              поскольку я понимал, что дети в интернатах гораздо больше
-              нуждаются во внимании и индивидуальном общении, чем в подарках. На
-              поиски подходящей программы ушло некоторое время, и вдруг в конце
-              2012 года общество сильно всколыхнулось после принятия «закона
-              Димы Яковлева», все волонтёрские программы стали очень активны в
-              Интернете, в том числе и «Старшие братья Старшие сёстры». Прочитав
-              первую страницу на сайте «Старших братьев…», я понял: вот оно! И
-              сразу заполнил заявку на участие в программе.
-            </p>
-          </section>
+        </section>
+
+        <section class="content__stories">
+          <div class="block-stories__photo block-stories__photo_pos">
+            <a id="story_1"></a>
+          </div>
+          <h2 class="block-stories__crosshead">Алина и Марина</h2>
+          <span class="block-stories__caption">Вместе с февраля 2013 года</span>
+          <blockquote
+            class="block-stories__subtitle block-stories__subtitle_pos_article"
+          >
+            Волонтёром в программе «Старшие Братья Старшие Сёстры» я стал в 2012
+            году, а в первые месяцы 2013-го после всех тестов и тренингов у меня
+            появился младший – Никита. Надо сказать, что шёл я к этому довольно
+            долго два или три года. Нет, не потому что собирался с мыслями. Я
+            совершенно чётко осознавал, что накопил достаточный эмоциональный
+            бэкграунд и готов делиться им с детьми, а точнее – с каким-то одним
+            ребёнком.
+          </blockquote>
+          <p class="block-stories__text">
+            Волонтёром в программе «Старшие Братья Старшие Сёстры» я стал в 2012
+            году, а в первые месяцы 2013-го после всех тестов и тренингов у меня
+            появился младший — Никита. Надо сказать, что шёл я к этому довольно
+            долго два или три года. Нет, не потому что собирался с мыслями. Я
+            совершенно чётко осознавал, что накопил достаточный эмоциональный
+            бэкграунд и готов делиться им с детьми, а точнее — с каким-то одним
+            ребёнком. Но большинство некоммерческих организаций, которые
+            работают с сиротами, практикуют массовые выезды волонтёров к группам
+            детей, а мне хотелось найти программу, где организуют индивидуальное
+            общение взрослого и ребёнка, поскольку я понимал, что дети в
+            интернатах гораздо больше нуждаются во внимании и индивидуальном
+            общении, чем в подарках. На поиски подходящей программы ушло
+            некоторое время, и вдруг в конце 2012 года общество сильно
+            всколыхнулось после принятия «закона Димы Яковлева», все
+            волонтёрские программы стали очень активны в Интернете, в том числе
+            и «Старшие братья Старшие сёстры». Прочитав первую страницу на сайте
+            «Старших братьев…», я понял: вот оно! И сразу заполнил заявку на
+            участие в программе.
+          </p>
         </section>
 
         <section class="block-stories__crossline">
@@ -297,67 +313,64 @@
         </section>
 
         <section class="content__stories block-stories__article">
-          <p class="block-stories__text block_stories__text_margins">
-            Переломить эту ситуацию помогли каникулы. Когда я впервые провожал
-            его в зимний лагерь, он сказал, что не хочет уезжать, потому что,
-            когда он вернётся, меня уже не будет рядом. Убеждения и заверения в
-            том, что я никуда не денусь, не помогли, и даже то, что после
-            каникул я пришёл, не добавило Никите уверенности в долгосрочности
-            нашей дружбы. Ситуация повторилась летом: уезжая в лагерь, он снова
-            боялся, что наша дружба кончится, но я снова встретил его осенью. И
-            тогда Никита понял, что я в его жизни надолго и всерьёз, и стал
-            доверять мне. Например, я могу позвонить и сказать, что на этих
-            выходных у меня не получится приехать, и он совершенно спокойно
-            спрашивает, приду ли я на следующих.
-          </p>
-          <p class="block-stories__text block_stories__text_margins">
-            Сейчас всё хорошо, и я очень рад нашим встречам и общению.
-            Вдохновляет то, что Никита начал больше рассказывать о своей жизни и
-            друзьях, стал более открытым и чутким. Он даже запомнил дату нашей
-            первой встречи, понимая, что это важная дата для нас обоих. Мы
-            назвали эту дату днём рождения нашей пары, и, когда нам исполнилось
-            три года, он всем в группе рассказывал о нашем дне рождения и
-            приглашал на торт.
-          </p>
-          <p class="block-stories__text block_stories__text_margins">
-            Сейчас всё хорошо, и я очень рад нашим встречам и общению.
-            Вдохновляет то, что Никита начал больше рассказывать о своей жизни и
-            друзьях, стал более открытым и чутким. Он даже запомнил дату нашей
-            первой встречи, понимая, что это важная дата для нас обоих. Мы
-            назвали эту дату днём рождения нашей пары, и, когда нам исполнилось
-            три года, он всем в группе рассказывал о нашем дне рождения и
-            приглашал на торт. Ещё одна радость — он учится рассуждать, понимать
-            свои потребности и выбирать то, что ему больше нравится. Для
-            стороннего наблюдателя это кажется неочевидным достижением, но, если
-            знать, как неохотно воспитанники сиротских учреждений включают
-            голову, особенно в ситуации выбора, то всё станет ясно. Тем не менее
-            мне порой приходится прилагать некоторые усилия к тому, чтобы он
-            аргументировал свой выбор. Например, когда я спрашиваю: «Куда мы
-            пойдем: в парк Горького или в кино?» — он какое-то время пытается
-            угадать «правильный ответ», но, когда видит, что со мной этот номер
-            не проходит, начинает объяснять, почему сделал тот или иной выбор.
-          </p>
-          <p class="block-stories__text block_stories__text_margins">
-            Переломить эту ситуацию помогли каникулы. Когда я впервые провожал
-            его в зимний лагерь, он сказал, что не хочет уезжать, потому что,
-            когда он вернётся, меня уже не будет рядом. Убеждения и заверения в
-            том, что я никуда не денусь, не помогли, и даже то, что после
-            каникул я пришёл, не добавило Никите уверенности в долгосрочности
-            нашей дружбы. Ситуация повторилась летом: уезжая в лагерь, он снова
-            боялся, что наша дружба кончится, но я снова встретил его осенью. И
-            тогда Никита понял, что я в его жизни надолго и всерьёз, и стал
-            доверять мне. Например, я могу позвонить и сказать, что на этих
-            выходных у меня не получится приехать, и он совершенно спокойно
-            спрашивает, приду ли я на следующих.
-          </p>
-          <a class="block-stories__tag-button" href="#">написать Алине</a>
+          <div class="content__wrapper content__wrapper_style_stories">
+            <p class="block-stories__text block_stories__text_margins">
+              Переломить эту ситуацию помогли каникулы. Когда я впервые провожал
+              его в зимний лагерь, он сказал, что не хочет уезжать, потому что,
+              когда он вернётся, меня уже не будет рядом. Убеждения и заверения
+              в том, что я никуда не денусь, не помогли, и даже то, что после
+              каникул я пришёл, не добавило Никите уверенности в долгосрочности
+              нашей дружбы. Ситуация повторилась летом: уезжая в лагерь, он
+              снова боялся, что наша дружба кончится, но я снова встретил его
+              осенью. И тогда Никита понял, что я в его жизни надолго и всерьёз,
+              и стал доверять мне. Например, я могу позвонить и сказать, что на
+              этих выходных у меня не получится приехать, и он совершенно
+              спокойно спрашивает, приду ли я на следующих.
+            </p>
+            <p class="block-stories__text block_stories__text_margins">
+              Сейчас всё хорошо, и я очень рад нашим встречам и общению.
+              Вдохновляет то, что Никита начал больше рассказывать о своей жизни
+              и друзьях, стал более открытым и чутким. Он даже запомнил дату
+              нашей первой встречи, понимая, что это важная дата для нас обоих.
+              Мы назвали эту дату днём рождения нашей пары, и, когда нам
+              исполнилось три года, он всем в группе рассказывал о нашем дне
+              рождения и приглашал на торт.
+            </p>
+            <p class="block-stories__text block_stories__text_margins">
+              Ещё одна радость — он учится рассуждать, понимать свои потребности
+              и выбирать то, что ему больше нравится. Для стороннего наблюдателя
+              это кажется неочевидным достижением, но, если знать, как неохотно
+              воспитанники сиротских учреждений включают голову, особенно в
+              ситуации выбора, то всё станет ясно. Тем не менее мне порой
+              приходится прилагать некоторые усилия к тому, чтобы он
+              аргументировал свой выбор. Например, когда я спрашиваю: «Куда мы
+              пойдем: в парк Горького или в кино?» — он какое-то время пытается
+              угадать «правильный ответ», но, когда видит, что со мной этот
+              номер не проходит, начинает объяснять, почему сделал тот или иной
+              выбор.
+            </p>
+            <p class="block-stories__text block_stories__text_margins">
+              Переломить эту ситуацию помогли каникулы. Когда я впервые провожал
+              его в зимний лагерь, он сказал, что не хочет уезжать, потому что,
+              когда он вернётся, меня уже не будет рядом. Убеждения и заверения
+              в том, что я никуда не денусь, не помогли, и даже то, что после
+              каникул я пришёл, не добавило Никите уверенности в долгосрочности
+              нашей дружбы. Ситуация повторилась летом: уезжая в лагерь, он
+              снова боялся, что наша дружба кончится, но я снова встретил его
+              осенью. И тогда Никита понял, что я в его жизни надолго и всерьёз,
+              и стал доверять мне. Например, я могу позвонить и сказать, что на
+              этих выходных у меня не получится приехать, и он совершенно
+              спокойно спрашивает, приду ли я на следующих.
+            </p>
+            <a class="block-stories__tag-button" href="#">написать Алине</a>
+          </div>
         </section>
 
         <section class="content__stories">
           <div class="block-stories__photo block-stories__photo_pos">
             <a id="story_2"></a>
           </div>
-          <h2 class="block-stories__crosshead">Алина и Марина</h2>
+          <h2 class="block-stories__crosshead">Кирилл и Никита</h2>
           <span class="block-stories__caption">Вместе с февраля 2013 года</span>
           <blockquote
             class="block-stories__subtitle block-stories__subtitle_pos_article"
@@ -394,115 +407,64 @@
       </main>
 
       <!-- <footer class="footer page__footer">
-        <div class="footer__three-columns">
-          <a href="#" class="footer__logo"></a>
-          <button type="button" class="footer__donation">
-            Помочь деньгами
-          </button>
-          <div class="footer__info">
-            <p class="footer__copyright">
-              &copy; Старшие Братья Старшие Сестры
-            </p>
-            <p class="footer__about">
-              Разработка – студенты
-              <a href="#" class="footer__link">Яндекс.Практикум</a>
-            </p>
-            <p class="footer__about">
-              Концепция и дизайн –
-              <a href="#" class="footer__link">krkr.design</a>
-            </p>
-          </div>
-          <nav class="navigation navigation_place_footer">
-            <ul class="navigation__links navigation__links_place_footer">
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="./about.html"
-                  class="navigation__link navigation__link_place_footer"
-                  >о проекте</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="./calendar.html"
-                  class="navigation__link navigation__link_place_footer"
-                  >календарь</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="./places.html"
-                  class="navigation__link navigation__link_place_footer"
-                  >куда пойти</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="./questions.html"
-                  class="navigation__link navigation__link_place_footer"
-                  >вопросы</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="#"
-                  class="navigation__link navigation__link_place_footer"
-                  >читать и смотреть</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="#"
-                  class="navigation__link navigation__link_place_footer"
-                  >права детей</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="#"
-                  class="navigation__link navigation__link_place_footer"
-                  >истории</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <nav class="navigation navigation_place_footer">
-            <ul class="navigation__links navigation__links_place_footer">
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="http://facebook.com"
-                  target="_blank"
-                  class="navigation__link navigation__link_place_footer"
-                  >facebook</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="http://vk.com"
-                  target="_blank"
-                  class="navigation__link navigation__link_place_footer"
-                  >vkontakte</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="http://instagram.com"
-                  target="_blank"
-                  class="navigation__link navigation__link_place_footer"
-                  >instagram</a
-                >
-              </li>
-              <li class="navigation__list navigation__list_place_footer">
-                <a
-                  href="http://youtube.com"
-                  target="_blank"
-                  class="navigation__link navigation__link_place_footer"
-                  >youtube</a
-                >
-              </li>
-            </ul>
-          </nav>
+      <div class="footer__three-columns">
+        <a href="./about.html" class="footer__logo"></a>
+        <button type="button" class="footer__donation">Помочь деньгами</button>
+        <div class="footer__info">
+          <p class="footer__copyright">&copy; Старшие Братья Старшие Сестры</p>
+          <p class="footer__about">Разработка – студенты <a href="https://praktikum.yandex.ru"
+              class="footer__link">Яндекс.Практикум</a></p>
+          <p class="footer__about">Концепция и дизайн – <a href="https://krkr.design"
+              class="footer__link">krkr.design</a></p>
         </div>
-      </footer> -->
+        <nav class="navigation navigation_place_footer">
+          <ul class="navigation__links navigation__links_place_footer">
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./about.html" class="navigation__link navigation__link_place_footer">о проекте</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./calendar.html" class="navigation__link navigation__link_place_footer">календарь</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./places.html" class="navigation__link navigation__link_place_footer">куда пойти</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./questions.html" class="navigation__link navigation__link_place_footer">вопросы</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./content_menu.html" class="navigation__link navigation__link_place_footer">читать и
+                смотреть</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./rights.html" class="navigation__link navigation__link_place_footer">права детей</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="./stories.html" class="navigation__link navigation__link_place_footer">истории</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="navigation navigation_place_footer">
+          <ul class="navigation__links navigation__links_place_footer">
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="http://facebook.com" target="_blank"
+                class="navigation__link navigation__link_place_footer">facebook</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="http://vk.com" target="_blank"
+                class="navigation__link navigation__link_place_footer">vkontakte</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="http://instagram.com" target="_blank"
+                class="navigation__link navigation__link_place_footer">instagram</a>
+            </li>
+            <li class="navigation__list navigation__list_place_footer">
+              <a href="http://youtube.com" target="_blank"
+                class="navigation__link navigation__link_place_footer">youtube</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer> -->
 
       <div class="popups">
         <div class="popup popup-city">
@@ -675,7 +637,7 @@
                 />
                 <span class="popup__input-error"></span>
               </label>
-              <p class="popup__help">Забыли пароль?</p>
+              <a class="popup__help">Забыли пароль?</a>
               <button
                 aria-label="submit form"
                 class="popup__button-submit"
@@ -710,16 +672,18 @@
                 <a href="./places.html" class="popup-menu__link">куда пойти</a>
               </li>
               <li class="popup-menu__list">
-                <a href="./questions.html" class="popup-menu__link">вопросы</a>
+                <a href="#" class="popup-menu__link">вопросы</a>
               </li>
               <li class="popup-menu__list">
-                <a href="#" class="popup-menu__link">читать и смотреть</a>
+                <a href="./content_menu.html" class="popup-menu__link"
+                  >читать и смотреть</a
+                >
               </li>
               <li class="popup-menu__list">
-                <a href="#" class="popup-menu__link">права детей</a>
+                <a href="./rights.html" class="popup-menu__link">права детей</a>
               </li>
               <li class="popup-menu__list">
-                <a href="#" class="popup-menu__link">истории</a>
+                <a href="./stories.html" class="popup-menu__link">истории</a>
               </li>
             </ul>
             <ul class="popup-menu__links">
@@ -751,152 +715,9 @@
             <button type="button" class="popup-menu__exit">Выйти</button>
           </div>
         </div>
-
-        <div class="popup popup-advice">
-          <div class="popup__container popup__container_type_advice">
-            <article
-              class="block-message background-white block-message_type_margin"
-            >
-              <p class="block-message__text">
-                Если вы были в интересном месте и хотите порекомендовать его
-                другим наставникам –
-                <span class="block-message__accent">заполните форму</span>, и мы
-                добавим вашу рекомендацию.
-              </p>
-            </article>
-            <form
-              action="#"
-              name="sign-in"
-              class="popup__form popup__form_type_advice"
-              method="POST"
-            >
-              <label class="popup__field popup__field_type_advice">
-                <input
-                  id="place-name"
-                  required
-                  name="login"
-                  minlength="2"
-                  maxlength="40"
-                  placeholder="Название*"
-                  class="popup__input popup__input_type_advice"
-                  type="text"
-                />
-                <span class="popup__input-error"></span>
-              </label>
-              <label
-                class="popup__field popup__field_type_advice popup__field_type_no-right-margin"
-              >
-                <input
-                  id="place-website"
-                  required
-                  name="password"
-                  minlength="2"
-                  maxlength="200"
-                  placeholder="Сайт"
-                  class="popup__input popup__input_type_advice"
-                  type="url"
-                />
-                <span class="popup__input-error"></span>
-              </label>
-              <label
-                class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"
-              >
-                <input
-                  id="place-adress"
-                  required
-                  name="login"
-                  minlength="2"
-                  maxlength="40"
-                  placeholder="Адрес*"
-                  class="popup__input popup__input_type_advice"
-                  type="text"
-                />
-                <span class="popup__input-error"></span>
-              </label>
-              <label
-                class="popup__field popup__field_type_advice popup__field_size_small popup__field_type_checkbox"
-              >
-                <input
-                  id="place-boy"
-                  required
-                  name="login"
-                  class="popup__input popup__input_type_advice popup__input_type_checkbox"
-                  type="radio"
-                />
-                <span class="popup__visible-checkbox">Мальчик</span>
-                <span class="popup__input-error"></span>
-              </label>
-              <label
-                class="popup__field popup__field_type_advice popup__field_size_small popup__field_type_checkbox"
-              >
-                <input
-                  id="place-girl"
-                  required
-                  name="login"
-                  class="popup__input popup__input_type_advice popup__input_type_checkbox"
-                  type="radio"
-                />
-                <span class="popup__visible-checkbox">Девочка</span>
-                <span class="popup__input-error"></span>
-              </label>
-              <label
-                class="popup__field popup__field_type_advice popup__field_size_small popup__field_type_no-right-margin"
-              >
-                <input
-                  id="place-age"
-                  required
-                  name="login"
-                  placeholder="Возраст*"
-                  class="popup__input popup__input_type_advice"
-                  type="number"
-                />
-                <span class="popup__input-error"></span>
-              </label>
-              <label
-                class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"
-              >
-                <select
-                  class="popup__select"
-                  id="place-type-vacation"
-                  name="type-vacation"
-                >
-                  <option value="ibm">Тип отдыха*</option>
-                  <option value="ubuntu">Активный</option>
-                  <option value="istok">Развлекательный</option>
-                  <option value="istok">Познавательный</option>
-                </select>
-              </label>
-              <label
-                class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"
-              >
-                <textarea
-                  class="popup__textarea"
-                  id="place-comment"
-                  name="main-text"
-                  placeholder="Комментарий* Поделитесь впечатлениями о проведенном времени"
-                  required
-                ></textarea>
-              </label>
-              <button
-                aria-label="submit form"
-                class="popup__button-add"
-                type="button"
-              ></button>
-              <p class="popup__caption">Добавить фото</p>
-              <button
-                aria-label="submit form"
-                class="popup__button-submit popup__button-submit_type_advice"
-                type="submit"
-              >
-                Отправить
-              </button>
-            </form>
-          </div>
-        </div>
       </div>
     </div>
 
     <script src="./scripts/index.js"></script>
-    <script src="./scripts/places.js"></script>
   </body>
 </html>
