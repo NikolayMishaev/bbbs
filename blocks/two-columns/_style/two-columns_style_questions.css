@@ -5,8 +5,10 @@
   justify-content: unset;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .two-columns_style_questions {
     display: grid;
+    justify-items: center;
+    align-content: center;
   }
 }
