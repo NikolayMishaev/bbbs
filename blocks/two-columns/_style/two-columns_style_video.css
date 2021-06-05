@@ -7,3 +7,9 @@
     padding: 30px 0;
   }
 }
+
+@media (max-width: 400px) {
+  .two-columns_style_video {
+    padding: 28px 0;
+  }
+}

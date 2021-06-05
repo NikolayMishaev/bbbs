@@ -1,0 +1,9 @@
+.video-container_style_video {
+  row-gap: 76px;
+}
+
+@media (max-width: 1024px) {
+  .video-container_style_video {
+    row-gap: 26px;
+  }
+}
