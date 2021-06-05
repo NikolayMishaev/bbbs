@@ -35,6 +35,7 @@ const blockGuest = document.querySelector(".block-guest");
 const messageAdviceForm = document.querySelector(".message");
 
 const headerInput = document.querySelector('.header__input');
+const menuStory = document.querySelector('.block-stories__menu');
 
 const openPopup = (popup) => {
   popup.classList.add("visible-block");
@@ -45,6 +46,7 @@ const openPopup = (popup) => {
   header.classList.remove("header_type_search");
   headerDivisor.classList.remove("header__divisor_type_search");
   buttonHeaderSearch.classList.remove("header__search_type_search");
+  menuStory ? menuStory.classList.remove('block-stories__menu_type_position-fixed') : '';
 };
 
 const closePopup = (popup) => {
@@ -77,6 +79,7 @@ buttonHeaderSearch.addEventListener("click", () => {
     headerDivisor.classList.remove("header__divisor_type_search");
     buttonHeaderSearch.classList.remove("header__search_type_search");
     headerInput.classList.remove('header__input_animation');
+    menuStory ? menuStory.classList.remove('block-stories__menu_type_position-fixed') : '';
   } else {
     headerInput.classList.add('header__input_animation');
     navigationMenuHeader.classList.add("display-none");
@@ -132,6 +135,7 @@ page.addEventListener("click", (e) => {
     headerDivisor.classList.remove("header__divisor_type_search");
     buttonHeaderSearch.classList.remove("header__search_type_search");
     headerInput.classList.remove('header__input_animation');
+    menuStory ? menuStory.classList.remove('block-stories__menu_type_position-fixed') : '';
   }
 });
 
