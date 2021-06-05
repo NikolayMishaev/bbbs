@@ -1,5 +1,6 @@
 .block-links__iframe {
   border-radius: 30px;
   border: none;
-  overflow: hidden;
+  max-width: 419px;
+  flex: 1;
 }

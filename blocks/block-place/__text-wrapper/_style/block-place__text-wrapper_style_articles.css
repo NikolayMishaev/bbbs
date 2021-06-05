@@ -1,0 +1,6 @@
+@media (max-width: 1280px) {
+  .block-place__text-wrapper_style_articles {
+    max-height: 128px;
+    margin-top: 0;
+  }
+}

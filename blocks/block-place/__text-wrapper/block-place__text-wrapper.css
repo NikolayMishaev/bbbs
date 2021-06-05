@@ -1,0 +1,21 @@
+.block-place__text-wrapper {
+  overflow: auto;
+  max-height: 389px;
+  margin-top: auto;
+}
+
+.block-place__text-wrapper::-webkit-scrollbar {
+  width: 3px;
+}
+
+.block-place__text-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #e8e6e6;
+}
+
+@media (max-width: 1280px) {
+  .block-place__text-wrapper {
+    max-height: 106px;
+    margin-top: 5px;
+  }
+}

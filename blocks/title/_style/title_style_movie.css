@@ -4,12 +4,12 @@
 
 @media (max-width: 1024px) {
   .title_style_movie {
-    padding-bottom: 16px;
+    padding-bottom: 23px;
   }
 }
 
 @media (max-width: 400px) {
   .title_style_movie {
-    padding-bottom: 3px;
+    padding-bottom: 10px;
   }
 }

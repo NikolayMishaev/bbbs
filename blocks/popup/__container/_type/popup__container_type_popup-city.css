@@ -11,5 +11,6 @@
 @media screen and (max-width: 420px) {
   .popup__container_type_popup-city {
     width: 320px;
+    padding: 30px 15px;
   }
 }

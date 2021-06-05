@@ -1,0 +1,9 @@
+.block-message__text_type_advice-form {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .block-message__text_type_advice-form {
+    margin-bottom: 30px;
+  }
+}

@@ -6,10 +6,12 @@
   right: 0;
   background: linear-gradient(to right, transparent, #f3f2f2);
   z-index: 1;
+  display: none;
 }
 
 @media (max-width: 1024px) {
   .menu__pseudo-block {
     width: 41px;
+    display: block;
   }
 }

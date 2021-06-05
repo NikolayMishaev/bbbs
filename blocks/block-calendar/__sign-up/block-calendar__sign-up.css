@@ -25,3 +25,9 @@
     line-height: 17px;
   }
 }
+
+@media (max-width: 400px) {
+  .block-calendar__sign-up {
+    margin-right: unset;
+  }
+}

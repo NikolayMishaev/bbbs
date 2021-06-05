@@ -1,7 +1,7 @@
 .video-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  row-gap: 76px;
+  row-gap: 77px;
   column-gap: 30px;
 }
 

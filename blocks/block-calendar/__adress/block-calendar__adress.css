@@ -10,12 +10,18 @@
   border-top: 1px solid #a7a6a6;
   border-bottom: 1px solid #a7a6a6;
   padding: 10px 0;
-  margin: 10px 0;
+  margin: 7px 0 10px;
 }
 
 @media (max-width: 1620px) {
   .block-calendar__adress {
     width: 100%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .block-calendar__adress {
+    margin-bottom: 11px;
   }
 }
 

@@ -10,3 +10,9 @@
   padding: 0;
   text-align: center;
 }
+
+@media screen and (max-width: 420px) {
+  .popup-city__other-city-list {
+    margin-bottom: 27px;
+  }
+}

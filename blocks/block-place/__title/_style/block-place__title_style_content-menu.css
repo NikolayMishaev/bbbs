@@ -1,3 +1,4 @@
 .block-place__title_style_content-menu {
   margin-top: 22px;
+  -webkit-line-clamp: 3;
 }

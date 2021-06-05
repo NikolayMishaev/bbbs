@@ -1,9 +1,9 @@
 .block-guide__caption_style_content-menu {
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 @media (max-width: 1024px) {
   .block-guide__caption_style_content-menu {
-    margin-top: 7px;
+    margin-top: 10px;
   }
 }

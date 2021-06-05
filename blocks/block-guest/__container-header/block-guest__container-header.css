@@ -2,24 +2,25 @@
   background: #ff8585;
   border-radius: 30px 3px 200px 3px;
   width: calc(47% + 126px);
-  height: 30%;
+  min-height: 156px;
 }
 
 @media (max-width: 1440px) {
   .block-guest__container-header {
     width: calc(62% + 38px);
+    min-height: 124px;
   }
 }
 
 @media (max-width: 1024px) {
   .block-guest__container-header {
-    height: 23.6%;
+    min-height: 90px;
   }
 }
 
 @media (max-width: 400px) {
   .block-guest__container-header {
     min-width: 229px;
-    height: 24%;
+    min-height: 78px;
   }
 }

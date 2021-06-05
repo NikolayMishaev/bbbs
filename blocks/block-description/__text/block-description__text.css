@@ -1,28 +1,22 @@
 .block-description__text {
-  height: 162px;
-  overflow-y: scroll;
   font-family: PT Root UI;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
   color: #000000;
-  margin: 0;
+  margin: 10px 0 0;
+  padding-right: 10px;
 }
 
-.block-description__text::-webkit-scrollbar {
-  width: 3px;
-}
-
-.block-description__text::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: #e8e6e6;
+.block-description__text:first-child {
+  margin-top: 0;
 }
 
 @media (max-width: 1024px) {
   .block-description__text {
-    height: 128px;
     font-size: 15px;
     line-height: 21px;
+    margin-top: 5px;
   }
 }

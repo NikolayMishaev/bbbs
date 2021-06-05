@@ -92,9 +92,12 @@
 @import url(../blocks/block-place/__image/_style/block-place__image_style_article.css);
 @import url(../blocks/block-place/__category/block-place__category.css);
 @import url(../blocks/block-place/__caption/block-place__caption.css);
+@import url(../blocks/block-place/__text-wrapper/block-place__text-wrapper.css);
+@import url(../blocks/block-place/__text-wrapper/_style/block-place__text-wrapper_style_articles.css);
 @import url(../blocks/block-place/__text/block-place__text.css);
 @import url(../blocks/block-place/__text/_size/block-place__text_size_small.css);
 @import url(../blocks/block-place/__text/_style/block-place__text_style_atricles.css);
+@import url(../blocks/places-container/places-container.css);
 @import url(../blocks/block-article/block-article.css);
 @import url(../blocks/block-article/_style/block-article_style_main.css);
 @import url(../blocks/block-article/__title/block-atricle__title.css);
@@ -125,7 +128,10 @@
 @import url(../blocks/block-links/__iframe/block-links__iframe.css);
 @import url(../blocks/block-questions/block-questions.css);
 @import url(../blocks/block-questions/__title/block-questions__title.css);
+@import url(../blocks/block-questions/__title/_style/block-questions__title_style_questions.css);
 @import url(../blocks/block-questions/__category/block-questions__category.css);
+@import url(../blocks/block-questions/__category/_style/block-questions__category_style_main.css);
+@import url(../blocks/block-questions/__category/_style/block-questions__category_style_on-answer.css);
 @import url(../blocks/block-questions/__link/block-questions__link.css);
 @import url(../blocks/block-guest/block-guest.css);
 @import url(../blocks/block-guest/__title/block-guest__title.css);
@@ -196,12 +202,11 @@
 @import url(../blocks/popup-city/__main-city-item/popup-city__main-city-item.css);
 @import url(../blocks/popup-city/__button/popup-city__button.css);
 @import url(../blocks/title/title.css);
-@import url(../blocks/title/_style/title_style_questions.css);
 @import url(../blocks/title/_style/title_style_movie.css);
-@import url(../blocks/title/_style/title_style_book.css);
 @import url(../blocks/title/_style/title_style_guide.css);
 @import url(../blocks/title/_style/title_style_guide-article.css);
 @import url(../blocks/title/_style/title_style_rights-article.css);
+@import url(../blocks/title/_style/title_style_articles.css);
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/_style/subtitle_style_guide-article.css);
 @import url(../blocks/subtitle/_style/subtitle_style_rights-article.css);
@@ -211,14 +216,14 @@
 @import url(../blocks/block-message/_type/block-message_type_advice-sucess.css);
 @import url(../blocks/block-message/_style/block-message_style_places.css);
 @import url(../blocks/block-message/__text/block-message__text.css);
+@import url(../blocks/block-message/__text/_type/block-message__text_type_advice-form.css);
 @import url(../blocks/block-message/__text/_type/block-message__text_type_advice-sucess.css);
 @import url(../blocks/block-message/__button/block-message__button.css);
 @import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_position/menu_position_center.css);
 @import url(../blocks/menu/__list/menu__list.css);
-@import url(../blocks/menu/__list/_style/menu__list_style_questions.css);
 @import url(../blocks/menu/__list/_style/menu__list_style_stories.css);
 @import url(../blocks/menu/__item/menu__item.css);
-@import url(../blocks/menu/__item/_style/menu__item_style_questions.css);
 @import url(../blocks/menu/__button/menu__button.css);
 @import url(../blocks/menu/__button/_active/menu__button_active.css);
 @import url(../blocks/menu/__button/_wide/menu__button_wide.css);
@@ -271,7 +276,6 @@
 @import url(../blocks/block-questions/__button/block-questions__button.css);
 @import url(../blocks/block-questions/__button/_active/block-questions__button_active.css);
 @import url(../blocks/block-questions/__answer/block-questions__answer.css);
-@import url(../blocks/block-questions/__title/_style/block-questions__title_style_questions.css);
 @import url(../blocks/questions-form/questions-form.css);
 @import url(../blocks/questions-form/__title/questions-form__title.css);
 @import url(../blocks/questions-form/__input/questions-form__input.css);
@@ -365,6 +369,8 @@
 @import url(../blocks/popup-delete-story-card/__title/popup-delete-story-card__title.css);
 @import url(../blocks/block-description/block-description.css);
 @import url(../blocks/block-description/__text/block-description__text.css);
+@import url(../blocks/block-description/__caption/block-description__caption.css);
+@import url(../blocks/block-description/__text-wrapper/block-description__text-wrapper.css);
 @import url(../blocks/block-book/block-book.css);
 @import url(../blocks/block-book/__year/block-book__year.css);
 @import url(../blocks/block-book/__title/block-book__title.css);
@@ -374,6 +380,7 @@
 @import url(../blocks/block-book/__author/block-book__author.css);
 
 @import url(../blocks/video-container/video-container.css);
+@import url(../blocks/video-container/_style/video-container_style_video.css);
 @import url(../blocks/video-container/_style/video-container_style_movie.css);
 @import url(../blocks/button-next/button-next.css);
 @import url(../blocks/button-next/_active/button-next_active.css);

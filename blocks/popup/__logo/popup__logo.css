@@ -3,7 +3,7 @@
     center/cover;
   width: 278px;
   min-height: 174px;
-  margin-top: auto;
+  margin-top: 32px;
 }
 
 @media (max-width: 400px) {

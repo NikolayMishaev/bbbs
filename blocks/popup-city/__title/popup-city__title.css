@@ -8,3 +8,11 @@
   color: #000000;
   text-align: center;
 }
+
+@media screen and (max-width: 420px) {
+  .popup-city__title {
+    font-size: 19px;
+    line-height: 23px;
+    margin-bottom: 50px;
+  }
+}

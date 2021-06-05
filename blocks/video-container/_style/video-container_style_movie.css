@@ -1,16 +1,16 @@
 .video-container_style_movie {
-  padding-top: 80px;
+  padding-top: 77px;
 }
 
 @media (max-width: 1024px) {
   .video-container_style_movie {
-    padding-top: 50px;
+    padding-top: 48px;
   }
 }
 
 @media (max-width: 400px) {
   .video-container_style_movie {
-    padding-top: 30px;
+    padding-top: 28px;
     row-gap: 27px;
   }
 }

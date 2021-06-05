@@ -1,0 +1,23 @@
+.block-description__text-wrapper {
+  height: 162px;
+  overflow: scroll;
+}
+
+.block-description__text-wrapper::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+.block-description__text-wrapper::-webkit-scrollbar {
+  width: 3px;
+}
+
+.block-description__text-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #e8e6e6;
+}
+
+@media (max-width: 1024px) {
+  .block-description__text-wrapper {
+    height: 128px;
+  }
+}
