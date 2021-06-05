@@ -7,6 +7,8 @@
   width: 100%;
   max-width: 1170px;
   margin-left: 55px;
+  transition: top .5s;
+  top: -10%;
 }
 
 @media (max-width: 1024px) {
