@@ -14,10 +14,27 @@
   color: #000000;
 }
 
+.header__input::placeholder {
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #A7A6A6;
+}
+
 @media (max-width: 1024px) {
   .header__input {
     font-size: 15px;
     line-height: 21px;
+  }
+  .header__input::placeholder {
+    font-family: PT Root UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #A7A6A6;
   }
 }
 
