@@ -26,7 +26,7 @@
 }
 
 .about__circle-title {
-  padding: 0;
+  padding: 30px;
   margin: 0;
   font-style: normal;
   font-weight: 300;
@@ -43,7 +43,7 @@
 
 .about__square {
   background-color: #ffffff;
-  max-width: 540px;
+  max-width: 600px;
   border-radius: 30px;
   font-family: PT Root UI;
   font-style: normal;
@@ -51,10 +51,40 @@
   font-size: 18px;
   line-height: 26px;
   padding: 52px 30px;
+  overflow: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-height: 570px;
+}
+
+@media screen and (max-width: 1439px) {
+  .about__square {
+    height: calc(46vw - 100px);
+    min-height: 373px;
+  }
+  .about__square::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .about__square::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #e8e6e6;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .about__square {
+    overflow: unset;
+    height: unset;
+    min-height: 290px;
+    max-height: unset;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .about__square {
+    max-width: 570px;
     padding: 30px 15px;
     font-size: 15px;
     line-height: 21px;
@@ -64,6 +94,14 @@
 .about__paragraph {
   margin: 0;
   padding-bottom: 25px;
+}
+
+.about__paragraph:first-child {
+  margin-top: auto;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: auto;
 }
 
 @media screen and (max-width: 1024px) {

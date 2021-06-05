@@ -3,17 +3,17 @@
   gap: 30px;
   box-sizing: border-box;
   align-items: center;
-  padding-top: 53px;
+  padding-top: 80px;
 }
 
 @media (max-width: 1024px) {
   .places {
-    padding-top: 20px;
+    padding-top: 50px;
   }
 }
 
 @media (max-width: 400px) {
   .places {
-    padding-top: 0;
+    padding-top: 30px;
   }
 }

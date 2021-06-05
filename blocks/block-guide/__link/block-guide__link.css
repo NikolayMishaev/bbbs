@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.block-guide__link:hover {
+  opacity: 0.8;
+}
+
 .block-guide__link::before {
   content: "";
   padding-top: 100%;

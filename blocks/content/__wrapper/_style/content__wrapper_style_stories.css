@@ -1,0 +1,10 @@
+.content__wrapper_style_stories {
+  max-width: 770px;
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  .content__wrapper_style_stories {
+    max-width: 570px;
+  }
+}

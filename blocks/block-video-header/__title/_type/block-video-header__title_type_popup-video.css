@@ -1,0 +1,14 @@
+.block-video-header__title_type_popup-video {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.block-video-header__title_type_popup-video:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .block-video-header__title_type_popup-video {
+    margin: 10px 0 0;
+  }
+}

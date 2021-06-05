@@ -10,6 +10,7 @@ const buttonsQuestionTitle = document.querySelectorAll(
 
 buttonsQuestionTitle.forEach((button, i) => {
   button.addEventListener("click", () => {
+    buttonsToggleAnswer[i].classList.toggle("block-questions__button_active");
     answersToQuestions[i].classList.toggle("display-block");
   });
 });

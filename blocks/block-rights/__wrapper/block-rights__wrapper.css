@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+.block-rights__wrapper:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 1440px) {
   .block-rights__wrapper {
     padding: 0 30px;

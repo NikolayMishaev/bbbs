@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.footer__logo:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 1275px) {
   .footer__logo {
     width: 252px;

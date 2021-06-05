@@ -8,7 +8,7 @@
   font-size: 15px;
   line-height: 19px;
   letter-spacing: 0.2px;
-  padding: 14px 20px;
+  padding: 14px 19px;
   max-height: 48px;
 }
 
@@ -25,7 +25,7 @@
   .menu__button {
     font-size: 12px;
     line-height: 17px;
-    padding: 11px 15px;
+    padding: 11px 14px 10px;
     white-space: nowrap;
   }
 }
