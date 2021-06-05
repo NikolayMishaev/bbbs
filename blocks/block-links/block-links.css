@@ -18,14 +18,15 @@
   .block-links {
     margin-right: 0;
     margin-bottom: 30px;
-    /* width: 100%; */
     min-width: unset;
     min-height: 552px;
+    width: 400px;
   }
 }
 
 @media (max-width: 460px) {
   .block-links {
-    min-width: 290px;
+    min-height: 433px;
+    width: 290px;
   }
 }

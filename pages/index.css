@@ -152,6 +152,7 @@
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__form/_type/popup__form_type_advice.css);
 @import url(../blocks/popup/__field/popup__field.css);
+@import url(../blocks/popup/__field/_type/popup__field_type_add-photo.css);
 @import url(../blocks/popup/__field/_type/popup__field_type_advice.css);
 @import url(../blocks/popup/__field/_type/popup__field_type_no-right-margin.css);
 @import url(../blocks/popup/__field/_size/popup__field_size_large.css);
@@ -169,6 +170,7 @@
 @import url(../blocks/popup/__select/popup__select.css);
 @import url(../blocks/popup/__select/_type/popup__select_type_active.css);
 @import url(../blocks/popup/__button-add/popup__button-add.css);
+@import url(../blocks/popup/__button-add/_type/popup__button-add_type_add-photo.css);
 @import url(../blocks/popup/__caption/popup__caption.css);
 @import url(../blocks/popup/__visible-checkbox/popup__visible-checkbox.css);
 @import url(../blocks/popup/__logo/popup__logo.css);

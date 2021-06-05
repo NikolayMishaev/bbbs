@@ -2,13 +2,7 @@
   white-space: nowrap;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  max-width: 1075px;
+  max-width: 1060px;
   justify-content: flex-start;
   margin: 0;
 }
-
-/* @media (max-width: 1024px) {
-  .menu__list_style_stories {
-    margin-bottom: 30px;
-  }
-} */

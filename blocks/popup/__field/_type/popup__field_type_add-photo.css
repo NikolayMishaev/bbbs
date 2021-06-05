@@ -1,0 +1,28 @@
+.popup__field_type_add-photo {
+  position: relative;
+  background: url(../../../../images/button-form-place-add.svg) no-repeat 0 /
+    contain;
+  padding-left: 68px;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
+  padding-top: 15px;
+}
+
+.popup__field_type_add-photo:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media (max-width: 800px) {
+  .popup__field_type_add-photo {
+    font-size: 12px;
+    line-height: 17px;
+    padding-top: 10px;
+    padding-left: 55px;
+  }
+}

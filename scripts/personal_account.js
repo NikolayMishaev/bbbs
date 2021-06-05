@@ -74,7 +74,7 @@ buttonFormMarkBad.addEventListener("click", () => {
   if (
     buttonFormMarkBad.classList.contains("story-form__mark_type_bad-active")
   ) {
-    storyFormMarkText.textContent = "Что-пошло не так";
+    storyFormMarkText.textContent = "Что-то пошло не так";
     storyFormMarkText.classList.remove("story-form__text_type_great");
     storyFormMarkText.classList.remove("story-form__text_type_normal");
     storyFormMarkText.classList.add("story-form__text_type_bad");

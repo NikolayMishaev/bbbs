@@ -5,13 +5,8 @@
   margin-left: 15px;
 }
 
-<<<<<<< HEAD
 .list__submit_cancel:hover {
-  background-color: #a7a6a6;
-=======
-.list__submit_cancel:hover{
-  background-color: #E0E0E0;
->>>>>>> 034be92d42031a1dc00966641e9ca72369bf4442
+  background-color: #e0e0e0;
 }
 
 @media (max-width: 400px) {
