@@ -7,8 +7,7 @@
 
 @media (max-width: 768px) {
   .two-columns_style_questions {
-    display: grid;
-    justify-items: center;
-    align-content: center;
+display: grid;
+justify-items: center;
   }
 }
