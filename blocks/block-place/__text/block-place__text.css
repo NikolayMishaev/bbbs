@@ -1,17 +1,17 @@
 .block-place__text {
   font-family: PT Root UI;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 26px;
-color: #000000;
-margin: 25px 0 0;
-overflow-x: unset;
-padding-right: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin: 25px 0 0;
+  overflow-x: unset;
+  padding-right: 15px;
 }
 
 .block-place__text:first-child {
-margin-top: 0;
+  margin-top: 0;
 }
 
 @media (max-width: 1280px) {
@@ -21,7 +21,6 @@ margin-top: 0;
     margin: 5px 0 0;
     padding-right: 8px;
   }
-
 }
 
 @media (max-width: 400px) {

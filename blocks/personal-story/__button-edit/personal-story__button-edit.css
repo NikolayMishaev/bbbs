@@ -1,25 +1,25 @@
 .personal-story__button-edit {
-  color: #A7A6A6;
+  color: #a7a6a6;
   border: none;
   background: transparent;
   font-family: Proto Grotesk Web Light;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 19px;
-letter-spacing: 0.2px;
-margin-right: 30px;
-padding: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  margin-right: 30px;
+  padding: 0;
 }
 
 .personal-story__button-edit:hover {
   cursor: pointer;
-  opacity: .8;
-  }
+  opacity: 0.8;
+}
 
-  @media (max-width: 1024px) {
-    .personal-story__button-edit {
-      font-size: 12px;
-  line-height: 17px;
-    }
+@media (max-width: 1024px) {
+  .personal-story__button-edit {
+    font-size: 12px;
+    line-height: 17px;
   }
+}

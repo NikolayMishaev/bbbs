@@ -1,19 +1,19 @@
 .header__form-search {
-  order:2;
-margin: 0 auto;
-width: 68%;
-margin-right: 18px;
-margin-left: 10px;
-margin-top: 4px;
-display: none;
+  order: 2;
+  margin: 0 auto;
+  width: 68%;
+  margin-right: 18px;
+  margin-left: 10px;
+  margin-top: 4px;
+  display: none;
 }
 
 .header__form-search:hover {
-cursor: auto;
+  cursor: auto;
 }
 
 @media (max-width: 1375px) {
-  .header__form-search  {
+  .header__form-search {
     order: 4;
     width: 100%;
   }

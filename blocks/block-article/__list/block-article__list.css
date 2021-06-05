@@ -6,14 +6,14 @@
 }
 
 @media (max-width: 1024px) {
-.block-article__list {
+  .block-article__list {
     padding: 30px;
     margin-bottom: 30px;
-    }
+  }
 }
 
 @media (max-width: 400px) {
-.block-article__list {
+  .block-article__list {
     padding: 30px 15px;
-    }
+  }
 }

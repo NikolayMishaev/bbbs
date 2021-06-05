@@ -3,7 +3,8 @@
   height: 48px;
   border-radius: 50px;
   border: none;
-  background: url(../../../images/button-form-place-add.svg) no-repeat 100%/cover;
+  background: url(../../../images/button-form-place-add.svg) no-repeat 100% /
+    cover;
 }
 
 .popup__button-add:hover {
@@ -11,7 +12,7 @@
 }
 
 @media (max-width: 800px) {
-  .popup__button-add  {
+  .popup__button-add {
     width: 40px;
     height: 40px;
   }

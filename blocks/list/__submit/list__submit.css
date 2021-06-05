@@ -1,40 +1,40 @@
-.list__submit{
-    margin: 0;
-    padding: 0;
-    width: 127px;
-    height: 48px;
-    border: 1px solid #224CFF;
-    border-radius: 100px;
-    box-sizing: border-box;
-    font-family: 'Proto Grotesk Web Light';
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 19px;
-    letter-spacing: 0.2px;
-    color: #224CFF;
-    font-style: normal;
-    background: #FFFFFF;
-    cursor: pointer;
+.list__submit {
+  margin: 0;
+  padding: 0;
+  width: 127px;
+  height: 48px;
+  border: 1px solid #224cff;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-family: "Proto Grotesk Web Light";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #224cff;
+  font-style: normal;
+  background: #ffffff;
+  cursor: pointer;
 }
 
 .list__submit:disabled {
-  color: #A7A6A6;
+  color: #a7a6a6;
   border: 1px solid#A7A6A6;
   pointer-events: none;
 }
 
 .list__submit:hover {
-  background:#C8D1FF;
+  background: #c8d1ff;
 }
 
-.list__submit:focus{
-outline: none;
+.list__submit:focus {
+  outline: none;
 }
 @media (max-width: 1024px) {
-    .list__submit{
-        font-size: 12px;
-        line-height: 17px;
-        width: 100px;
-        height: 40px;
-    }
+  .list__submit {
+    font-size: 12px;
+    line-height: 17px;
+    width: 100px;
+    height: 40px;
   }
+}

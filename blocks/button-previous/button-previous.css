@@ -1,21 +1,20 @@
 .button-previous {
-width: 40px;
-height: 40px;
-border: none;
-background-color: transparent;
-background-image: url(../../images/content-section-button-previous.png);
-background-repeat:  no-repeat;
-background-size: cover;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  background-image: url(../../images/content-section-button-previous.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .button-previous:hover {
   cursor: pointer;
-  opacity: .8;
-  }
-
+  opacity: 0.8;
+}
 
 @media (max-width: 1024px) {
-  .button-previous{
+  .button-previous {
     width: 30px;
     height: 30px;
   }

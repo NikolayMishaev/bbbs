@@ -12,12 +12,12 @@
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  }
+}
 
-  @media (max-width: 1024px) {
-    .block-book__year {
-      margin: 0 15px 15px;
-      font-size: 12px;
-  line-height: 17px;
-    }
+@media (max-width: 1024px) {
+  .block-book__year {
+    margin: 0 15px 15px;
+    font-size: 12px;
+    line-height: 17px;
   }
+}

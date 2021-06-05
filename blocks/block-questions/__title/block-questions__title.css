@@ -12,12 +12,12 @@
 }
 
 .block-questions__title:hover {
-  color: #224CFF;
+  color: #224cff;
   cursor: pointer;
 }
 
 @media (max-width: 1024px) {
-  .block-questions__title  {
+  .block-questions__title {
     margin: 30px 15px 15px;
     font-size: 19px;
     line-height: 23px;
@@ -25,7 +25,7 @@
 }
 
 @media (max-width: 400px) {
-  .block-questions__title  {
-margin-bottom: 15px;
+  .block-questions__title {
+    margin-bottom: 15px;
   }
 }

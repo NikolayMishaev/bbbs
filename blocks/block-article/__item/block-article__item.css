@@ -1,18 +1,18 @@
 .block-article__item {
-list-style-type: none;
-font-family: PT Root UI;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 26px;
-color: #000000;
+  list-style-type: none;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .block-article__item:after {
-content: '';
-border-bottom: 1px solid #A7A6A6;
-display: block;
-margin: 14.4px 0;
+  content: "";
+  border-bottom: 1px solid #a7a6a6;
+  display: block;
+  margin: 14.4px 0;
 }
 
 .block-article__item:last-child::after {
@@ -24,8 +24,8 @@ margin: 14.4px 0;
   .block-article__item {
     font-size: 15px;
     line-height: 21px;
-      }
-      .block-article__item::after {
-        margin: 14.4px 0 9.5px;
-      }
   }
+  .block-article__item::after {
+    margin: 14.4px 0 9.5px;
+  }
+}

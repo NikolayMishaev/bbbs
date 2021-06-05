@@ -1,0 +1,9 @@
+.block-404__link_pos {
+  margin: 50px auto;
+}
+
+@media (max-width: 767px) {
+  .block-404__link_pos {
+    margin-top: 40px;
+  }
+}

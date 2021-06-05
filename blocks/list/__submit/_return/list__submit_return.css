@@ -1,9 +1,9 @@
-.list__submit_return{
-    width: 215px;
-    color: #000000;
-    border: 1px solid #000000;
+.list__submit_return {
+  width: 215px;
+  color: #000000;
+  border: 1px solid #000000;
 }
 
-.list__submit_return:hover{
+.list__submit_return:hover {
   background-color: #a7a6a6;
 }

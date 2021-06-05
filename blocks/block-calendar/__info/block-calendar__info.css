@@ -1,4 +1,4 @@
-.block-calendar__info{
+.block-calendar__info {
   font-family: PT Root UI;
   font-style: normal;
   font-weight: normal;
@@ -12,12 +12,12 @@
   .block-calendar__info {
     font-size: 12px;
     line-height: 17px;
-    }
   }
+}
 
-  @media (max-width: 400px) {
-    .block-calendar__info {
-      flex: 1;
-      text-align: center;
-      }
-    }
+@media (max-width: 400px) {
+  .block-calendar__info {
+    flex: 1;
+    text-align: center;
+  }
+}

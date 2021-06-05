@@ -1,7 +1,7 @@
 .guide-container__divisor {
-grid-column: 1/-1;
-grid-row: 2/3;
-border-bottom: 1px solid #000000;
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  border-bottom: 1px solid #000000;
 }
 
 .guide-container__divisor:nth-child(2) {

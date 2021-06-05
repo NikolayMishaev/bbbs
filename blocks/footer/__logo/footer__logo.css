@@ -1,5 +1,5 @@
 .footer__logo {
-  background: url(../../../images/footer-logo.svg) no-repeat 100%/cover;
+  background: url(../../../images/footer-logo.svg) no-repeat 100% / cover;
   width: 415px;
   height: 76px;
   transform: translate(0, -20px);
@@ -7,7 +7,7 @@
 }
 
 .footer__logo:hover {
-opacity: .8;
+  opacity: 0.8;
 }
 
 @media (max-width: 1275px) {

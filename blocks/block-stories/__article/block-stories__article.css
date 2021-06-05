@@ -3,12 +3,12 @@
 }
 
 .block-stories__article::after {
-content: '';
-display: block;
-border-bottom: 1px solid #464646;
-width: 100%;
-max-width: 1170px;
-margin-top: 80px;
+  content: "";
+  display: block;
+  border-bottom: 1px solid #464646;
+  width: 100%;
+  max-width: 1170px;
+  margin-top: 80px;
 }
 
 @media (max-width: 1024px) {
@@ -17,5 +17,5 @@ margin-top: 80px;
   }
   .block-stories__article::after {
     margin-top: 50px;
-    }
+  }
 }

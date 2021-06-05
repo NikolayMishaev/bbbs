@@ -4,14 +4,12 @@
   margin-right: 30px;
   border-radius: 30px;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
 @media (max-width: 1440px) {
   .block-links {
-    width: 370px;
     min-width: 370px;
   }
 }

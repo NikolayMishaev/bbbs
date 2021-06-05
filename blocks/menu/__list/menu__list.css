@@ -1,9 +1,9 @@
 .menu__list {
-display: flex;
-flex-wrap: wrap;
-margin: 0;
-padding: 0;
-justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
 }
 
 .menu__list::-webkit-scrollbar {
@@ -15,14 +15,14 @@ justify-content: center;
     flex-wrap: nowrap;
     overflow-x: scroll;
     justify-content: unset;
-    }
-    .menu__list:nth-of-type(2) {
-      justify-content: center;
-      }
+  }
+  .menu__list:nth-of-type(2) {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 700px) {
   .menu__list:nth-of-type(2) {
     justify-content: unset;
-    }
+  }
 }

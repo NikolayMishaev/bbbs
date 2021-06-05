@@ -5,17 +5,17 @@
   font-size: 15px;
   line-height: 19px;
   letter-spacing: 0.2px;
-  color: #224CFF;
+  color: #224cff;
   margin: auto auto 0;
   text-decoration: none;
 }
 
 .block-video-header__category:hover {
-  opacity: .8;
-  }
+  opacity: 0.8;
+}
 
 @media (max-width: 1024px) {
-  .block-video-header__category   {
+  .block-video-header__category {
     font-size: 12px;
     line-height: 17px;
   }

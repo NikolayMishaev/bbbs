@@ -3,16 +3,16 @@
   margin-left: 20px;
   padding-top: 15px;
   font-family: Proto Grotesk Web Light;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 19px;
-letter-spacing: 0.2px;
-color: #A7A6A6;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
 }
 
 @media (max-width: 800px) {
-  .popup__caption  {
+  .popup__caption {
     font-size: 12px;
     line-height: 17px;
     padding-top: 11px;

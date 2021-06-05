@@ -1,9 +1,9 @@
 .questions-form__form {
-display: flex;
+  display: flex;
 }
 
 @media (max-width: 640px) {
   .questions-form__form {
-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }

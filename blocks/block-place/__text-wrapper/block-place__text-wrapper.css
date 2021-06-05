@@ -1,7 +1,7 @@
 .block-place__text-wrapper {
   overflow: auto;
-    max-height: 389px;
-    margin-top: auto;
+  max-height: 389px;
+  margin-top: auto;
 }
 
 .block-place__text-wrapper::-webkit-scrollbar {
@@ -10,7 +10,7 @@
 
 .block-place__text-wrapper::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #E8E6E6;
+  background-color: #e8e6e6;
 }
 
 @media (max-width: 1280px) {

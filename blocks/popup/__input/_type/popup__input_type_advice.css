@@ -12,12 +12,12 @@
 
 .popup__input_type_advice::placeholder {
   font-family: Proto Grotesk Web Light;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 19px;
-letter-spacing: 0.2px;
-color: #A7A6A6;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
 }
 
 @media screen and (max-width: 800px) {

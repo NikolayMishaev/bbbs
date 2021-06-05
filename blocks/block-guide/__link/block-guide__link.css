@@ -1,12 +1,12 @@
 .block-guide__link {
-display: flex;
+  display: flex;
 }
 
 .block-guide__link:hover {
-opacity: .8;
+  opacity: 0.8;
 }
 
 .block-guide__link::before {
-  content: '';
-padding-top: 100%;
+  content: "";
+  padding-top: 100%;
 }

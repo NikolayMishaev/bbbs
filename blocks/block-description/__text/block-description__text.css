@@ -1,22 +1,22 @@
 .block-description__text {
-font-family: PT Root UI;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 26px;
-color: #000000;
-margin: 10px 0 0;
-padding-right: 10px;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin: 10px 0 0;
+  padding-right: 10px;
 }
 
 .block-description__text:first-child {
   margin-top: 0;
-  }
+}
 
 @media (max-width: 1024px) {
   .block-description__text {
     font-size: 15px;
-line-height: 21px;
-margin-top: 5px;
+    line-height: 21px;
+    margin-top: 5px;
   }
 }

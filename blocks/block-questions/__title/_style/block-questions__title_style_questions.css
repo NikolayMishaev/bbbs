@@ -3,8 +3,7 @@
 }
 
 @media (max-width: 1024px) {
-  .block-questions__title_style_questions  {
+  .block-questions__title_style_questions {
     min-width: calc(100% - 30px);
   }
 }
-

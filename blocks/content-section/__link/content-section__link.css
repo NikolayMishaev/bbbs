@@ -5,16 +5,16 @@
   font-size: 44px;
   line-height: 50px;
   text-align: center;
-  color: #224CFF;
+  color: #224cff;
   text-decoration: none;
 }
 
 .content-section__link:hover {
-  color: #2E2468;
+  color: #2e2468;
 }
 
 @media (max-width: 1024px) {
-  .content-section__link  {
+  .content-section__link {
     font-size: 23px;
     line-height: 30px;
   }

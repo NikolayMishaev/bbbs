@@ -1,5 +1,6 @@
 .select-page__image {
-width: 69px;
-height: 69px;
-background: url(../../../images/block-guide-photo-2.jpg) no-repeat center/cover;
+  width: 69px;
+  height: 69px;
+  background: url(../../../images/block-guide-photo-2.jpg) no-repeat
+    center/cover;
 }

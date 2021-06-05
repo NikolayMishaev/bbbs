@@ -1,5 +1,5 @@
 .footer__link {
-  color: #F3F2F2;
+  color: #f3f2f2;
   font-family: PT Root UI;
   font-style: normal;
   font-weight: normal;
@@ -13,11 +13,9 @@
 }
 
 @media (max-width: 1275px) {
-  .footer__link  {
+  .footer__link {
     font-size: 12px;
     line-height: 17px;
     letter-spacing: 0.2px;
   }
 }
-
-

@@ -1,6 +1,6 @@
-.block-calendar__add{
+.block-calendar__add {
   margin-left: auto;
-  border: 1px solid #224CFF;
+  border: 1px solid #224cff;
   box-sizing: border-box;
   border-radius: 100px;
   background-color: transparent;
@@ -9,19 +9,19 @@
   background: url(../../../images/block-calendar.svg) no-repeat center/48%;
 }
 
-.block-calendar__add:focus{
+.block-calendar__add:focus {
   outline: none;
 }
 
 @media (max-width: 1024px) {
-  .block-calendar__add  {
+  .block-calendar__add {
     width: 40px;
     height: 40px;
-    }
   }
+}
 
-  @media (max-width: 400px) {
-    .block-calendar__add  {
-      margin-left: unset;
-      }
-    }
+@media (max-width: 400px) {
+  .block-calendar__add {
+    margin-left: unset;
+  }
+}

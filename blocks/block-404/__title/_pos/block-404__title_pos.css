@@ -1,0 +1,10 @@
+.block-404__title_pos {
+  text-align: center;
+  margin: 36px auto 0;
+}
+
+@media (max-width: 767px) {
+  .block-404__title_pos {
+    margin-top: 20px;
+  }
+}

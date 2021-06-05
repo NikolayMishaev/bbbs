@@ -1,13 +1,13 @@
 .menu__item {
-margin: 0;
-padding: 0;
-list-style-type: none;
-white-space: nowrap;
-margin-top: 15px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  white-space: nowrap;
+  margin-top: 15px;
 }
 
 @media (max-width: 1024px) {
   .menu__item {
     margin-top: 10px;
-    }
+  }
 }

@@ -1,18 +1,18 @@
 .block-place__category {
   font-family: Proto Grotesk Web Light;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.2px;
-color: #224CFF;
-margin-top: auto;
-text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #224cff;
+  margin-top: auto;
+  text-decoration: none;
 }
 
 .block-place__category:hover {
-opacity: .8;
+  opacity: 0.8;
 }
 
 @media (max-width: 1024px) {

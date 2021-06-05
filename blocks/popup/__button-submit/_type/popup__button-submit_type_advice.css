@@ -1,4 +1,4 @@
-.popup__button-submit_type_advice{
+.popup__button-submit_type_advice {
   margin: 0;
   margin-left: auto;
   padding: 13px 20px;
@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 800px) {
-  .popup__button-submit_type_advice  {
+  .popup__button-submit_type_advice {
     padding: 8px 15px 11px;
     min-width: 95px;
   }

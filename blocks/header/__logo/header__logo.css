@@ -6,14 +6,14 @@
   font-weight: 300;
   font-size: 25px;
   line-height: 1.12;
-  color: #224CFF;
+  color: #224cff;
   text-decoration: none;
   transition: opacity 0.2s ease-out;
   align-self: flex-start;
 }
 
 .header__logo:hover {
-  color: #2E2468;
+  color: #2e2468;
 }
 
 @media (max-width: 1375px) {

@@ -1,10 +1,10 @@
 .story-form__add-photo {
-flex: 1;
-border-radius: 30px;
-display: flex;
-box-sizing:border-box;
-position: relative;
-max-height: 472px;
+  flex: 1;
+  border-radius: 30px;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  max-height: 472px;
 }
 
 @media (max-width: 1024px) {

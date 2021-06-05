@@ -13,7 +13,7 @@
 
 .block-description__text-wrapper::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #E8E6E6;
+  background-color: #e8e6e6;
 }
 
 @media (max-width: 1024px) {

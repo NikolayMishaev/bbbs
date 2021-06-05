@@ -1,0 +1,9 @@
+.block-404_pos {
+  margin-top: 10%;
+}
+
+@media (max-width: 767px) {
+  .block-404_pos {
+    margin-top: 15%;
+  }
+}

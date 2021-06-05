@@ -9,19 +9,19 @@
 }
 
 @media (max-width: 1440px) {
-.content__stories {
+  .content__stories {
     padding: 0 135px 0;
   }
 }
 
 @media (max-width: 1024px) {
-.content__stories {
+  .content__stories {
     padding: 0 127px 0;
   }
 }
 
 @media (max-width: 900px) {
-.content__stories {
+  .content__stories {
     padding: 0 15px 0;
   }
 }

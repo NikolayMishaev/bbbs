@@ -1,0 +1,13 @@
+.block-404__background {
+  background: url(../../../images/404_background.svg) no-repeat 100% / cover;
+  max-width: 570px;
+  width: 100%;
+  min-height: 199px;
+}
+
+@media (max-width: 767px) {
+  .block-404__background {
+    max-width: 290px;
+    min-height: 101px;
+  }
+}

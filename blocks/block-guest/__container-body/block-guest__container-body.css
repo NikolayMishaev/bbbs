@@ -1,5 +1,5 @@
 .block-guest__container-body {
-  background: #FF8585;
+  background: #ff8585;
   border-radius: 400px;
   width: 100%;
   display: flex;
@@ -20,4 +20,3 @@
     padding: 35px 15px;
   }
 }
-

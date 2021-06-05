@@ -4,12 +4,12 @@
 }
 
 .block-rights::before {
-  content: '';
+  content: "";
   padding-top: 100%;
 }
 
 @media (max-width: 1024px) {
   .block-rights {
-max-height: 290px;
+    max-height: 290px;
   }
 }

@@ -233,7 +233,6 @@
 @import url(../blocks/message/message.css);
 @import url(../blocks/places/places.css);
 
-
 @import url(../blocks/calendar/calendar.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/__element/list__element.css);
@@ -275,7 +274,6 @@
 @import url(../blocks/about/about__circle-square.css);
 @import url(../blocks/about/about__accent.css);
 
-
 @import url(../blocks/block-questions/_style/block-questions_style_questions.css);
 @import url(../blocks/three-columns/_style/three-columns_style_questions.css);
 @import url(../blocks/block-questions/__button/block-questions__button.css);
@@ -290,7 +288,6 @@
 @import url(../blocks/questions-form/__button-submit/questions-form__button-submit.css);
 @import url(../blocks/questions-form/__button-submit/_type/questions-form__button-submit_type_active.css);
 @import url(../blocks/questions-form/__wrapper/questions-form__wrapper.css);
-
 
 @import url(../blocks/content-section/content-section.css);
 @import url(../blocks/content-section/__title/content-section__title.css);
@@ -307,7 +304,6 @@
 @import url(../blocks/block-guide/__caption/block-guide__caption.css);
 @import url(../blocks/block-guide/__caption/_style/block-guide__caption_style_content-menu.css);
 @import url(../blocks/block-guide/__caption/_style/block-guide__caption_style_guide-article.css);
-
 
 @import url(../blocks/personal-events/personal-events.css);
 @import url(../blocks/personal-events/__title/personal-events__title.css);
@@ -458,3 +454,13 @@
 @import url(../blocks/block-stories/__arrow/_direction/block-stories__arrow_direction_left.css);
 @import url(../blocks/block-stories/__text/_margins/block_stories__text_margins.css);
 @import url(../blocks/block-stories/__tag-button/block-stories__tag-bottom.css);
+
+@import url(../blocks/block-404/block-404.css);
+@import url(../blocks/block-404/_pos/block-404_pos.css);
+@import url(../blocks/block-404/__background/block-404__background.css);
+@import url(../blocks/block-404/__title/block-404__title.css);
+@import url(../blocks/block-404/__title/_pos/block-404__title_pos.css);
+@import url(../blocks/block-404/__text/block-404__text.css);
+@import url(../blocks/block-404/__text/_pos/block-404__text_pos.css);
+@import url(../blocks/block-404/__link/block-404__link.css);
+@import url(../blocks/block-404/__link/_pos/block-404__link_pos.css);

@@ -1,0 +1,42 @@
+.block-404__link {
+  box-sizing: border-box;
+  max-width: 195px;
+  max-height: 48px;
+  padding: 13px 19px;
+  border-radius: 100px;
+  border: 1px solid #224cff;
+  color: #224cff;
+  font-family: Proto Grotesk Web Light;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.block-404__link:focus {
+  background-color: #2e2468;
+  color: #f3f2f2;
+  border-color: #2e2468;
+}
+
+.block-404__link:hover {
+  opacity: 0.8;
+  background-color: #c8d1ff;
+}
+
+.block-404__link:active {
+  background-color: #224cff;
+  color: #f3f2f2;
+}
+
+@media (max-width: 767px) {
+  .block-404__link {
+    max-width: 155px;
+    max-height: 40px;
+    padding: 11px 14px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

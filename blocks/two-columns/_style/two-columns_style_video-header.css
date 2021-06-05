@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 1280px) {
-  .two-columns_style_video-header  {
+  .two-columns_style_video-header {
     display: grid;
   }
 }

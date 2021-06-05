@@ -1,4 +1,4 @@
-.list__caption{
+.list__caption {
   font-family: PT Root UI;
   font-style: normal;
   font-weight: normal;
@@ -6,12 +6,11 @@
   line-height: 19px;
   letter-spacing: 0.2px;
   color: #464646;
-    margin: 0;
-
+  margin: 0;
 }
 @media (max-width: 1024px) {
-    .list__caption{
-        font-size: 12px;
-        line-height: 17px;
-    }
+  .list__caption {
+    font-size: 12px;
+    line-height: 17px;
   }
+}
