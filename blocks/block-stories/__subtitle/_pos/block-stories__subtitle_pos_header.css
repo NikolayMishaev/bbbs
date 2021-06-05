@@ -1,9 +1,9 @@
 .block-stories__subtitle_pos_header {
-  margin: 40px auto;
+  margin: 40px auto 25px;
 }
 
 @media (max-width: 1024px) {
   .block-stories__subtitle_pos_header {
-    margin: 20px auto 30px;
+    margin: 20px auto;
   }
 }

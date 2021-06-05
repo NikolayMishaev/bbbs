@@ -1,24 +1,24 @@
 .block-calendar__phone {
-width: 100%;
-font-family: PT Root UI;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
-letter-spacing: 0.2px;
-color: #000000;
-margin: 0 0 27px;
+  width: 100%;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin: 0 0 27px;
 }
 
 @media (max-width: 1024px) {
   .block-calendar__phone {
     font-size: 12px;
     line-height: 17px;
-    }
   }
+}
 
-  @media (max-width: 400px) {
-    .block-calendar__phone {
-      margin-bottom: 29px;
-      }
-    }
+@media (max-width: 400px) {
+  .block-calendar__phone {
+    margin-bottom: 29px;
+  }
+}
