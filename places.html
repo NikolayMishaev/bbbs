@@ -772,8 +772,7 @@
               >
                 <input
                   id="place-website"
-                  required
-                  name="password"
+                  name="website"
                   minlength="2"
                   maxlength="200"
                   placeholder="Сайт"
@@ -786,9 +785,9 @@
                 class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"
               >
                 <input
-                  id="place-adress"
+                  id="place-address"
                   required
-                  name="login"
+                  name="address"
                   minlength="2"
                   maxlength="40"
                   placeholder="Адрес*"
@@ -803,7 +802,7 @@
                 <input
                   id="place-boy"
                   required
-                  name="login"
+                  name="boy"
                   class="popup__input popup__input_type_advice popup__input_type_checkbox"
                   type="radio"
                 />
@@ -816,7 +815,7 @@
                 <input
                   id="place-girl"
                   required
-                  name="login"
+                  name="girl"
                   class="popup__input popup__input_type_advice popup__input_type_checkbox"
                   type="radio"
                 />
@@ -829,7 +828,7 @@
                 <input
                   id="place-age"
                   required
-                  name="login"
+                  name="age"
                   placeholder="Возраст*"
                   class="popup__input popup__input_type_advice"
                   type="number"
@@ -840,14 +839,15 @@
                 class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"
               >
                 <select
+                  required
                   class="popup__select"
                   id="place-type-vacation"
                   name="type-vacation"
                 >
-                  <option value="ibm">Тип отдыха*</option>
-                  <option value="ubuntu">Активный</option>
-                  <option value="istok">Развлекательный</option>
-                  <option value="istok">Познавательный</option>
+                  <option>Тип отдыха*</option>
+                  <option value="active">Активный</option>
+                  <option value="fun">Развлекательный</option>
+                  <option value="research">Познавательный</option>
                 </select>
               </label>
               <label
@@ -859,6 +859,8 @@
                   name="main-text"
                   placeholder="Комментарий* Поделитесь впечатлениями о проведенном времени"
                   required
+                  minlength="5"
+                  maxlength="200"
                 ></textarea>
               </label>
               <!-- <button
@@ -876,7 +878,7 @@
                 />
               </label>
               <button
-                aria-label="submit form"
+                aria-label="submit-form"
                 class="popup__button-submit popup__button-submit_type_advice"
                 type="submit"
               >

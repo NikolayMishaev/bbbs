@@ -15,6 +15,14 @@
   color: #c4c4c4;
 }
 
+.popup__input:invalid {
+  color: #ff4e4e;
+}
+
+.popup__input:valid {
+  color: #000000;
+}
+
 @media screen and (max-width: 800px) {
   .popup__input {
     width: 90%;

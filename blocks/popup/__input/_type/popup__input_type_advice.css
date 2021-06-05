@@ -26,3 +26,11 @@
     line-height: 17px;
   }
 }
+
+.popup__input_type_advice:valid {
+  color: #000000;
+}
+
+.popup__input_type_advice:invalid {
+  color: #ff4e4e;
+}
