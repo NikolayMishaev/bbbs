@@ -4,4 +4,5 @@
   height: 100%;
   border: none;
   max-width: 419px;
+  flex: 1;
 }
