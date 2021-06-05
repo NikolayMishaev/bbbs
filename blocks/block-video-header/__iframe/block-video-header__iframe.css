@@ -5,3 +5,10 @@
   border-radius: 30px;
   background: url(../../../images/iframe-video.jpg) no-repeat center/cover;
 }
+
+@media (max-width: 1280px) {
+  .block-video-header__iframe {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
