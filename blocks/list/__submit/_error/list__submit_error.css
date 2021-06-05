@@ -1,0 +1,17 @@
+.list__submit_error {
+width: 234px;
+background: transparent;
+border-color: black;
+color: black;
+margin-top: auto;
+}
+
+.list__submit_error:hover {
+background: #E0E0E0;
+}
+
+@media (max-width: 400px) {
+  .list__submit_error {
+    width: 186px;
+  }
+}

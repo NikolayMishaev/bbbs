@@ -236,11 +236,14 @@
 @import url(../blocks/calendar/calendar.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/__element/list__element.css);
+@import url(../blocks/list/__element/_error/list__element_error.css);
+@import url(../blocks/list/__element/_is-registered/list__element_is-registered.css);
 @import url(../blocks/list/__date/list__date.css);
 @import url(../blocks/list/__date/_right/list__date_right.css);
 @import url(../blocks/list/__caption/list__caption.css);
 @import url(../blocks/list/__header/list__header.css);
 @import url(../blocks/list/__title/list__title.css);
+@import url(../blocks/list/__title/_error/list__title_error.css);
 @import url(../blocks/list/__number/list__number.css);
 @import url(../blocks/list/__contacts/list__contacts.css);
 @import url(../blocks/list/__contact/list__contact.css);
@@ -248,10 +251,10 @@
 @import url(../blocks/list/__theme/list__theme.css);
 @import url(../blocks/list/__footer/list__footer.css);
 @import url(../blocks/list/__submit/list__submit.css);
+@import url(../blocks/list/__submit/_error/list__submit_error.css);
 @import url(../blocks/list/__place-number/list__place-number.css);
 @import url(../blocks/list/__button-view/list__button-view.css);
 @import url(../blocks/list/__submit/_inactive/list__submit_inactive.css);
-@import url(../blocks/list/__element/_is-registered/list__element_is-registered.css);
 @import url(../blocks/list/__submit/_is-registered/list__submit_is-registered.css);
 @import url(../blocks/list/__button-view/_is-registered/list__button-view_is-registered.css);
 @import url(../blocks/popup-calendar/popup-calendar.css);

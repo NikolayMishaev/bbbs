@@ -1,0 +1,11 @@
+.list__title_error {
+  margin-top: 29px;
+  color: #FF4E4E;
+}
+
+@media (max-width: 400px) {
+  .list__title_error {
+    max-width: 166px;
+    margin-top: 24px;
+  }
+}
