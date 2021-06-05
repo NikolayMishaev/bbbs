@@ -5,3 +5,11 @@
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
+
+.popup__input_type_checkbox:not {
+  color: #ff4e4e;
+}
+
+.popup__input_type_checkbox:checked {
+  color: #000000;
+}

@@ -9,6 +9,7 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__search/header__search.css);
 @import url(../blocks/header/__search/_type/header__search_type_search.css);
+@import url(../blocks/header//__search-list/header__search-list.css);
 @import url(../blocks/header/__divisor/header__divisor.css);
 @import url(../blocks/header/__divisor/_type/header__divisor_type_search.css);
 @import url(../blocks/header/__account/header__account.css);

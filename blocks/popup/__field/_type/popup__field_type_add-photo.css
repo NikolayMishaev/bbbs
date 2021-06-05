@@ -1,15 +1,16 @@
 .popup__field_type_add-photo {
-position: relative;
-background: url(../../../../images/button-form-place-add.svg) no-repeat 0 / contain;
-padding-left: 68px;
-font-family: Proto Grotesk Web Light;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 19px;
-letter-spacing: 0.2px;
-color: #A7A6A6;
-padding-top: 15px;
+  position: relative;
+  background: url(../../../../images/button-form-place-add.svg) no-repeat 0 /
+    contain;
+  padding-left: 68px;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
+  padding-top: 15px;
 }
 
 .popup__field_type_add-photo:hover {

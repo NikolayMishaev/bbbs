@@ -1,13 +1,13 @@
 .list__submit_error {
-width: 234px;
-background: transparent;
-border-color: black;
-color: black;
-margin-top: auto;
+  width: 234px;
+  background: transparent;
+  border-color: black;
+  color: black;
+  margin-top: auto;
 }
 
 .list__submit_error:hover {
-background: #E0E0E0;
+  background: #e0e0e0;
 }
 
 @media (max-width: 400px) {

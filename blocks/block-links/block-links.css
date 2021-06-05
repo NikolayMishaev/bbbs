@@ -16,11 +16,11 @@
 
 @media (max-width: 768px) {
   .block-links {
-margin-right: 0;
-margin-bottom: 30px;
-min-width: unset;
-min-height: 552px;
-width: 400px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    min-width: unset;
+    min-height: 552px;
+    width: 400px;
   }
 }
 

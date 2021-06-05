@@ -34,3 +34,11 @@
     line-height: 17px;
   }
 }
+
+.popup__select:invalid {
+  color: #ff4e4e;
+}
+
+.popup__select:valid {
+  color: #000000;
+}
