@@ -451,3 +451,13 @@
 @import url(../blocks/block-stories/__arrow/_direction/block-stories__arrow_direction_left.css);
 @import url(../blocks/block-stories/__text/_margins/block_stories__text_margins.css);
 @import url(../blocks/block-stories/__tag-button/block-stories__tag-bottom.css);
+
+@import url(../blocks/block-404/block-404.css);
+@import url(../blocks/block-404/_pos/block-404_pos.css);
+@import url(../blocks/block-404/__background/block-404__background.css);
+@import url(../blocks/block-404/__title/block-404__title.css);
+@import url(../blocks/block-404/__title/_pos/block-404__title_pos.css);
+@import url(../blocks/block-404/__text/block-404__text.css);
+@import url(../blocks/block-404/__text/_pos/block-404__text_pos.css);
+@import url(../blocks/block-404/__link/block-404__link.css);
+@import url(../blocks/block-404/__link/_pos/block-404__link_pos.css);

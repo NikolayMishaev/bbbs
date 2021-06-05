@@ -1,0 +1,12 @@
+.block-404__text {
+  font-family: Proto Grotesk Web Light;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+@media (max-width: 767px) {
+  .block-404__text {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

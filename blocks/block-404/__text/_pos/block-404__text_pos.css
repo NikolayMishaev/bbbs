@@ -1,0 +1,12 @@
+.block-404__text_pos {
+  text-align: center;
+  margin: 30px auto 0;
+  max-width: 770px;
+  min-width: 290px;
+}
+
+@media (max-width: 767px) {
+  .block-404__text_pos {
+    margin-top: 10px;
+  }
+}
