@@ -7,6 +7,10 @@ line-height: 19px;
 letter-spacing: 0.2px;
 color: #464646;
 margin: 0;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
 }
 
 @media (max-width: 1280px) {

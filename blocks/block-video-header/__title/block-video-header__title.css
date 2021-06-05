@@ -7,6 +7,10 @@
   color: #000000;
   margin: 0 auto 5px;
   text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   }
 
   @media (max-width: 1024px) {

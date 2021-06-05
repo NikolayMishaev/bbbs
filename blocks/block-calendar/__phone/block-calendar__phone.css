@@ -7,7 +7,7 @@ font-size: 14px;
 line-height: 19px;
 letter-spacing: 0.2px;
 color: #000000;
-margin: 0 0 30px;
+margin: 0 0 27px;
 }
 
 @media (max-width: 1024px) {
@@ -16,3 +16,9 @@ margin: 0 0 30px;
     line-height: 17px;
     }
   }
+
+  @media (max-width: 400px) {
+    .block-calendar__phone {
+      margin-bottom: 29px;
+      }
+    }

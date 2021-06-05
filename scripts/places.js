@@ -4,7 +4,7 @@ const buttonFormSelect = document.querySelector('.popup__select');
 const popupAdviceContainer = document.querySelector('.popup__container_type_advice');
 const buttonSubmitFormAdvice = document.querySelector('.popup__button-submit_type_advice');
 const popupAdviceSucess = document.querySelector('.popup_type_advice-sucess');
-const formAdvice = document.querySelector('.popup__form popup__form_type_advice');
+const formAdvice = document.querySelector('.popup__form_type_advice');
 
 buttonAdviceForm.addEventListener('click', ()=> {
   openPopup(popupAdviceForm);

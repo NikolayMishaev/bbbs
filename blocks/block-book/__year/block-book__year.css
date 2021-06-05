@@ -8,6 +8,10 @@
   text-align: center;
   letter-spacing: 0.2px;
   color: #000000;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
   }
 
   @media (max-width: 1024px) {

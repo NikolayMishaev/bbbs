@@ -32,5 +32,11 @@ resize: none;
   .popup__textarea {
     padding: 10px 20px 13px;
     height: 40px;
+    font-size: 12px;
+line-height: 17px;
+  }
+  .popup__textarea::placeholder {
+    font-size: 12px;
+line-height: 17px;
   }
 }

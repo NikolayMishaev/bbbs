@@ -30,6 +30,10 @@ const page = document.querySelector('.page');
 
 const menuStories = document.querySelector('.menu_type_stories');
 
+const blockCalendar = document.querySelector('.block-calendar');
+const blockGuest = document.querySelector('.block-guest');
+const messageAdviceForm = document.querySelector('.message');
+
 const openPopup = popup => {
   popup.classList.add("visible-block");
   headerMenu.classList.remove('header_type_position-fixed');
@@ -81,6 +85,10 @@ buttonHeaderSearch.addEventListener('click', () => {
 
 
 buttonSignIn.addEventListener('click', () => {
+  buttonSignIn.classList.toggle('header__account_authorized');
+  if (blockCalendar) blockCalendar.classList.toggle('display-none');
+  if (blockGuest) blockGuest.classList.toggle('display-none');
+  if (messageAdviceForm) messageAdviceForm.classList.toggle('display-none');
   openPopup(popupSignIn)
 });
 buttonClosePopupSignIn.addEventListener('click', e => {

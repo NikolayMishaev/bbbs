@@ -1,0 +1,8 @@
+@media (max-width: 1024px) {
+  .block-questions__category_style_main {
+    margin-bottom: 30px;
+  }
+  .block-questions__category_style_main:nth-child(n+3) {
+    display: none;
+  }
+}
