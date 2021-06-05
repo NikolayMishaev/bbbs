@@ -190,8 +190,10 @@
 @import url(../blocks/popup-menu/__footer/popup-menu__footer.css);
 @import url(../blocks/popup-menu/__city/popup_menu__city.css);
 @import url(../blocks/header/__form-search/header__form-search.css);
+@import url(../blocks/header/__form-search/_visible/header__form-search_visible.css);
 @import url(../blocks/header/__field/header__field.css);
 @import url(../blocks/header/__input/header__input.css);
+@import url(../blocks/header/__input/_animation/header__input_animation.css);
 @import url(../blocks/header/__input-error/header__input-error.css);
 @import url(../blocks/header/__input-error/_active/header__input-error_active.css);
 @import url(../blocks/header/__answer/header__answer.css);

@@ -5,7 +5,9 @@
   margin-right: 18px;
   margin-left: 10px;
   margin-top: 4px;
-  display: none;
+  visibility: hidden;
+  width:0;
+  height: 0;
 }
 
 .header__form-search:hover {

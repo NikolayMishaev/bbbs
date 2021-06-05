@@ -1,5 +1,5 @@
 .header__input {
-  width: 100%;
+  width: 0%;
   margin: 0;
   padding: 0;
   border: none;
@@ -12,6 +12,7 @@
   font-size: 18px;
   line-height: 26px;
   color: #000000;
+  transition: width 1s linear .05s;
 }
 
 .header__input::placeholder {

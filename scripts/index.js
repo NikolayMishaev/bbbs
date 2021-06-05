@@ -34,6 +34,8 @@ const blockCalendar = document.querySelector(".block-calendar");
 const blockGuest = document.querySelector(".block-guest");
 const messageAdviceForm = document.querySelector(".message");
 
+const headerInput = document.querySelector('.header__input');
+
 const openPopup = (popup) => {
   popup.classList.add("visible-block");
   headerMenu.classList.remove("header_type_position-fixed");
@@ -70,13 +72,15 @@ buttonSearchMobileMenu.addEventListener("click", () => {
 buttonHeaderSearch.addEventListener("click", () => {
   if (buttonHeaderSearch.classList.contains("header__search_type_search")) {
     navigationMenuHeader.classList.remove("display-none");
-    searchFormHeader.classList.remove("display-block");
+    searchFormHeader.classList.remove("header__form-search_visible");
     header.classList.remove("header_type_search");
     headerDivisor.classList.remove("header__divisor_type_search");
     buttonHeaderSearch.classList.remove("header__search_type_search");
+    headerInput.classList.remove('header__input_animation');
   } else {
+    headerInput.classList.add('header__input_animation');
     navigationMenuHeader.classList.add("display-none");
-    searchFormHeader.classList.add("display-block");
+    searchFormHeader.classList.add("header__form-search_visible");
     header.classList.add("header_type_search");
     headerDivisor.classList.add("header__divisor_type_search");
     buttonHeaderSearch.classList.add("header__search_type_search");
@@ -123,10 +127,11 @@ page.addEventListener("click", (e) => {
   if (e.target.classList.contains("header")) {
     headerMenu.classList.remove("header_type_position-fixed");
     navigationMenuHeader.classList.remove("display-none");
-    searchFormHeader.classList.remove("display-block");
+    searchFormHeader.classList.remove("header__form-search_visible");
     header.classList.remove("header_type_search");
     headerDivisor.classList.remove("header__divisor_type_search");
     buttonHeaderSearch.classList.remove("header__search_type_search");
+    headerInput.classList.remove('header__input_animation');
   }
 });
 

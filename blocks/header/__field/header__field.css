@@ -1,3 +1,5 @@
 .header__field {
   position: relative;
+  display: flex;
+  justify-content: flex-end;
 }

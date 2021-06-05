@@ -13,6 +13,7 @@
   max-height: 100vh;
   overflow: auto;
   align-content: flex-start;
+  top: 0;
 }
 
 .header_type_search:hover {
