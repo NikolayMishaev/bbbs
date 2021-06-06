@@ -98,7 +98,6 @@
               name="search"
               minlength="2"
               maxlength="40"
-              placeholder=""
               class="header__input"
               type="text"
             />
@@ -836,11 +835,11 @@
                 />
                 <span class="popup__input-error"></span>
               </label>
-              <label
+              <div
                 class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"
               >
                 <div class="popup__select">
-                  <input name="type-vacation" required id="place-type-vacation" class="popup__select-input" type="hidden" name="">
+                  <input name="type-vacation" id="place-type-vacation" class="popup__select-input" type="hidden">
                   <div class="popup__select-head"></div>
                   <ul class="popup__select-list display-none">
                       <li class="popup__select-item">Активный</li>
@@ -848,7 +847,7 @@
                       <li class="popup__select-item">Познавательный</li>
                   </ul>
               </div>
-              </label>
+              </div>
               <label
                 class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"
               >
@@ -860,7 +859,6 @@
                   required
                   minlength="5"
                   maxlength="200"
-                  type="text"
                 ></textarea>
               </label>
               <label class="popup__field popup__field_type_add-photo"
