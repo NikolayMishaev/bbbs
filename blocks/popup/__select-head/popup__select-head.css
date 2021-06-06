@@ -1,0 +1,29 @@
+.popup__select-head {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 14px 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(66, 67, 72, 0.8);
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
+  background-image: url(../../../images/popup-advice-button-select.svg);
+  background-repeat: no-repeat;
+  background-position: right 3.5% top 50%;
+  background-size: 24px 19px, 100%;
+}
+
+@media (max-width: 800px) {
+  .popup__select-head {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

@@ -803,7 +803,7 @@
                 <input
                   id="place-boy"
                   required
-                  name="boy"
+                  name="gender"
                   class="popup__input popup__input_type_advice popup__input_type_checkbox"
                   type="radio"
                 />
@@ -816,7 +816,7 @@
                 <input
                   id="place-girl"
                   required
-                  name="girl"
+                  name="gender"
                   class="popup__input popup__input_type_advice popup__input_type_checkbox"
                   type="radio"
                 />
@@ -839,17 +839,15 @@
               <label
                 class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"
               >
-                <select
-                  required
-                  class="popup__select"
-                  id="place-type-vacation"
-                  name="type-vacation"
-                >
-                  <option style="display: none;">Тип отдыха*</option>
-                  <option value="active">Активный</option>
-                  <option value="fun">Развлекательный</option>
-                  <option value="research">Познавательный</option>
-                </select>
+                <div class="popup__select">
+                  <input name="type-vacation" required id="place-type-vacation" class="popup__select-input" type="hidden" name="">
+                  <div class="popup__select-head"></div>
+                  <ul class="popup__select-list display-none">
+                      <li class="popup__select-item">Активный</li>
+                      <li class="popup__select-item">Развлекательный</li>
+                      <li class="popup__select-item">Познавательный</li>
+                  </ul>
+              </div>
               </label>
               <label
                 class="popup__field popup__field_type_advice popup__field_size_large popup__field_type_no-right-margin"

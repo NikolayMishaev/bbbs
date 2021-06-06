@@ -1,0 +1,22 @@
+.popup__select-list {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  background: #F3F2F2;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.14);
+  border-radius: 0 0 30px 30px;
+  margin-top: 5px;
+  max-height: 205px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #424348;
+  scrollbar-color: dark;
+  scrollbar-width: thin;
+  overscroll-behavior: contain;
+  padding: 1px 0 9px;
+}

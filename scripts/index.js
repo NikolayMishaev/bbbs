@@ -47,6 +47,8 @@ const openPopup = (popup) => {
   headerDivisor.classList.remove("header__divisor_type_search");
   buttonHeaderSearch.classList.remove("header__search_type_search");
   menuStory ? menuStory.classList.remove('block-stories__menu_type_position-fixed') : '';
+  searchFormHeader.classList.remove('header__form-search_visible');
+  headerInput.classList.remove('header__input_animation');
 };
 
 const closePopup = (popup) => {

@@ -1,0 +1,24 @@
+.popup__select-item {
+  position: relative;
+  padding: 5px 20px;
+  cursor: pointer;
+  list-style-type: none;
+  font-family: Proto Grotesk Web Light;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: 0.2px;
+color: #A7A6A6;
+}
+
+.popup__select-item:hover {
+color: black;
+}
+
+@media (max-width: 800px) {
+  .popup__select-item {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

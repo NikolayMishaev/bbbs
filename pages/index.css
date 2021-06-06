@@ -170,6 +170,11 @@
 @import url(../blocks/popup/__textarea/popup__textarea.css);
 @import url(../blocks/popup/__select/popup__select.css);
 @import url(../blocks/popup/__select/_type/popup__select_type_active.css);
+@import url(../blocks/popup/__select-input/popup__select-input.css);
+@import url(../blocks/popup/__select-head/popup__select-head.css);
+@import url(../blocks/popup/__select-head/_type/popup__select-head_type_active.css);
+@import url(../blocks/popup/__select-list/popup__select-list.css);
+@import url(../blocks/popup/__select-item/popup__select-item.css);
 @import url(../blocks/popup/__button-add/popup__button-add.css);
 @import url(../blocks/popup/__button-add/_type/popup__button-add_type_add-photo.css);
 @import url(../blocks/popup/__caption/popup__caption.css);
@@ -397,7 +402,6 @@
 @import url(../blocks/button-previous/_active/button-previous_active.css);
 @import url(../blocks/select-page/select-page.css);
 @import url(../blocks/select-page/_style/select-page_style_guide-article.css);
-@import url(../blocks/select-page/_style/select-page_style_movie.css);
 @import url(../blocks/select-page/_style/select-page_style_rights-article.css);
 @import url(../blocks/select-page/__navigation/select-page__navigation.css);
 @import url(../blocks/select-page/__list/select-page__list.css);

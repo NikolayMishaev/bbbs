@@ -11,13 +11,9 @@
   font-size: 15px;
   line-height: 19px;
   letter-spacing: 0.2px;
-  color: #a7a6a6;
+  color: #000;
   padding-left: 20px;
-  background-image: url(../../../images/popup-advice-button-select.svg);
-  background-repeat: no-repeat;
-  background-position: right 3.5% top 50%;
-  background-size: 24px 19px, 100%;
-  appearance: none;
+  box-sizing: border-box;
 }
 
 .popup__select:hover {
@@ -33,12 +29,4 @@
     font-size: 12px;
     line-height: 17px;
   }
-}
-
-.popup__select:invalid {
-  color: #ff4e4e;
-}
-
-.popup__select:valid {
-  color: #000000;
 }
