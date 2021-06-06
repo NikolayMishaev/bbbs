@@ -65,11 +65,12 @@ popups.forEach((popup) => {
 });
 
 buttonSearchMobileMenu.addEventListener("click", () => {
-  navigationMenuHeader.classList.add("display-none");
-  searchFormHeader.classList.add("display-block");
-  header.classList.add("header_type_search");
-  headerDivisor.classList.add("header__divisor_type_search");
-  buttonHeaderSearch.classList.add("header__search_type_search");
+    headerInput.classList.add('header__input_animation');
+    navigationMenuHeader.classList.add("display-none");
+    searchFormHeader.classList.add("header__form-search_visible");
+    header.classList.add("header_type_search");
+    headerDivisor.classList.add("header__divisor_type_search");
+    buttonHeaderSearch.classList.add("header__search_type_search");
   closePopup(popupMobileMenu);
 });
 
@@ -93,6 +94,7 @@ buttonHeaderSearch.addEventListener("click", () => {
 });
 
 buttonSignIn.addEventListener("click", () => {
+  buttonSignInMobileMenu.classList.toggle("popup-menu__account_authorized");
   buttonSignIn.classList.toggle("header__account_authorized");
   if (blockCalendar) blockCalendar.classList.toggle("display-none");
   if (blockGuest) blockGuest.classList.toggle("display-none");
@@ -104,6 +106,11 @@ buttonClosePopupSignIn.addEventListener("click", (e) => {
 });
 
 buttonSignInMobileMenu.addEventListener("click", () => {
+  buttonSignInMobileMenu.classList.toggle("popup-menu__account_authorized");
+  buttonSignIn.classList.toggle("header__account_authorized");
+  if (blockCalendar) blockCalendar.classList.toggle("display-none");
+  if (blockGuest) blockGuest.classList.toggle("display-none");
+  if (messageAdviceForm) messageAdviceForm.classList.toggle("display-none");
   openPopup(popupSignIn);
   closePopup(popupMobileMenu);
 });

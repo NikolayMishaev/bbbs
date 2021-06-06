@@ -6,3 +6,9 @@
   margin-left: 10px;
   margin-top: 4px;
 }
+
+@media (max-width: 1375px) {
+  .header__form-search_visible {
+    width:100%;
+  }
+}

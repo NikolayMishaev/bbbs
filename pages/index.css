@@ -191,6 +191,7 @@
 @import url(../blocks/popup-menu/__close/popup-menu__close.css);
 @import url(../blocks/popup-menu/__change-city/popup-menu__change-city.css);
 @import url(../blocks/popup-menu/__account/popup-menu__account.css);
+@import url(../blocks/popup-menu/__account/_authorized/popup-menu__account_authorized.css);
 @import url(../blocks/popup-menu/__header/popup-menu__header.css);
 @import url(../blocks/popup-menu/__footer/popup-menu__footer.css);
 @import url(../blocks/popup-menu/__city/popup_menu__city.css);
