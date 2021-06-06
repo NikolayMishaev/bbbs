@@ -1,9 +1,6 @@
 .block-guide__link {
   display: flex;
-}
-
-.block-guide__link:hover {
-  opacity: 0.8;
+  overflow: hidden;
 }
 
 .block-guide__link::before {

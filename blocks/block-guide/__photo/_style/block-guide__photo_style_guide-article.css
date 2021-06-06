@@ -2,7 +2,12 @@
   border-radius: 30px;
   width: 1170px;
   height: 769px;
+  transform: unset;
 }
+
+.block-guide__photo_style_guide-article:hover {
+  transform: unset;
+  }
 
 @media (max-width: 1440px) {
   .block-guide__photo_style_guide-article {
