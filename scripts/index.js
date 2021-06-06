@@ -15,6 +15,7 @@ const searchFormHeader = document.querySelector(".header__form-search");
 const header = document.querySelector(".header");
 const headerDivisor = document.querySelector(".header__divisor");
 const buttonSearchMobileMenu = document.querySelector(".popup-menu__search");
+const headerFormSearchList = document.querySelector(".header__search-list");
 
 const exitMobileMenu = document.querySelector(".popup-menu__exit");
 
@@ -68,6 +69,7 @@ buttonSearchMobileMenu.addEventListener("click", () => {
     headerInput.classList.add('header__input_animation');
     navigationMenuHeader.classList.add("display-none");
     searchFormHeader.classList.add("header__form-search_visible");
+    headerFormSearchList.classList.add('display-block');
     header.classList.add("header_type_search");
     headerDivisor.classList.add("header__divisor_type_search");
     buttonHeaderSearch.classList.add("header__search_type_search");
@@ -78,6 +80,7 @@ buttonHeaderSearch.addEventListener("click", () => {
   if (buttonHeaderSearch.classList.contains("header__search_type_search")) {
     navigationMenuHeader.classList.remove("display-none");
     searchFormHeader.classList.remove("header__form-search_visible");
+    headerFormSearchList.classList.remove('display-block');
     header.classList.remove("header_type_search");
     headerDivisor.classList.remove("header__divisor_type_search");
     buttonHeaderSearch.classList.remove("header__search_type_search");
@@ -87,6 +90,7 @@ buttonHeaderSearch.addEventListener("click", () => {
     headerInput.classList.add('header__input_animation');
     navigationMenuHeader.classList.add("display-none");
     searchFormHeader.classList.add("header__form-search_visible");
+    headerFormSearchList.classList.add('display-block');
     header.classList.add("header_type_search");
     headerDivisor.classList.add("header__divisor_type_search");
     buttonHeaderSearch.classList.add("header__search_type_search");
@@ -140,6 +144,7 @@ page.addEventListener("click", (e) => {
     headerMenu.classList.remove("header_type_position-fixed");
     navigationMenuHeader.classList.remove("display-none");
     searchFormHeader.classList.remove("header__form-search_visible");
+    headerFormSearchList.classList.remove('display-block');
     header.classList.remove("header_type_search");
     headerDivisor.classList.remove("header__divisor_type_search");
     buttonHeaderSearch.classList.remove("header__search_type_search");
