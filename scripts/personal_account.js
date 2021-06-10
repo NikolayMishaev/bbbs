@@ -26,6 +26,13 @@ buttonCancelDeleteStoryCard.addEventListener("click", () => {
 });
 buttonChangeCityHeader.addEventListener("click", () => {
   popupChangeCity.classList.add("visible-block");
+  navigationMenuHeader.classList.remove("display-none");
+  searchFormHeader.classList.remove("header__form-search_visible");
+  headerFormSearchList.classList.remove('display-block');
+  header.classList.remove("header_type_search");
+  headerDivisor.classList.remove("header__divisor_type_search");
+  buttonHeaderSearch.classList.remove("header__search_type_search");
+  headerInput.classList.remove('header__input_animation');
 });
 buttonExitAccount.addEventListener("click", () => {
   window.location.href = "./index.html";

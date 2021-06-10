@@ -7,6 +7,7 @@
   line-height: 50px;
   text-align: center;
   margin: 0 auto;
+  font-family: Proto Grotesk Web Light;
 }
 
 @media screen and (max-width: 1440px) {
@@ -91,6 +92,7 @@
   display: flex;
   padding: 30px;
   box-sizing: border-box;
+  font-family: Proto Grotesk Web Light;
 }
 
 .about__column-header::-webkit-scrollbar {
