@@ -1,0 +1,9 @@
+.content__stories_style_menu-fixed {
+  padding-top: 103px;
+}
+
+@media (max-width: 1024px) {
+  .content__stories_style_menu-fixed {
+    padding-top: 80px;
+  }
+}

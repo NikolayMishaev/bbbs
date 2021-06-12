@@ -1,5 +1,6 @@
 const headerMenu = document.querySelector(".header");
 const content = document.querySelector('.content');
+const contentStories = document.querySelector('.content__stories');
 
 const popupSignIn = document.querySelector(".popup-sign-in");
 const buttonSignIn = document.querySelector(".header__account");
@@ -162,22 +163,25 @@ if (buttonsMenu) buttonsMenu.forEach(i=>i.addEventListener('click',()=>{i.classL
 let current = 0;
 
 const checkScroll = () => {
+  const scrollStartPosition = contentStories ? 450 : 50;
   if (
     window.pageYOffset < current &&
-    window.pageYOffset > 50 &&
+    window.pageYOffset > scrollStartPosition &&
     !popupSignIn.classList.contains("visible-block")
   ) {
     headerMenu.classList.add("header_type_position-fixed");
     content.classList.add('content_style_header-fixed');
-    menuStories
-      ? menuStories.classList.add("block-stories__menu_type_position-fixed")
-      : "";
+    if (menuStories) {
+      menuStories.classList.add("block-stories__menu_type_position-fixed")
+      contentStories.classList.add('content__stories_style_menu-fixed');
+    }
   } else {
     headerMenu.classList.remove("header_type_position-fixed");
     content.classList.remove('content_style_header-fixed');
-    menuStories
-      ? menuStories.classList.remove("block-stories__menu_type_position-fixed")
-      : "";
+    if (menuStories) {
+      menuStories.classList.remove("block-stories__menu_type_position-fixed")
+      contentStories.classList.remove('content__stories_style_menu-fixed');
+    }
   }
   current = window.pageYOffset;
 };

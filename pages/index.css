@@ -29,7 +29,8 @@
 @import url(../blocks/content/__wrapper/content__wrapper.css);
 @import url(../blocks/content/__wrapper/_style/content__wrapper_style_stories.css);
 @import url(../blocks/content/__pseudo-block/content__pseudo-block.css);
-@import url(../blocks/content/__stories/contetn__stories.css);
+@import url(../blocks/content/__stories/content__stories.css);
+@import url(../blocks/content/__stories/_style/content__stories_style_menu-fixed.css);
 @import url(../blocks/one-column/one-column.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/_style/two-columns_style_first.css);
