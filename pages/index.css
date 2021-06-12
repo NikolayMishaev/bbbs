@@ -19,6 +19,7 @@
 @import url(../blocks/header/__change-city/header__change-city.css);
 @import url(../blocks/header/__exit-account/header__exit-account.css);
 @import url(../blocks/header/_style/header_style_personal-account.css);
+@import url(../blocks/content/_style/content_style_header-fixed.css);
 @import url(../blocks/content/_style/content_style-main.css);
 @import url(../blocks/content/_style/content_style_rights-article.css);
 @import url(../blocks/content/__header/_style/content__header_style_questions.css);

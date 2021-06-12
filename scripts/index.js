@@ -1,4 +1,5 @@
 const headerMenu = document.querySelector(".header");
+const content = document.querySelector('.content');
 
 const popupSignIn = document.querySelector(".popup-sign-in");
 const buttonSignIn = document.querySelector(".header__account");
@@ -167,11 +168,13 @@ const checkScroll = () => {
     !popupSignIn.classList.contains("visible-block")
   ) {
     headerMenu.classList.add("header_type_position-fixed");
+    content.classList.add('content_style_header-fixed');
     menuStories
       ? menuStories.classList.add("block-stories__menu_type_position-fixed")
       : "";
   } else {
     headerMenu.classList.remove("header_type_position-fixed");
+    content.classList.remove('content_style_header-fixed');
     menuStories
       ? menuStories.classList.remove("block-stories__menu_type_position-fixed")
       : "";

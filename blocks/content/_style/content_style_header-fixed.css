@@ -1,0 +1,21 @@
+.content_style_header-fixed {
+  padding-top: 150px;
+}
+
+@media (max-width: 1375px) {
+  .content_style_header-fixed {
+    padding-top: 146px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content_style_header-fixed {
+    padding-top: 110px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content_style_header-fixed {
+    padding-top: 60px;
+  }
+}
