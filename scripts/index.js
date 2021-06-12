@@ -38,6 +38,8 @@ const messageAdviceForm = document.querySelector(".message");
 const headerInput = document.querySelector('.header__input');
 const menuStory = document.querySelector('.block-stories__menu');
 
+const buttonsMenu = document.querySelectorAll('.menu__button');
+
 const openPopup = (popup) => {
   popup.classList.add("visible-block");
   headerMenu.classList.remove("header_type_position-fixed");
@@ -152,6 +154,8 @@ page.addEventListener("click", (e) => {
     menuStory ? menuStory.classList.remove('block-stories__menu_type_position-fixed') : '';
   }
 });
+
+if (buttonsMenu) buttonsMenu.forEach(i=>i.addEventListener('click',()=>{i.classList.toggle('menu__button_active')}));
 
 // при обратном скролле показываем header с display: fixed. При возврщании к началу страницы скрываем класс с фиксом
 let current = 0;

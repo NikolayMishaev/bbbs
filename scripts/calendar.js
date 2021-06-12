@@ -12,7 +12,8 @@ const popupConfirm = document.querySelector(".popup-calendar_type_confirm");
 const buttonConfirmEvent = document.querySelector(".list__submit_confirm");
 const popupSuccess = document.querySelector(".popup-calendar_type_done");
 const buttonReturnToCalendar = document.querySelector(".list__submit_return");
-const calendarCards = document.querySelectorAll(".list__element");
+
+const buttonPopupCancel = document.querySelector('.list__submit_cancel');
 
 buttonsCalendarRegistration.forEach((button) => {
   button.addEventListener("click", () => {
@@ -20,10 +21,8 @@ buttonsCalendarRegistration.forEach((button) => {
   });
 });
 
-calendarCards.forEach((card) => {
-  card.addEventListener("click", () => {
-    openPopup(poupEvent);
-  });
+buttonPopupCancel.addEventListener("click", (e) => {
+  closePopup(e.target.closest(".popup"));
 });
 
 buttonsClosePopupsCalendar.forEach((button) => {
