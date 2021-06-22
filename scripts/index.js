@@ -163,7 +163,7 @@ if (buttonsMenu) buttonsMenu.forEach(i=>i.addEventListener('click',()=>{i.classL
 let current = 0;
 
 const checkScroll = () => {
-  const scrollStartPosition = contentStories ? 450 : 50;
+  const scrollStartPosition = contentStories ? 310 : 50;
   if (
     window.pageYOffset < current &&
     window.pageYOffset > scrollStartPosition &&

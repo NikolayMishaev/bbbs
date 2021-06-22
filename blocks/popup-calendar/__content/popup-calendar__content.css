@@ -12,7 +12,6 @@
   background-color: #fff;
   z-index: 2;
   max-height: 100vh;
-  height: 670px;
   display: flex;
   overflow: auto;
 }
@@ -43,6 +42,5 @@
 @media (max-width: 420px) {
   .popup-calendar__content {
     min-width: 290px;
-    height: 629px;
   }
 }
