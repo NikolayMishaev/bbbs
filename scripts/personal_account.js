@@ -19,13 +19,13 @@ const buttonFormMarkNormal = document.querySelector(
 const buttonFormMarkBad = document.querySelector(".story-form__mark_type_bad");
 
 buttonDeleteStoryCard.addEventListener("click", () => {
-  popupDeleteStoryCard.classList.add("visible-block");
+  openPopup(popupDeleteStoryCard);
 });
 buttonCancelDeleteStoryCard.addEventListener("click", () => {
-  popupDeleteStoryCard.classList.remove("visible-block");
+  closePopup(popupDeleteStoryCard);
 });
 buttonChangeCityHeader.addEventListener("click", () => {
-  popupChangeCity.classList.add("visible-block");
+  openPopup(popupChangeCity);
   navigationMenuHeader.classList.remove("display-none");
   searchFormHeader.classList.remove("header__form-search_visible");
   headerFormSearchList.classList.remove('display-block');

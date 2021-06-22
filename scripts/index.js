@@ -127,8 +127,8 @@ buttonSignInMobileMenu.addEventListener("click", () => {
   if (blockCalendar) blockCalendar.classList.toggle("display-none");
   if (blockGuest) blockGuest.classList.toggle("display-none");
   if (messageAdviceForm) messageAdviceForm.classList.toggle("display-none");
-  openPopup(popupSignIn);
   closePopup(popupMobileMenu);
+  openPopup(popupSignIn);
 });
 buttonMobileMenu.addEventListener("click", () => {
   openPopup(popupMobileMenu);
@@ -140,8 +140,8 @@ exitMobileMenu.addEventListener("click", () => {
   closePopup(popupMobileMenu);
 });
 buttonChangeCity.addEventListener("click", () => {
-  openPopup(popupCity);
   closePopup(popupMobileMenu);
+  openPopup(popupCity);
 });
 
 buttonSignInSubmit.addEventListener("click", () => {
