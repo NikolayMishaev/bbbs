@@ -42,7 +42,14 @@ const menuStory = document.querySelector('.block-stories__menu');
 
 const buttonsMenu = document.querySelectorAll('.menu__button');
 
+const handleEscClosePopup = (e) => {
+  if (e.key === 'Escape') {
+    closePopup(document.querySelector('.visible-block'))
+  }
+}
+
 const openPopup = (popup) => {
+  document.addEventListener('keydown',handleEscClosePopup)
   popup.classList.add("visible-block");
   headerMenu.classList.remove("header_type_position-fixed");
   document.removeEventListener("scroll", checkScroll);
@@ -57,6 +64,7 @@ const openPopup = (popup) => {
 };
 
 const closePopup = (popup) => {
+  document.removeEventListener('keydown',handleEscClosePopup)
   popup.classList.remove("visible-block");
   document.addEventListener("scroll", checkScroll);
 };
