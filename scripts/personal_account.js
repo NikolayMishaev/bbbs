@@ -18,6 +18,8 @@ const buttonFormMarkNormal = document.querySelector(
 );
 const buttonFormMarkBad = document.querySelector(".story-form__mark_type_bad");
 
+openPopup(popupSignIn);
+
 buttonDeleteStoryCard.addEventListener("click", () => {
   openPopup(popupDeleteStoryCard);
 });

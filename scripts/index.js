@@ -1,6 +1,6 @@
 const headerMenu = document.querySelector(".header");
-const content = document.querySelector('.content');
-const contentStories = document.querySelector('.content__stories');
+const content = document.querySelector(".content");
+const contentStories = document.querySelector(".content__stories");
 
 const popupSignIn = document.querySelector(".popup-sign-in");
 const buttonSignIn = document.querySelector(".header__account");
@@ -37,19 +37,19 @@ const blockCalendar = document.querySelector(".block-calendar");
 const blockGuest = document.querySelector(".block-guest");
 const messageAdviceForm = document.querySelector(".message");
 
-const headerInput = document.querySelector('.header__input');
-const menuStory = document.querySelector('.block-stories__menu');
+const headerInput = document.querySelector(".header__input");
+const menuStory = document.querySelector(".block-stories__menu");
 
-const buttonsMenu = document.querySelectorAll('.menu__button');
+const buttonsMenu = document.querySelectorAll(".menu__button");
 
 const handleEscClosePopup = (e) => {
-  if (e.key === 'Escape') {
-    closePopup(document.querySelector('.visible-block'))
+  if (e.key === "Escape") {
+    closePopup(document.querySelector(".visible-block"));
   }
-}
+};
 
 const openPopup = (popup) => {
-  document.addEventListener('keydown',handleEscClosePopup)
+  document.addEventListener("keydown", handleEscClosePopup);
   popup.classList.add("visible-block");
   headerMenu.classList.remove("header_type_position-fixed");
   document.removeEventListener("scroll", checkScroll);
@@ -58,13 +58,15 @@ const openPopup = (popup) => {
   header.classList.remove("header_type_search");
   headerDivisor.classList.remove("header__divisor_type_search");
   buttonHeaderSearch.classList.remove("header__search_type_search");
-  menuStory ? menuStory.classList.remove('block-stories__menu_type_position-fixed') : '';
-  searchFormHeader.classList.remove('header__form-search_visible');
-  headerInput.classList.remove('header__input_animation');
+  menuStory
+    ? menuStory.classList.remove("block-stories__menu_type_position-fixed")
+    : "";
+  searchFormHeader.classList.remove("header__form-search_visible");
+  headerInput.classList.remove("header__input_animation");
 };
 
 const closePopup = (popup) => {
-  document.removeEventListener('keydown',handleEscClosePopup)
+  document.removeEventListener("keydown", handleEscClosePopup);
   popup.classList.remove("visible-block");
   document.addEventListener("scroll", checkScroll);
 };
@@ -78,13 +80,13 @@ popups.forEach((popup) => {
 });
 
 buttonSearchMobileMenu.addEventListener("click", () => {
-    headerInput.classList.add('header__input_animation');
-    navigationMenuHeader.classList.add("display-none");
-    searchFormHeader.classList.add("header__form-search_visible");
-    headerFormSearchList.classList.add('display-block');
-    header.classList.add("header_type_search");
-    headerDivisor.classList.add("header__divisor_type_search");
-    buttonHeaderSearch.classList.add("header__search_type_search");
+  headerInput.classList.add("header__input_animation");
+  navigationMenuHeader.classList.add("display-none");
+  searchFormHeader.classList.add("header__form-search_visible");
+  headerFormSearchList.classList.add("display-block");
+  header.classList.add("header_type_search");
+  headerDivisor.classList.add("header__divisor_type_search");
+  buttonHeaderSearch.classList.add("header__search_type_search");
   closePopup(popupMobileMenu);
 });
 
@@ -92,17 +94,19 @@ buttonHeaderSearch.addEventListener("click", () => {
   if (buttonHeaderSearch.classList.contains("header__search_type_search")) {
     navigationMenuHeader.classList.remove("display-none");
     searchFormHeader.classList.remove("header__form-search_visible");
-    headerFormSearchList.classList.remove('display-block');
+    headerFormSearchList.classList.remove("display-block");
     header.classList.remove("header_type_search");
     headerDivisor.classList.remove("header__divisor_type_search");
     buttonHeaderSearch.classList.remove("header__search_type_search");
-    headerInput.classList.remove('header__input_animation');
-    menuStory ? menuStory.classList.remove('block-stories__menu_type_position-fixed') : '';
+    headerInput.classList.remove("header__input_animation");
+    menuStory
+      ? menuStory.classList.remove("block-stories__menu_type_position-fixed")
+      : "";
   } else {
-    headerInput.classList.add('header__input_animation');
+    headerInput.classList.add("header__input_animation");
     navigationMenuHeader.classList.add("display-none");
     searchFormHeader.classList.add("header__form-search_visible");
-    headerFormSearchList.classList.add('display-block');
+    headerFormSearchList.classList.add("display-block");
     header.classList.add("header_type_search");
     headerDivisor.classList.add("header__divisor_type_search");
     buttonHeaderSearch.classList.add("header__search_type_search");
@@ -112,6 +116,7 @@ buttonHeaderSearch.addEventListener("click", () => {
 buttonSignIn.addEventListener("click", () => {
   buttonSignInMobileMenu.classList.toggle("popup-menu__account_authorized");
   buttonSignIn.classList.toggle("header__account_authorized");
+    window.location.href = "./personal_account.html";
   if (blockCalendar) blockCalendar.classList.toggle("display-none");
   if (blockGuest) blockGuest.classList.toggle("display-none");
   if (messageAdviceForm) messageAdviceForm.classList.toggle("display-none");
@@ -124,6 +129,7 @@ buttonClosePopupSignIn.addEventListener("click", (e) => {
 buttonSignInMobileMenu.addEventListener("click", () => {
   buttonSignInMobileMenu.classList.toggle("popup-menu__account_authorized");
   buttonSignIn.classList.toggle("header__account_authorized");
+  window.location.href = "./personal_account.html";
   if (blockCalendar) blockCalendar.classList.toggle("display-none");
   if (blockGuest) blockGuest.classList.toggle("display-none");
   if (messageAdviceForm) messageAdviceForm.classList.toggle("display-none");
@@ -156,16 +162,23 @@ page.addEventListener("click", (e) => {
     headerMenu.classList.remove("header_type_position-fixed");
     navigationMenuHeader.classList.remove("display-none");
     searchFormHeader.classList.remove("header__form-search_visible");
-    headerFormSearchList.classList.remove('display-block');
+    headerFormSearchList.classList.remove("display-block");
     header.classList.remove("header_type_search");
     headerDivisor.classList.remove("header__divisor_type_search");
     buttonHeaderSearch.classList.remove("header__search_type_search");
-    headerInput.classList.remove('header__input_animation');
-    menuStory ? menuStory.classList.remove('block-stories__menu_type_position-fixed') : '';
+    headerInput.classList.remove("header__input_animation");
+    menuStory
+      ? menuStory.classList.remove("block-stories__menu_type_position-fixed")
+      : "";
   }
 });
 
-if (buttonsMenu) buttonsMenu.forEach(i=>i.addEventListener('click',()=>{i.classList.toggle('menu__button_active')}));
+if (buttonsMenu)
+  buttonsMenu.forEach((i) =>
+    i.addEventListener("click", () => {
+      i.classList.toggle("menu__button_active");
+    })
+  );
 
 // при обратном скролле показываем header с display: fixed. При возврщании к началу страницы скрываем класс с фиксом
 let current = 0;
@@ -178,17 +191,17 @@ const checkScroll = () => {
     !popupSignIn.classList.contains("visible-block")
   ) {
     headerMenu.classList.add("header_type_position-fixed");
-    content.classList.add('content_style_header-fixed');
+    content.classList.add("content_style_header-fixed");
     if (menuStories) {
-      menuStories.classList.add("block-stories__menu_type_position-fixed")
-      contentStories.classList.add('content__stories_style_menu-fixed');
+      menuStories.classList.add("block-stories__menu_type_position-fixed");
+      contentStories.classList.add("content__stories_style_menu-fixed");
     }
   } else {
     headerMenu.classList.remove("header_type_position-fixed");
-    content.classList.remove('content_style_header-fixed');
+    content.classList.remove("content_style_header-fixed");
     if (menuStories) {
-      menuStories.classList.remove("block-stories__menu_type_position-fixed")
-      contentStories.classList.remove('content__stories_style_menu-fixed');
+      menuStories.classList.remove("block-stories__menu_type_position-fixed");
+      contentStories.classList.remove("content__stories_style_menu-fixed");
     }
   }
   current = window.pageYOffset;
