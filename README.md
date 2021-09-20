@@ -9,6 +9,10 @@
 
 - Сайт предназначен для наставников, которые работают в НКО и занимаются поддержкой детей
 
+## Скриншоты
+![Форма станицы Куда пойти](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/places.jpg)
+![Форма станицы Куда пойти](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/account.jpg)
+
 ## Функциональность
 
 - форма записи на мероприятия по интуитивному календарю
@@ -26,10 +30,6 @@
 - использованы технологии гибкой верстки _flex_ и _grid_
 - использованы свойства Анимации __CSS__
 - использованы псевдоселекторы для эффекта наведения на кнопки
-
-## Скриншоты
-![Форма станицы Куда пойти](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/places.jpg)
-![Форма станицы Куда пойти](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/account.jpg)
 
 ## Планы по доработке проекта
 - перенести верстку на JSX разделив на компоненты;
