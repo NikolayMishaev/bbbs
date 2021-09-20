@@ -2,8 +2,8 @@
 
 ---
 
-[ссылка на страницу](https://nikolaymishaev.github.io/BBBS/index.html)
-[ссылка на макет](https://www.figma.com/file/11gCLSDOYlvkbuI3FU36Up/BBBS-for-students?node-id=0%3A1)
+- [ссылка на страницу](https://nikolaymishaev.github.io/BBBS/index.html)
+- [ссылка на макет](https://www.figma.com/file/11gCLSDOYlvkbuI3FU36Up/BBBS-for-students?node-id=0%3A1)
 
 ## Описание
 
@@ -26,6 +26,10 @@
 - использованы технологии гибкой верстки _flex_ и _grid_
 - использованы свойства Анимации __CSS__
 - использованы псевдоселекторы для эффекта наведения на кнопки
+
+## Скриншоты
+![Форма станицы Куда пойти](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/places.jpg)
+![Форма станицы Куда пойти](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/account.jpg)
 
 ## Планы по доработке проекта
 - перенести верстку на JSX разделив на компоненты;
