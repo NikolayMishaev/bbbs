@@ -10,8 +10,16 @@
 - Сайт предназначен для наставников, которые работают в НКО и занимаются поддержкой детей
 
 ## Скриншоты
-![Форма станицы Куда пойти](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/places.jpg)
-![Форма станицы Куда пойти](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/account.jpg)
+![Места](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/places.jpg)
+![Личный кабинет](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/account.jpg)
+![Календарь](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/calendar.jpg)
+![Справочник](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/guide.jpg)
+![Поиск](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/search.jpg)
+![Вопросы](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/questions.jpg)
+![Мобильное меню](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/mobile.jpg)
+![Истории](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/story.jpg)
+![Модальное окно авторизации](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/login.jpg)
+![Книги](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/book.jpg)
 
 ## Функциональность
 
