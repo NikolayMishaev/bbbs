@@ -2,7 +2,7 @@
 
 ---
 
-- [ссылка на рабочую версию верстки](https://nikolaymishaev.github.io/BBBS/index.html)
+- [ссылка на gh-pages](https://nikolaymishaev.github.io/BBBS/index.html)
 - [ссылка на макет](https://www.figma.com/file/11gCLSDOYlvkbuI3FU36Up/BBBS-for-students?node-id=0%3A1)
 - [ссылка на продакшн](https://nastavnikipro.ru/)
 
