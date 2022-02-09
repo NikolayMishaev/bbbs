@@ -2,25 +2,26 @@
 
 ---
 
-- [ссылка на gh-pages](https://nikolaymishaev.github.io/BBBS/index.html)
+- [ссылка на gh-pages](https://nikolaymishaev.github.io/bbbs/index.html)
 - [ссылка на макет](https://www.figma.com/file/11gCLSDOYlvkbuI3FU36Up/BBBS-for-students?node-id=0%3A1)
 - [ссылка на продакшн](https://nastavnikipro.ru/)
 
 ## Описание
 
-- Сайт предназначен для наставников, которые работают в НКО и занимаются поддержкой детей
+- сайт предназначен для наставников, которые работают в НКО и занимаются поддержкой детей
+- данная версия верстки боевого проекта прошла два этапа отбора и вошла сначала в шестерку, а затем в тройку лучших версий для релиза из 34 команд-участниц [ссылка на сообщение из чата Slack](https://disk.yandex.ru/i/UcB2N2GiiFfKJQ). Дальнейшая работа велась в команде функциональности
 
 ## Скриншоты
-![Места](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/places.jpg)
-![Личный кабинет](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/account.jpg)
-![Календарь](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/calendar.jpg)
-![Справочник](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/guide.jpg)
-![Поиск](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/search.jpg)
-![Вопросы](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/questions.jpg)
-![Мобильное меню](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/mobile.jpg)
-![Истории](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/story.jpg)
-![Модальное окно авторизации](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/login.jpg)
-![Книги](https://github.com/NikolayMishaev/BBBS/raw/main/images/readme/book.jpg)
+![Места](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/places.jpg)
+![Личный кабинет](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/account.jpg)
+![Календарь](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/calendar.jpg)
+![Справочник](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/guide.jpg)
+![Поиск](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/search.jpg)
+![Вопросы](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/questions.jpg)
+![Мобильное меню](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/mobile.jpg)
+![Истории](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/story.jpg)
+![Модальное окно авторизации](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/login.jpg)
+![Книги](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/book.jpg)
 
 ## Функциональность
 
@@ -39,6 +40,3 @@
 - использованы технологии гибкой верстки _flex_ и _grid_
 - использованы свойства Анимации __CSS__
 - использованы псевдоселекторы для эффекта наведения на кнопки
-
-## Планы по доработке проекта
-- перенести верстку на JSX разделив на компоненты
