@@ -1,42 +1,33 @@
-# Проект «Старшие Братья Старшие Сёстры»
-
----
-
-- [ссылка на gh-pages](https://nikolaymishaev.github.io/bbbs/index.html)
-- [ссылка на макет](https://www.figma.com/file/11gCLSDOYlvkbuI3FU36Up/BBBS-for-students?node-id=0%3A1)
-- [ссылка на продакшн](https://nastavnikipro.ru/)
+# Верстка сайта «Старшие Братья Старшие Сестры»
+- [gh-pages](https://nikolaymishaev.github.io/bbbs/index.html)
+- [макет](https://www.figma.com/file/11gCLSDOYlvkbuI3FU36Up/BBBS-for-students?node-id=0%3A1)
+- [продакшн](https://nastavnikipro.ru/)
 
 ## Описание
-
-- сайт предназначен для наставников, которые работают в НКО и занимаются поддержкой детей
-- данная версия верстки боевого проекта прошла два этапа [отбора](https://disk.yandex.ru/i/UcB2N2GiiFfKJQ) и вошла сначала в шестерку, а затем в тройку лучших версий для релиза из 34 команд-участниц. Дальнейшая работа велась в команде функциональности
+- верстка для создания сайта, предназначенному наставникам, работающих в НКО и занимающихся поддержкой детей
+- версия участвовала в соревновании, проходившим между 34-мя командами и вошла в тройку [лучших](https://disk.yandex.ru/i/UcB2N2GiiFfKJQ) версий для релиза, с которыми продолжила работать команда по функциональности
 
 ## Скриншоты
-![Места](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/places.jpg)
-![Личный кабинет](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/account.jpg)
-![Календарь](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/calendar.jpg)
-![Справочник](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/guide.jpg)
-![Поиск](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/search.jpg)
-![Вопросы](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/questions.jpg)
-![Мобильное меню](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/mobile.jpg)
-![Истории](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/story.jpg)
-![Модальное окно авторизации](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/login.jpg)
-![Книги](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/book.jpg)
+![календарь](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/calendar.jpg)
+![справочник](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/guide.jpg)
+![форма мест](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/places.jpg)
+![модальное окно авторизации](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/login.jpg)
+![вопросы](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/questions.jpg)
+![истории](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/story.jpg)
+![мобильное меню](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/mobile.jpg)
+![поиск](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/search.jpg)
+![книги](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/book.jpg)
+![личный кабинет](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/account.jpg)
+
+## ТЕХНОЛОГИИ
+- HTML 
+- CSS
+- JavaScript
+- БЭМ
 
 ## Функциональность
-
-- форма записи на мероприятия по интуитивному календарю
-- форма поиска информации по порталу
-- форма рекомендаций мест
-- появление меню на обратный скролл
-- анимированные попапы и элементы меню
-- валидация форм
-- фильтры для каждой страницы по категориям
-- навигация по источникам информации (видео, фильмы, статьи, книги, ответы на вопросы, права детей)
-- реализована возможность делиться историей дружбы на отдельной странице
-- авторизация, вход в личный кабинет
-- страница написана по методологии __БЭМ__
-- использована схема организации файловой структуры _Nested_
-- использованы технологии гибкой верстки _flex_ и _grid_
-- использованы свойства Анимации __CSS__
-- использованы псевдоселекторы для эффекта наведения на кнопки
+- адаптивная верстка
+- анимация элементов
+- стилизация форм
+- аккордеон
+- навигация страниц
