@@ -8,11 +8,11 @@
 - версия верстки участвовала в соревновании, проходившим между 34-мя командами и вошла в тройку [лучших](https://disk.yandex.ru/i/UcB2N2GiiFfKJQ) версий для релиза, с которыми продолжила работать команда по функциональности
 
 ## Скриншоты
-![календарь, справочник](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/calendar & guide.jpg)
-![форма мест, попап авторизации](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/places & login.jpg)
-![вопросы, истории](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/questions & story.jpg)
-![мобильное меню, поиск](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/mobile & search.jpg)
-![книги, личный кабинет](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/book & account.jpg)
+![календарь, справочник](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/calendar_guide.jpg)
+![форма мест, попап авторизации](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/places_login.jpg)
+![вопросы, истории](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/questions_story.jpg)
+![мобильное меню, поиск](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/mobile_search.jpg)
+![книги, личный кабинет](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/book_account.jpg)
 
 ## ТЕХНОЛОГИИ
 - HTML
