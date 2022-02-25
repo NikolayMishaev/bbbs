@@ -2,6 +2,7 @@
 - [gh-pages](https://nikolaymishaev.github.io/bbbs/index.html)
 - [макет](https://www.figma.com/file/11gCLSDOYlvkbuI3FU36Up/BBBS-for-students?node-id=0%3A1)
 - [продакшн](https://nastavnikipro.ru/)
+- [задание](https://disk.yandex.ru/i/G_KeKWzcGno2hw)
 
 ## Описание
 - сайт для наставников, работающих в НКО и занимающихся поддержкой детей
