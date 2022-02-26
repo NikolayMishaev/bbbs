@@ -1,4 +1,5 @@
 # Верстка сайта «Старшие Братья Старшие Сестры»
+***
 
 - [продакшн](https://nastavnikipro.ru/)
 - [gh-pages](https://nikolaymishaev.github.io/bbbs/index.html)
@@ -16,7 +17,7 @@
 ![мобильное меню, поиск](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/mobile_search.jpg)
 ![книги, личный кабинет](https://github.com/NikolayMishaev/bbbs/raw/main/images/readme/book_account.jpg)
 
-## ТЕХНОЛОГИИ
+## Технологии
 - HTML
 - CSS
 - JavaScript
